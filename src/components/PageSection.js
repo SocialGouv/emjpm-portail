@@ -1,12 +1,7 @@
-import Head from "next/head";
-import { Card, Heading3, Heading4, Text } from "@socialgouv/emjpm-ui-core";
-import { Box, Flex, Heading, Link } from "rebass";
+import { Card } from "@socialgouv/emjpm-ui-core";
 import NextLink from "next/link";
-import { useRouter } from "next/router";
-
-import subNavLinks from "../constants/subNavLinks";
-import SubNav from "./SubNav";
-import SubPageSection from "./SubPageSection";
+import React from "react";
+import { Box, Heading, Link } from "rebass";
 
 const PageSection = ({ url, title }) => (
   <NextLink href="/[...page]" as={url} passHref>
@@ -23,13 +18,11 @@ const PageSection = ({ url, title }) => (
           backgroundImage: "url(https://source.unsplash.com/random/1024x768?sky)",
           backgroundSize: "cover",
           borderRadius: 3,
-          color: "white",
+          color: "white"
         }}
       >
         <Box>
-          <Heading
-            textAlign="center"
-            fontSize={[ 5, 6 ]}>
+          <Heading textAlign="center" fontSize={[5, 6]}>
             {title}
           </Heading>
         </Box>

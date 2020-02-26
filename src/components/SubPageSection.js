@@ -1,9 +1,8 @@
 import { Card, Heading4, Text } from "@socialgouv/emjpm-ui-core";
+import React from "react";
 import { Box } from "rebass";
 
-import SubNav from "./SubNav";
-
-export default ({ title, text, link }) => (
+const SubPageSection = ({ title, text, link }) => (
   <Card
     bg="white"
     py={4}
@@ -15,13 +14,18 @@ export default ({ title, text, link }) => (
     }}
   >
     <Heading4 mb={2}>{title}</Heading4>
-    <Box width={[1, 1, 8/10]} mx="auto">
+    <Box width={[1, 1, 8 / 10]} mx="auto">
       <Text>{text}</Text>
       {link && (
         <Box mt={2}>
-          {link.text} <a href={link.url} target="_blank">{link.url}</a>
+          {link.text}{" "}
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
+            {link.url}
+          </a>
         </Box>
       )}
     </Box>
   </Card>
 );
+
+export default SubPageSection;

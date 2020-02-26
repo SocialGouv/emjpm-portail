@@ -1,11 +1,10 @@
-import Head from "next/head";
-import { Box, Flex } from "rebass";
 import { Header } from "@socialgouv/emjpm-ui-components";
-import { Card } from "@socialgouv/emjpm-ui-core";
-import { ThemeProvider } from "theme-ui";
 import theme from "@socialgouv/emjpm-ui-theme";
+import Head from "next/head";
+import React from "react";
+import { ThemeProvider } from "theme-ui";
 
-import Nav from "../components/nav";
+import Nav from "../components/Nav";
 
 function App({ Component, pageProps }) {
   return (
@@ -36,7 +35,7 @@ function App({ Component, pageProps }) {
       <Nav />
       <Component {...pageProps} />
     </ThemeProvider>
-  )
+  );
 }
 
 export default App;

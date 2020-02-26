@@ -1,15 +1,13 @@
+import { Heading4 } from "@socialgouv/emjpm-ui-core";
 import Head from "next/head";
-import { Card, Heading3, Heading4, Text } from "@socialgouv/emjpm-ui-core";
-import { Box, Flex, Heading, Link } from "rebass";
-import NextLink from "next/link";
-import { useRouter } from "next/router";
+import React from "react";
+import { Box } from "rebass";
 
-import subNavLinks from "../constants/subNavLinks";
+import PageSection from "../components/PageSection";
 import SubNav from "./SubNav";
 import SubPageSection from "./SubPageSection";
-import PageSection from "../components/PageSection";
 
-const Page = ({ title, url, sections, subPages }) => (
+const Page = ({ title, sections, subPages }) => (
   <Box>
     <Head>
       <title>eMJPM Portail - {title}</title>
