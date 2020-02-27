@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+- stable
+
+cache:
+  directories:
+  - node_modules
+
+script:
+- yarn
+- yarn lint
+- yarn build
+- yarn export
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: out
+  on:
+    branch: master
