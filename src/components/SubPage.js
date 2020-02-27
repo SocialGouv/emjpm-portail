@@ -16,7 +16,7 @@ const SubPage = ({ type, title, heading, sections }) => (
     <SubNav items={subNavLinks[type]} />
 
     <Box minHeight={500} p={4}>
-      <Heading3 mb={4}>{heading}</Heading3>
+      <Heading3 fontWeight="normal" mb={4}>{heading}</Heading3>
       {sections.map(section => (
         <SubPageSection key={section.title} title={section.title} text={section.text} />
       ))}
