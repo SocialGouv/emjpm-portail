@@ -21,7 +21,9 @@ const PageSection = ({ url, title, image }) => (
     }}
   >
     <Box textAlign="center">
-      <Heading4 mb={4}>{title}</Heading4>
+      <Heading4 fontWeight="normal" color="white" mb={4}>
+        {title}
+      </Heading4>
       <NextLink href="/[...page]" as={url} passHref>
         <Button as={Link}>En savoir plus</Button>
       </NextLink>

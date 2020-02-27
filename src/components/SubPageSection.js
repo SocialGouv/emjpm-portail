@@ -3,7 +3,7 @@ import React from "react";
 import { Box, Link } from "rebass";
 
 const SubPageSection = ({ title, text, link }) => (
-  <Card bg="white" py={4} px={6} mb={4} borderRadius={3} fontSize={1}>
+  <Card bg="white" py={4} px={6} mb={6} borderRadius={3} fontSize={1}>
     <Heading4 fontWeight="normal" mb={4} textAlign="center">
       {title}
     </Heading4>
