@@ -12,7 +12,7 @@ script:
 - yarn lint
 - yarn build
 - yarn export
-- touch .nojekyll
+- touch out/.nojekyll
 
 branches:
   only:
