@@ -14,5 +14,8 @@ module.exports = {
       ...pathMap,
       "/": { page: "/index" }
     };
+  },
+  publicRuntimeConfig: {
+    appUrl: isProd ? "https://incubateur.social.gouv.fr/emjpm-portail" : "http://localhost:3000"
   }
 };
