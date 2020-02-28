@@ -1,10 +1,13 @@
+import getConfig from "next/config";
 import NextLink from "next/link";
 import React from "react";
 import { Box, Flex, Link } from "rebass";
 
+const { publicRuntimeConfig } = getConfig();
+
 const Breadcrumbs = ({ parentTitle, title }) => (
   <Flex alignItems="center" mb={4} fontSize={1} color="textSecondary">
-    <NextLink href="/" passHref>
+    <NextLink href="/" as={publicRuntimeConfig.appUrl} passHref>
       <Link
         sx={{
           color: "textSecondary",
