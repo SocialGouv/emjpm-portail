@@ -15,7 +15,7 @@ const Index = () => (
         <title>Protection Juridique des Majeurs</title>
       </Head>
       <Heading4 fontWeight="normal" textAlign="center" my={6}>
-        Bienvenue sur le site de la protection juridique des majeurs
+        Bienvenue sur le site de la Protection Juridique des Majeurs
       </Heading4>
       <PageSection
         image={`${publicRuntimeConfig.appUrl}/bg-a.png`}
