@@ -10,7 +10,7 @@ function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>eMJPM Portail</title>
+        <title>Protection Juridique des Majeurs</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Quicksand:400,700&display=swap"
@@ -30,7 +30,6 @@ function App({ Component, pageProps }) {
           }
         `}</style>
       </Head>
-
       <Header isDisconnected />
       <Nav />
       <Component {...pageProps} />

@@ -12,7 +12,7 @@ const Index = () => (
   <Box bg="whiteGray">
     <Box maxWidth={1200} mx="auto" overflow="hidden">
       <Head>
-        <title>eMJPM Portail</title>
+        <title>Protection Juridique des Majeurs</title>
       </Head>
       <Heading4 fontWeight="normal" textAlign="center" my={6}>
         Bienvenue sur le site de la protection juridique des majeurs

@@ -9,7 +9,7 @@ import SubPageSection from "./SubPageSection";
 const Page = ({ title, sections, parentPage }) => (
   <Box>
     <Head>
-      <title>eMJPM Portail - {title}</title>
+      <title>Protection Juridique des Majeurs - {title}</title>
     </Head>
     <Box bg="whiteGray" px={4} py={6}>
       <Box maxWidth={1200} mx="auto" mb={4}>
