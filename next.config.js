@@ -16,6 +16,6 @@ module.exports = {
     };
   },
   publicRuntimeConfig: {
-    appUrl: isProd ? "https://incubateur.social.gouv.fr/emjpm-portail" : "http://localhost:3000"
+    appUrl: isProd ? "http://socialgouv.github.io/emjpm-portail" : "http://localhost:3000"
   }
 };
