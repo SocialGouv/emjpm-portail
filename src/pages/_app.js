@@ -32,7 +32,7 @@ function App({ Component, pageProps }) {
         `}</style>
       </Head>
       <Flex p={1} alignItems="center" flexWrap="wrap" justifyContent="space-between">
-        <Logo hasTitle />
+        <Logo title="emjpm.pjm.fr - Protection Juridique des Majeurs" />
       </Flex>
       <Component {...pageProps} />
       <Footer />
