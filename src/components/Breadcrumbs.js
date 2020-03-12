@@ -25,4 +25,8 @@ const Breadcrumbs = ({ index, parentTitle, parentUrl, title }) => (
   </Flex>
 );
 
+Breadcrumbs.defaultProps = {
+  index: "/"
+};
+
 export default Breadcrumbs;

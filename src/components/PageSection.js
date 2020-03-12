@@ -1,7 +1,8 @@
-import { Button, Card, Heading4 } from "@socialgouv/emjpm-ui-core";
-import NextLink from "next/link";
+import { Card, Heading4 } from "@socialgouv/emjpm-ui-core";
 import React from "react";
-import { Box, Link } from "rebass";
+import { Box } from "rebass";
+
+import Link from "./Link";
 
 const PageSection = ({ url, title, image }) => (
   <Card
@@ -25,9 +26,7 @@ const PageSection = ({ url, title, image }) => (
       <Heading4 fontWeight="normal" color="white" mb={4}>
         {title}
       </Heading4>
-      <NextLink href="/[...page]" as={url} passHref>
-        <Button as={Link}>En savoir plus</Button>
-      </NextLink>
+      <Link href={url} text="En savoir plus" sx={{ px: 4, py: 1 }} />
     </Box>
   </Card>
 );
