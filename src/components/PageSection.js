@@ -6,13 +6,14 @@ import { Box, Link } from "rebass";
 const PageSection = ({ url, title, image }) => (
   <Card
     sx={{
-      height: 300,
+      height: [150, 300],
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       px: 4,
       py: 6,
       mb: 4,
+      mx: 4,
       backgroundImage: `url(${image})`,
       backgroundSize: "cover",
       borderRadius: 3,

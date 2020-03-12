@@ -4,8 +4,6 @@ import Head from "next/head";
 import React from "react";
 import { ThemeProvider } from "theme-ui";
 
-import Nav from "../components/Nav";
-
 function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
@@ -31,7 +29,6 @@ function App({ Component, pageProps }) {
         `}</style>
       </Head>
       <Header isDisconnected />
-      <Nav />
       <Component {...pageProps} />
     </ThemeProvider>
   );

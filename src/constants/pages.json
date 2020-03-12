@@ -4,11 +4,15 @@
     "title": ""
   },
   {
-    "url": "/individuel",
+    "url": "/professionnel",
+    "title": "Je suis un professionnel"
+  },
+  {
+    "url": "/professionnel/individuel",
     "title": "Je suis un mandataire individuel"
   },
   {
-    "url": "/individuel/les-obligations-a-l-issue-de-la-notification",
+    "url": "professionnel/individuel/les-obligations-a-l-issue-de-la-notification",
     "title": "Les obligations à l'issue de la notification",
     "sections": [
       {
@@ -34,7 +38,7 @@
     ]
   },
   {
-    "url": "/individuel/les-obligations-en-tant-que-mandataire-individuel",
+    "url": "/professionnel/individuel/les-obligations-en-tant-que-mandataire-individuel",
     "title": "Les obligations en tant que mandataire individuel",
     "sections": [
       {
@@ -56,7 +60,7 @@
     ]
   },
   {
-    "url": "/individuel/le-financement-des-mandataires-individuels",
+    "url": "/professionnel/individuel/le-financement-des-mandataires-individuels",
     "title": "Le financement des mandataires individuels",
     "sections": [
       {
@@ -86,11 +90,11 @@
     ]
   },
   {
-    "url": "/service",
+    "url": "/professionnel/service",
     "title": "Je suis un service de mandataire"
   },
   {
-    "url": "/service/les-obligations-a-l-issue-de-la-notification",
+    "url": "/professionnel/service/les-obligations-a-l-issue-de-la-notification",
     "title": "Les obligations à l'issue de la notification",
     "sections": [
       {
@@ -112,7 +116,7 @@
     ]
   },
   {
-    "url": "/service/les-obligations-en-tant-que-service-de-mandataire",
+    "url": "/professionnel/service/les-obligations-en-tant-que-service-de-mandataire",
     "title": "Les obligations en tant que service de mandataire",
     "sections": [
       {
@@ -130,7 +134,7 @@
     ]
   },
   {
-    "url": "/service/le-financement-des-services-de-mandataires",
+    "url": "/professionnel/service/le-financement-des-services-de-mandataires",
     "title": "Le financement des services de mandataires",
     "sections": [
       {
@@ -148,11 +152,11 @@
     ]
   },
   {
-    "url": "/prepose",
+    "url": "/professionnel/prepose",
     "title": "Je suis un mandataire préposé d'établissement"
   },
   {
-    "url": "/prepose/la-declaration-des-preposes-d-etablissement",
+    "url": "/professionnel/prepose/la-declaration-des-preposes-d-etablissement",
     "title": "La déclaration des préposés d'établissement",
     "sections": [
       {
@@ -166,7 +170,7 @@
     ]
   },
   {
-    "url": "/prepose/les-obligations-en-tant-que-prepose-d-etablissement",
+    "url": "/professionnel/prepose/les-obligations-en-tant-que-prepose-d-etablissement",
     "title": "Les obligations en tant que préposé d'établissement",
     "sections": [
       {
@@ -184,7 +188,7 @@
     ]
   },
   {
-    "url": "/prepose/le-financement-des-preposes-d-etablissement",
+    "url": "/professionnel/prepose/le-financement-des-preposes-d-etablissement",
     "title": "Le financement des préposés d'établissement",
     "sections": [
       {
@@ -208,5 +212,21 @@
         }
       }
     ]
+  },
+  {
+    "url": "/professionnel/devenir-professionnel",
+    "title": "Je suis un mandataire préposé d'établissement"
+  },
+  {
+    "url": "/professionnel/devenir-professionnel/l-agrement-des-mandataires-judiciaires",
+    "title": "L'agrément des mandataires judiciaires"
+  },
+  {
+    "url": "/professionnel/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+    "title": "La formation au certificat national de compétences"
+  },
+  {
+    "url": "/professionnel/devenir-professionnel/appel-a-projet",
+    "title": "Appel à projet"
   }
 ]
