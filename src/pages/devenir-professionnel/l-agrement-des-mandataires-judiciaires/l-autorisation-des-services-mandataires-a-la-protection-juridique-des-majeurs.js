@@ -12,7 +12,7 @@ const Index = () => (
         index="/devenir-professionnel"
         parentTitle="L'agrément des mandataires judiciaires"
         parentUrl="/devenir-professionnel/l-agrement-des-mandataires-judiciaires"
-        title="L'agrément des mandataires exercant à titre individuel"
+        title="L'autorisation des services mandataires à la protection juridique des majeurs"
       />
       <Heading fontWeight="normal" mb={6} fontSize={4}>
         {`L'agrément des mandataires exercant à titre individuel`}

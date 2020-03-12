@@ -9,13 +9,13 @@ const Index = () => (
   <Flex bg="whiteGray">
     <Box width="100%" maxWidth={1200} mx="auto">
       <Breadcrumbs
-        index="/devenir-professionnel"
-        parentTitle="L'agrément des mandataires judiciaires"
-        parentUrl="/devenir-professionnel/l-agrement-des-mandataires-judiciaires"
-        title="L'agrément des mandataires exercant à titre individuel"
+        index="/professionnel"
+        parentTitle="Je suis un mandataire individuel"
+        parentUrl="/professionnel/je-suis-un-mandataire-individuel"
+        title="La déclaration des préposés d'établissement"
       />
       <Heading fontWeight="normal" mb={6} fontSize={4}>
-        {`L'agrément des mandataires exercant à titre individuel`}
+        {`La déclaration des préposés d'établissement`}
       </Heading>
       <SubPageSection title="Le financement des mandataires individuels">
         In interdum sodales nisl id commodo. Nulla pretium ipsum et turpis efficitur, ut rutrum
