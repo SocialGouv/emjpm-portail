@@ -1,14 +1,17 @@
-import { Header } from "@socialgouv/emjpm-ui-components";
+import { Logo } from "@socialgouv/emjpm-ui-core";
 import theme from "@socialgouv/emjpm-ui-theme";
 import Head from "next/head";
 import React from "react";
+import { Flex } from "rebass";
 import { ThemeProvider } from "theme-ui";
+
+import Footer from "../components/Footer";
 
 function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Protection Juridique des Majeurs</title>
+        <title>Portail de la Protection Juridique des Majeurs</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Quicksand:400,700&display=swap"
@@ -28,8 +31,11 @@ function App({ Component, pageProps }) {
           }
         `}</style>
       </Head>
-      <Header isDisconnected />
+      <Flex p={1} alignItems="center" flexWrap="wrap" justifyContent="space-between">
+        <Logo hasTitle />
+      </Flex>
       <Component {...pageProps} />
+      <Footer />
     </ThemeProvider>
   );
 }
