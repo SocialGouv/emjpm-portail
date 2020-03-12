@@ -6,12 +6,6 @@ import Link from "../components/Link";
 
 const { publicRuntimeConfig } = getConfig();
 
-const links = [
-  { href: "/", text: "Je suis un particulier" },
-  { href: "/professionnel", text: "Je suis un professionnel" },
-  { href: "/devenir-professionnel", text: "Je veux devenir un professionnel" }
-];
-
 const Index = () => (
   <Flex
     sx={{
@@ -30,9 +24,9 @@ const Index = () => (
         <br />
         de la Protection Juridique des Majeurs
       </Heading>
-      {links.map(link => (
-        <Link key={link.href} {...link} />
-      ))}
+      <Link href="/" text="Je suis un particulier" />
+      <Link href="/professionnel" text="Je suis un professionnel" />
+      <Link href="/devenir-professionnel" text="Je veux devenir un professionnel" />
     </Box>
   </Flex>
 );
