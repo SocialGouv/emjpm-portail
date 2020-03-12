@@ -9,7 +9,7 @@ const Index = () => (
   <Flex bg="whiteGray">
     <Box width="100%" maxWidth={1200} mx="auto">
       <Breadcrumbs
-        indexUrl="/professionnel"
+        index="/professionnel"
         parentTitle="Je suis un mandataire individuel"
         parentUrl="/professionnel/je-suis-un-mandataire-individuel"
         title="Les obligations en tant que mandataire individuel"
