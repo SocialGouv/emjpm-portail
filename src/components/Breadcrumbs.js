@@ -1,9 +1,6 @@
-import getConfig from "next/config";
 import NextLink from "next/link";
 import React from "react";
 import { Box, Flex, Link } from "rebass";
-
-const { publicRuntimeConfig } = getConfig();
 
 const linkStyle = {
   color: "textSecondary",
