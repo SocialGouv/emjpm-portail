@@ -1268,22 +1268,7 @@
     styled-icons "^9.1.0"
     theme-ui "^0.2.52"
 
-"@socialgouv/emjpm-ui-core@^1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/emjpm-ui-core/-/emjpm-ui-core-1.19.0.tgz#d4a6811d4304a18781351db4574d90ee1352556a"
-  integrity sha512-stBh978a9MYM3uYgtilusyc1xlJgVYJz4fVsv4+JZz3WjqEfhYqWYYbE4KzOaQ/mvj4JPDJolQkLVSQPNA6ZeQ==
-  dependencies:
-    "@emotion/core" "^10.0.22"
-    "@emotion/styled" "^10.0.23"
-    prop-types "^15.7.2"
-    react "^16.12.0"
-    react-select "^3.0.8"
-    react-tabs "^3.1.0"
-    rebass "^4.0.7"
-    styled-icons "^9.1.0"
-    theme-ui "^0.2.52"
-
-"@socialgouv/emjpm-ui-core@^1.20.0":
+"@socialgouv/emjpm-ui-core@^1.19.0", "@socialgouv/emjpm-ui-core@^1.20.0":
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/@socialgouv/emjpm-ui-core/-/emjpm-ui-core-1.20.0.tgz#651ac285704483623b2d950847a127828c0412fd"
   integrity sha512-rJU8889IvHhN0kSmZ5tR990aZDzl6bzdiAQM0HAyjQR8E7xno3zTr9XZRkn0NoKx8HNR7TJo9Wfg8GlhbKkeSQ==
@@ -4454,10 +4439,10 @@ eslint-plugin-react@~7.18.3:
     resolve "^1.14.2"
     string.prototype.matchall "^4.0.2"
 
-eslint-plugin-simple-import-sort@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-5.0.1.tgz#fd47d3ed2af30db3dd2cadaed285ad510dde479b"
-  integrity sha512-s6Hjp9rcIDYT1h7tuTulblbY7+XQNZK+014uUkNJSKRXEHZO2i7CTr16HOpfgD9HDnUOpl0fwphPsr0oxZqgGg==
+eslint-plugin-simple-import-sort@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-5.0.2.tgz#43b5c4ab5affa2dd8481ef40216c71723becd2e2"
+  integrity sha512-YPEGo7DbMANQ01d2OXlREcaHRszsW8LoUQ9mIjI7gXSdwpnWKfogtzL6FiBfDf1teCBx+AdcjcfDXSKpmhTWeA==
 
 eslint-plugin-sort-keys-fix@^1.1.0:
   version "1.1.0"
@@ -8711,15 +8696,10 @@ react-is@16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-is@^16.12.0, react-is@^16.8.6, react-is@^16.9.0:
+react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6, react-is@^16.9.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
-
-react-is@^16.7.0, react-is@^16.8.1:
-  version "16.12.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
-  integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
