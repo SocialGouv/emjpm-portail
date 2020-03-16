@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "@mdx-js/react": "^1.5.7",
-    "@socialgouv/emjpm-ui-components": "^0.54.11",
-    "@socialgouv/emjpm-ui-core": "^1.20.0",
-    "@socialgouv/emjpm-ui-theme": "^1.9.2",
+    "@socialgouv/emjpm-ui-components": "^0.54.12",
+    "@socialgouv/emjpm-ui-core": "^1.20.1",
+    "@socialgouv/emjpm-ui-theme": "^1.9.3",
     "next": "9.3.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
