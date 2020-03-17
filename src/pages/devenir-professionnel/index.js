@@ -15,17 +15,17 @@ const Index = () => (
       <PageSection
         url={"/devenir-professionnel/l-agrement-des-mandataires-judiciaires"}
         title={"L'agrément des mandataires judiciaires"}
-        image={`${publicRuntimeConfig.appUrl}/bg-a.png`}
+        image={`${publicRuntimeConfig.appUrl}/bg-devenir-pro-a.png`}
       />
       <PageSection
         url={"/devenir-professionnel/a-formation-au-certificat-national-de-competences"}
         title={"La formation au certificat national de compétences"}
-        image={`${publicRuntimeConfig.appUrl}/bg-b.png`}
+        image={`${publicRuntimeConfig.appUrl}/bg-devenir-pro-b.png`}
       />
       <PageSection
         url={"/devenir-professionnel/appel-a-projet"}
         title={"Appel à projet"}
-        image={`${publicRuntimeConfig.appUrl}/bg-c.png`}
+        image={`${publicRuntimeConfig.appUrl}/bg-devenir-pro-c.png`}
       />
     </Box>
   </Flex>

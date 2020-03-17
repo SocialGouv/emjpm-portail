@@ -6,19 +6,36 @@ import Link from "../components/Link";
 
 const { publicRuntimeConfig } = getConfig();
 
+const containerStyle = {
+  ":before": {
+    backgroundImage: `url("${publicRuntimeConfig.appUrl}/bg-index.jpg")`,
+    backgroundSize: "cover",
+    content: '""',
+    height: "100%",
+    left: 0,
+    opacity: "0.4",
+    position: "absolute",
+    top: 0,
+    width: "100%"
+  },
+  alignItems: "center",
+  backgroundColor: "black",
+  height: "80%",
+  justifyContent: "center",
+  position: "relative"
+};
+
+const style = {
+  color: "white",
+  maxWidth: 1200,
+  mx: "auto",
+  position: "relative",
+  textAlign: "center"
+};
+
 const Index = () => (
-  <Flex
-    sx={{
-      alignItems: "center",
-      backgroundImage: `url("${publicRuntimeConfig.appUrl}/bg-index.jpg")`,
-      backgroundSize: "cover",
-      height: "100vh",
-      justifyContent: "center",
-      maxHeight: 700,
-      width: "100%"
-    }}
-  >
-    <Box maxWidth={1200} mx="auto" color="white" textAlign="center">
+  <Flex sx={containerStyle}>
+    <Box style={style}>
       <Heading fontSize={5} mb={[6, 6, 120]} mx={4} textAlign="center">
         Bienvenue sur le portail
         <br />

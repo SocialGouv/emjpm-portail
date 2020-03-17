@@ -15,17 +15,17 @@ const Index = () => (
       <PageSection
         url={"/professionnel/je-suis-un-mandataire-individuel"}
         title={"Je suis un mandataire individuel"}
-        image={`${publicRuntimeConfig.appUrl}/bg-a.png`}
+        image={`${publicRuntimeConfig.appUrl}/bg-pro-a.png`}
       />
       <PageSection
         url={"/professionnel/je-suis-un-prepose-d-etablissement"}
         title={"Je suis un préposé d'établissement"}
-        image={`${publicRuntimeConfig.appUrl}/bg-b.png`}
+        image={`${publicRuntimeConfig.appUrl}/bg-pro-b.png`}
       />
       <PageSection
         url={"/professionnel/je-suis-un-service-de-mandataire"}
         title={"Je suis un service de mandataire"}
-        image={`${publicRuntimeConfig.appUrl}/bg-c.png`}
+        image={`${publicRuntimeConfig.appUrl}/bg-pro-c.png`}
       />
     </Box>
   </Flex>
