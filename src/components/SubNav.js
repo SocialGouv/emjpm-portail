@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 
 const SubNav = ({ items }) => (
   <Flex maxWidth={1200} mx="auto" mb={4}>
-    {items.map(item => (
+    {items.map((item) => (
       <NavLink key={item.url} href={item.url} text={item.title} />
     ))}
   </Flex>

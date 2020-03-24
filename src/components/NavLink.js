@@ -20,9 +20,9 @@ const NavLink = ({ href, text, sx = {} }) => {
           pb: 2,
           textDecoration: "none",
           "&:hover": {
-            borderColor: "primary"
+            borderColor: "primary",
           },
-          ...sx
+          ...sx,
         }}
       >
         {text}

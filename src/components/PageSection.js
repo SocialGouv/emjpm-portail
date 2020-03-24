@@ -4,7 +4,7 @@ import { Box } from "rebass";
 
 import Link from "./Link";
 
-const style = image => ({
+const style = (image) => ({
   position: "relative",
   height: [150, 300],
   display: "flex",
@@ -26,8 +26,8 @@ const style = image => ({
     top: 0,
     left: 0,
     backgroundImage: `url(${image})`,
-    backgroundSize: "cover"
-  }
+    backgroundSize: "cover",
+  },
 });
 
 const PageSection = ({ url, title, image }) => (

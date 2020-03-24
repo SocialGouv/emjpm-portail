@@ -19,7 +19,7 @@ const SubPage = ({ type, title, heading, sections }) => (
       <Heading3 fontWeight="normal" mb={4}>
         {heading}
       </Heading3>
-      {sections.map(section => (
+      {sections.map((section) => (
         <SubPageSection key={section.title} title={section.title} text={section.text} />
       ))}
     </Box>

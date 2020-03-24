@@ -10,8 +10,8 @@ const linkStyle = {
   cursor: "pointer",
   textDecoration: "none",
   "&:hover": {
-    color: "primary"
-  }
+    color: "primary",
+  },
 };
 
 const Breadcrumbs = ({ index, parentTitle, parentUrl, title }) => (
@@ -29,7 +29,7 @@ const Breadcrumbs = ({ index, parentTitle, parentUrl, title }) => (
 );
 
 Breadcrumbs.defaultProps = {
-  index: "/"
+  index: "/",
 };
 
 export default Breadcrumbs;

@@ -18,7 +18,7 @@ const Nav = () => {
             width: 220,
             mr: 4,
             pb: 2,
-            textDecoration: "none"
+            textDecoration: "none",
           }}
           onMouseEnter={() => setActive(1)}
         >
@@ -33,7 +33,7 @@ const Nav = () => {
             width: 220,
             mr: 4,
             pb: 2,
-            textDecoration: "none"
+            textDecoration: "none",
           }}
           onMouseEnter={() => setActive(2)}
         >
@@ -48,7 +48,7 @@ const Nav = () => {
             width: 220,
             mr: 4,
             pb: 2,
-            textDecoration: "none"
+            textDecoration: "none",
           }}
           onMouseEnter={() => setActive(3)}
         >
