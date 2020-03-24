@@ -3,7 +3,7 @@ import { Box } from "rebass";
 
 const linkStyle = {
   color: "primary",
-  textDecoration: "none"
+  textDecoration: "none",
 };
 
 const ExternalFormLink = ({ children }) => (

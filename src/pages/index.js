@@ -16,13 +16,13 @@ const containerStyle = {
     opacity: "0.4",
     position: "absolute",
     top: 0,
-    width: "100%"
+    width: "100%",
   },
   alignItems: "center",
   backgroundColor: "black",
   height: "80%",
   justifyContent: "center",
-  position: "relative"
+  position: "relative",
 };
 
 const style = {
@@ -30,7 +30,7 @@ const style = {
   maxWidth: 1200,
   mx: "auto",
   position: "relative",
-  textAlign: "center"
+  textAlign: "center",
 };
 
 const Index = () => (

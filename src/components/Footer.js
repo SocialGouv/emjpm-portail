@@ -4,7 +4,7 @@ import { Box, Flex, Link, Text } from "rebass";
 
 const listStyle = {
   fontSize: "1",
-  mb: "1"
+  mb: "1",
 };
 
 const listTitleStyle = {
@@ -12,22 +12,22 @@ const listTitleStyle = {
   fontFamily: "Quicksand, sans-serif",
   fontSize: "2",
   fontWeight: "700",
-  mb: "3"
+  mb: "3",
 };
 
 const footerItemStyle = {
-  flexBasis: ["100%", "27%"]
+  flexBasis: ["100%", "27%"],
 };
 
-const List = props => {
+const List = (props) => {
   return <Box {...props} sx={listStyle} />;
 };
 
-const ListItem = props => {
+const ListItem = (props) => {
   return <Text {...props} sx={listStyle} />;
 };
 
-const ListTitle = props => {
+const ListTitle = (props) => {
   return <Text {...props} sx={listTitleStyle} />;
 };
 

@@ -17,7 +17,7 @@ const Link = ({ text, href, sx }) => (
         mr: 6,
         px: 6,
         py: 4,
-        ...sx
+        ...sx,
       }}
     >
       {text}
