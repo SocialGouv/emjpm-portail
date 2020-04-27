@@ -30,7 +30,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
     "eslint-plugin-simple-import-sort": "^5.0.2",
-    "eslint-plugin-sort-keys-fix": "^1.1.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
     "jest": "^25.1.0",
     "prettier": "^2.0.2",
     "react-test-renderer": "^16.13.1"
