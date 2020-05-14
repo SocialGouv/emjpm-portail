@@ -1,17 +1,14 @@
-import { Logo } from "@socialgouv/emjpm-ui-core";
 import theme from "@socialgouv/emjpm-ui-theme";
-import getConfig from "next/config";
 import Head from "next/head";
-import NextLink from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
-import { Flex, Link } from "rebass";
 import { ThemeProvider } from "theme-ui";
 
 import Footer from "../components/Footer";
-
-const { appUrl } = getConfig().publicRuntimeConfig;
+import Header from "../components/Header";
 
 function App({ Component, pageProps }) {
+  const router = useRouter();
   return (
     <ThemeProvider theme={theme}>
       <Head>
@@ -30,7 +27,7 @@ function App({ Component, pageProps }) {
           body,
           div#__next {
             margin: 0;
-            background: white;
+            background: #EBEFF5;
             height: 100%;
           }
           a {
@@ -39,13 +36,7 @@ function App({ Component, pageProps }) {
           }
         `}</style>
       </Head>
-      <Flex p={1} alignItems="center" flexWrap="wrap" justifyContent="space-between">
-        <NextLink href={"/"} as={appUrl} passHref>
-          <Link color="inherit">
-            <Logo title="emjpm.pjm.fr - Protection Juridique des Majeurs" />
-          </Link>
-        </NextLink>
-      </Flex>
+      {router.pathname !== "/" && <Header />}
       <Component {...pageProps} />
       <Footer />
     </ThemeProvider>

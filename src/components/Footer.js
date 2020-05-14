@@ -1,6 +1,7 @@
-import { Logo } from "@socialgouv/emjpm-ui-core";
 import React from "react";
 import { Box, Flex, Link, Text } from "rebass";
+
+import Logo from "../components/Logo";
 
 const listStyle = {
   fontSize: "1",
@@ -32,7 +33,7 @@ const ListTitle = (props) => {
 };
 
 const Footer = () => (
-  <Box maxWidth={1200} mx="auto" my={4} px={4}>
+  <Box maxWidth={1200} mx="auto" py={4} px={4} backgroundColor="white">
     <Flex flexWrap="wrap" justifyContent="space-between">
       <Box mb={[3, 0]} flexBasis={["100%", "13%"]}>
         <Logo hasTitle={false} />
