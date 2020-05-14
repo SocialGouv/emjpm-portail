@@ -27,7 +27,7 @@ function App({ Component, pageProps }) {
           body,
           div#__next {
             margin: 0;
-            background: white;
+            background: #EBEFF5;
             height: 100%;
           }
           a {
