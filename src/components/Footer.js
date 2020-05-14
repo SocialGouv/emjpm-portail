@@ -1,6 +1,7 @@
-import { Logo } from "@socialgouv/emjpm-ui-core";
 import React from "react";
 import { Box, Flex, Link, Text } from "rebass";
+
+import Logo from "../components/Logo";
 
 const listStyle = {
   fontSize: "1",
