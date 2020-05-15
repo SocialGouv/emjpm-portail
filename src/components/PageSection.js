@@ -30,13 +30,29 @@ const style = (image) => ({
   },
 });
 
-const PageSection = ({ url, title, image }) => (
+const PageSection = ({ url, title, splitTitle, image }) => (
   <Card sx={() => style(image)}>
     <Box textAlign="center" sx={{ position: "relative" }}>
       <Heading4 fontWeight="normal" color="white" mb={4}>
-        {title}
+        {splitTitle ? (
+          <div>
+            {splitTitle.firstLine}
+            <br />
+            {splitTitle.secondLine}
+          </div>
+        ) : (
+          <div>{title}</div>
+        )}
       </Heading4>
-      <Link href={url} text="En savoir plus" sx={{ px: 4, py: 1 }} />
+      <Link
+        href={url}
+        text="En savoir plus"
+        sx={{
+          px: 4,
+          py: 1,
+          mx: "auto",
+        }}
+      />
     </Box>
   </Card>
 );
