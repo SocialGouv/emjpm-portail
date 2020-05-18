@@ -1,4 +1,16 @@
 import getConfig from "next/config";
+import React from "react";
+
+import {
+  CuratelleContent,
+  JudiciaryArticleContentOne,
+  JudiciaryArticleContentThree,
+  JudiciaryArticleContentTwo,
+  JudiciaryContent,
+  JusticeContent,
+  TutelleContent,
+} from "./content";
+
 const { publicRuntimeConfig } = getConfig();
 
 const mainHeadingText = `Bienvenue sur le portail de la Protection Juridique des Majeurs`;
@@ -83,65 +95,40 @@ export const mandataireMissionPageData = {
   sections: [
     {
       _id: 0,
-      content: `Dans le cas d'une curatelle, in interdum sodales nisl id commodo.
-    Nulla pretium ipsum et turpis efficitur, ut
-    rutrum dolor rutrum. Morbi ultrices dignissim purus, in tincidunt enim facilisis
-    nec. Vivamus et nunc hendrerit, egestas felis a, fringilla mauris. Mauris ac odio
-    lectus. Maecenas sit amet augue varius, facilisis erat sit amet, convallis tellus.
-    Proin vel tristique nisl.`,
+      content: <CuratelleContent />,
       title: `Dans le cas d'une curatelle`,
     },
     {
       _id: 1,
-      content: `Dans le cas d'une tutelle, in interdum sodales nisl id commodo.
-  Nulla pretium ipsum et turpis efficitur, ut rutrum dolor rutrum. Morbi ultrices
-  dignissim purus, in tincidunt enim facilisis
-  nec. Vivamus et nunc hendrerit, egestas felis a, fringilla mauris. Mauris ac odio
-  lectus. Maecenas sit amet augue varius, facilisis erat sit amet, convallis tellus.
-  Proin vel tristique nisl.`,
+      content: <TutelleContent />,
       title: `Dans le cas d'une tutelle`,
     },
     {
       _id: 2,
-      content: `Dans le cas de la sauvegarde de justice, in interdum sodales nisl id commodo.
-  Nulla pretium ipsum et turpis efficitur, ut rutrum dolor rutrum. Morbi ultrices
-  dignissim purus, in tincidunt enim facilisis
-  nec. Vivamus et nunc hendrerit, egestas felis a, fringilla mauris. Mauris ac odio
-  lectus. Maecenas sit amet augue varius, facilisis erat sit amet, convallis tellus.
-  Proin vel tristique nisl.`,
+      content: <JusticeContent />,
       title: `Dans le cas de la sauvegarde de justice`,
     },
     {
       _id: 3,
-      content: `Dans le cas d'une mesure d'accompagnement judiciaire, in interdum sodales nisl id commodo.
-  Nulla pretium ipsum et turpis efficitur, ut rutrum dolor rutrum. Morbi ultrices
-  dignissim purus, in tincidunt enim facilisis
-  nec. Vivamus et nunc hendrerit, egestas felis a, fringilla mauris. Mauris ac odio
-  lectus. Maecenas sit amet augue varius, facilisis erat sit amet, convallis tellus.
-  Proin vel tristique nisl.`,
+      content: <JudiciaryContent />,
       subSection: {
         articleContent: [
           {
             _id: 0,
-            content: `Art 1 - Vivamus et nunc hendrerit, egestas felis a, fringilla mauris.`,
-            title: `Article 1: Respect des libertés individuelles et des droits civiques`,
+            content: <JudiciaryArticleContentOne />,
+            title: `Article 1: Sed a quam id magna interdum dignissim.`,
           },
           {
             _id: 1,
-            content: `Art 2 - Vivamus et nunc hendrerit, egestas felis a, fringilla mauris.`,
-            title: `Article 2: Respect des libertés individuelles et des droits civiques`,
+            content: <JudiciaryArticleContentTwo />,
+            title: `Article 2: Sed a quam id magna interdum dignissim.`,
           },
           {
             _id: 2,
-            content: `Art 3 - Vivamus et nunc hendrerit, egestas felis a, fringilla mauris.`,
-            title: `Article 3: Respect des libertés individuelles et des droits civiques`,
+            content: <JudiciaryArticleContentThree />,
+            title: `Article 3: Sed a quam id magna interdum dignissim.`,
           },
         ],
-        panelContent: `In interdum sodales nisl id commodo. Nulla pretium ipsum et turpis efficitur, ut
-      rutrum dolor rutrum. Morbi ultrices dignissim purus, in tincidunt enim facilisis
-      nec. Vivamus et nunc hendrerit, egestas felis a, fringilla mauris. Mauris ac odio
-      lectus. Maecenas sit amet augue varius, facilisis erat sit amet, convallis tellus.
-      Proin vel tristique nisl.`,
       },
       title: `Dans le cas d'une mesure d'accompagnement judiciaire`,
     },
