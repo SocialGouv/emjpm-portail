@@ -12,7 +12,9 @@
     "prettier": "prettier --check 'src/**/*.js'"
   },
   "dependencies": {
+    "@mdx-js/loader": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
+    "@next/mdx": "^9.4.1",
     "@socialgouv/emjpm-ui-components": "^0.55.0",
     "@socialgouv/emjpm-ui-core": "^1.20.2",
     "@socialgouv/emjpm-ui-theme": "^1.9.4",
