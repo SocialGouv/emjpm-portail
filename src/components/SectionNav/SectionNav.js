@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Box, Flex } from "rebass";
 
 import MenuLink from "./MenuLink";

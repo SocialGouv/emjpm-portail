@@ -2,6 +2,7 @@ import getConfig from "next/config";
 import NextLink from "next/link";
 import React from "react";
 import { Box } from "rebass";
+
 import { MenuLinkStyle } from "./style";
 
 const { appUrl } = getConfig().publicRuntimeConfig;
