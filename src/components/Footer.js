@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, Link, Text } from "rebass";
 
-import Logo from "../components/Logo";
+import Logo from "../components/common/Logo";
 
 const listStyle = {
   fontSize: "1",
