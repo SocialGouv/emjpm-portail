@@ -4,7 +4,7 @@ const withMDX = require("@next/mdx")({
 });
 
 module.exports = withMDX({
-  assetPrefix: isProd ? "https://incubateur.social.gouv.fr/emjpm-portail" : "",
+  assetPrefix: isProd ? "http://socialgouv.github.io/emjpm-portail" : "",
   pageExtensions: ["js", "jsx", "md", "mdx"],
   publicRuntimeConfig: {
     appUrl: isProd ? "http://socialgouv.github.io/emjpm-portail" : "http://localhost:3000",

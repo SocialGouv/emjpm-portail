@@ -1,6 +1,7 @@
+import NextLink from "next/link";
 import React from "react";
 import { Box, Flex } from "rebass";
-import NextLink from "next/link";
+
 import { LinkStyle } from "./style";
 
 const SectionNav = ({ navItems }) => {
