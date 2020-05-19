@@ -1,8 +1,7 @@
 import React from "react";
 import { Box, Flex } from "rebass";
-
-import MenuLink from "./MenuLink";
-import { SectionNavItem } from "./style";
+import NextLink from "next/link";
+import { LinkStyle } from "./style";
 
 const SectionNav = ({ navItems }) => {
   return (
@@ -11,10 +10,10 @@ const SectionNav = ({ navItems }) => {
         {navItems &&
           navItems.map((element, index) => {
             return (
-              <Box key={index} sx={SectionNavItem}>
-                <MenuLink href={element.url}>
-                  <Box sx={{ whiteSpace: "pre-line" }}>{element.title}</Box>
-                </MenuLink>
+              <Box key={index} sx={LinkStyle}>
+                <NextLink href={`${element.url}`}>
+                  <a>{element.title}</a>
+                </NextLink>
               </Box>
             );
           })}
