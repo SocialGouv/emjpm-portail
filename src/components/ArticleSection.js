@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Flex } from "rebass";
 
 import SubPageSection from "../components/SubPageSection";
+import Button from "./common/Button";
 
 const ArticleSection = ({ article, articlesLength, activeArticle, setActiveArticle }) => {
   const selectArticle = (count) => {
@@ -20,14 +21,14 @@ const ArticleSection = ({ article, articlesLength, activeArticle, setActiveArtic
         }}
       >
         <Box sx={activeArticle === 0 && { visibility: "hidden" }}>
-          <button onClick={() => setActiveArticle(selectArticle(article._id - 1))}>
+          <Button onClick={() => setActiveArticle(selectArticle(article._id - 1))}>
             Article précédent
-          </button>
+          </Button>
         </Box>
         <Box sx={activeArticle === articlesLength - 1 && { visibility: "hidden" }}>
-          <button onClick={() => setActiveArticle(selectArticle(article._id + 1))}>
+          <Button onClick={() => setActiveArticle(selectArticle(article._id + 1))}>
             Article suivant
-          </button>
+          </Button>
         </Box>
       </Flex>
     </SubPageSection>

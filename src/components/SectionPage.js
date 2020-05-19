@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import { Box, Flex, Heading } from "rebass";
 
 import ArticleSection from "./ArticleSection";
+import Button from "./common/Button";
 import SubPageSection from "./SubPageSection";
 
 const SectionPage = ({ data }) => {
@@ -21,9 +22,9 @@ const SectionPage = ({ data }) => {
             <Box sx={{ mb: "50px" }}>
               <Flex>
                 {data.sections.map((itemButton) => (
-                  <button key={itemButton._id} onClick={() => setActive(itemButton._id)}>
+                  <Button key={itemButton._id} onClick={() => setActive(itemButton._id)}>
                     {itemButton.title}
-                  </button>
+                  </Button>
                 ))}
               </Flex>
             </Box>
