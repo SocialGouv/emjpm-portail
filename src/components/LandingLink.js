@@ -1,9 +1,12 @@
+import getConfig from "next/config";
 import NextLink from "next/link";
 import React from "react";
 import { Link as RebassLink } from "rebass";
 
+const { appUrl } = getConfig().publicRuntimeConfig;
+
 const LandingLink = ({ text, href, sx }) => (
-  <NextLink href={href} as={`${href}`} passHref>
+  <NextLink href={href} as={`${appUrl}${href}`} passHref>
     <RebassLink
       sx={{
         bg: "white",
