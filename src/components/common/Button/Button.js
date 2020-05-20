@@ -2,25 +2,12 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Box, Button as RebassButton } from "rebass";
 
-const buttonStyle = {
-  "&:active": {
-    opacity: "0.8",
-  },
-  fontSize: 1,
-  fontWeight: 500,
-  lineHeight: "1.2",
-  mx: "auto",
-  outline: "none",
-  position: "relative",
-  px: 3,
-  py: 2,
-  transition: "150ms ease-in-out opacity",
-};
+import { buttonStyle } from "./style";
 
 const Button = (props) => {
-  const { children } = props;
+  const { children, sx } = props;
   return (
-    <RebassButton sx={buttonStyle} {...props}>
+    <RebassButton sx={{ ...buttonStyle, ...sx }} {...props}>
       <Box>{children}</Box>
     </RebassButton>
   );
