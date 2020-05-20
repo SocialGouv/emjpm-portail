@@ -9,7 +9,7 @@ import {
   JudiciaryContent,
   JusticeContent,
   TutelleContent,
-} from "./content";
+} from "../content";
 
 const { publicRuntimeConfig } = getConfig();
 

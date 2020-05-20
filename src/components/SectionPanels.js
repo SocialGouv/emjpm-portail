@@ -2,12 +2,15 @@ import React, { Fragment } from "react";
 import { Box } from "rebass";
 
 import ArticleSection from "./ArticleSection";
+import MarkdownLayout from "./MarkdownLayout";
 import SubPageSection from "./SubPageSection";
 
-const SectionsPanels = ({ currentSection, articles, activeArticle, setActiveArticle }) => {
+const SectionPanels = ({ currentSection, articles, activeArticle, setActiveArticle }) => {
   return (
     <Box sx={{ my: "auto" }}>
-      <SubPageSection title={currentSection.title}>{currentSection.content}</SubPageSection>
+      <SubPageSection title={currentSection.title}>
+        <MarkdownLayout>{currentSection.content}</MarkdownLayout>
+      </SubPageSection>
       {articles &&
         articles.map((article) => (
           <Fragment key={article._id}>
@@ -25,4 +28,4 @@ const SectionsPanels = ({ currentSection, articles, activeArticle, setActiveArti
   );
 };
 
-export default SectionsPanels;
+export default SectionPanels;

@@ -3,6 +3,7 @@ import { Box, Flex } from "rebass";
 
 import SubPageSection from "../components/SubPageSection";
 import Button from "./common/Button";
+import MarkdownLayout from "./MarkdownLayout";
 
 const ArticleSection = ({ article, articlesLength, activeArticle, setActiveArticle }) => {
   const selectArticle = (count) => {
@@ -14,7 +15,7 @@ const ArticleSection = ({ article, articlesLength, activeArticle, setActiveArtic
 
   return (
     <SubPageSection title={article.title}>
-      <Box>{article.content}</Box>
+      <MarkdownLayout>{article.content}</MarkdownLayout>
       <Flex
         sx={{
           justifyContent: "space-between",

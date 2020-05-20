@@ -1,4 +1,4 @@
-import CuratelleContent from "./sections/CuratelleContent.mdx";
+import CuratelleContent from "./sections/CuratelleContent.md";
 import JudiciaryArticleContentOne from "./sections/JudiciaryArticleContentOne.mdx";
 import JudiciaryArticleContentThree from "./sections/JudiciaryArticleContentThree.mdx";
 import JudiciaryArticleContentTwo from "./sections/JudiciaryArticleContentTwo.mdx";
