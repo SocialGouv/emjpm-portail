@@ -3,25 +3,14 @@ import React from "react";
 import { Box, Flex, Text } from "rebass";
 
 import { Marianne } from "./Marianne";
-
-const LogoStyle = {
-  width: ["77px"],
-};
-
-const logoTextStyle = {
-  fontFamily: "heading",
-  fontSize: 4,
-  fontWeight: 500,
-  lineHeight: "46px",
-  ml: 1,
-};
+import { logoStyle, logoTextStyle } from "./style";
 
 const Logo = (props) => {
   const { hasTitle, title } = props;
 
   return (
     <Flex>
-      <Box sx={LogoStyle}>
+      <Box sx={logoStyle}>
         <Marianne />
       </Box>
       {hasTitle && (

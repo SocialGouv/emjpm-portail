@@ -3,7 +3,7 @@ import NextLink from "next/link";
 import React from "react";
 import { Box, Flex, Link } from "rebass";
 
-import Logo from "../components/common/Logo";
+import Logo from "./Logo";
 
 const { appUrl } = getConfig().publicRuntimeConfig;
 

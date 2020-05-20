@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import { ThemeProvider } from "theme-ui";
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../components/common/Footer";
+import Header from "../components/common/Header";
 
 function App({ Component, pageProps }) {
   const router = useRouter();

@@ -1,24 +1,8 @@
 import React from "react";
 import { Box, Flex, Link, Text } from "rebass";
 
-import Logo from "../components/common/Logo";
-
-const listStyle = {
-  fontSize: "1",
-  mb: "1",
-};
-
-const listTitleStyle = {
-  color: "#555555",
-  fontFamily: "Quicksand, sans-serif",
-  fontSize: "2",
-  fontWeight: "700",
-  mb: "3",
-};
-
-const footerItemStyle = {
-  flexBasis: ["100%", "27%"],
-};
+import Logo from "../Logo";
+import { footerItemStyle, listStyle, listTitleStyle } from "./style";
 
 const List = (props) => {
   return <Box {...props} sx={listStyle} />;
