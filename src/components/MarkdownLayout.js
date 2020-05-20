@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "rebass";
 
-const ContentLayout = ({ children }) => {
+const MarkdownLayout = ({ children }) => {
   return (
     <Box
       sx={{
@@ -14,4 +14,4 @@ const ContentLayout = ({ children }) => {
   );
 };
 
-export default ContentLayout;
+export default MarkdownLayout;
