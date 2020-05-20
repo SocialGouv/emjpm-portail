@@ -3,6 +3,20 @@ import React from "react";
 
 import {
   CuratelleContent,
+  DroitsDuProtege,
+  DroitsDuProtegeArticle1,
+  DroitsDuProtegeArticle2,
+  DroitsDuProtegeArticle3,
+  DroitsDuProtegeArticle4,
+  DroitsDuProtegeArticle5,
+  DroitsDuProtegeArticle6,
+  DroitsDuProtegeArticle7,
+  DroitsDuProtegeArticle8,
+  DroitsDuProtegeArticle9,
+  DroitsDuProtegeArticle10,
+  DroitsDuProtegeArticle11,
+  DroitsDuProtegeArticle12,
+  DroitsDuProtegeArticle13,
   JudiciaryArticleContentOne,
   JudiciaryArticleContentThree,
   JudiciaryArticleContentTwo,
@@ -55,7 +69,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les droits du protégé`,
-      url: "/",
+      url: "/professionnel/je-suis-un-mandataire-individuel/les-droits-du-protege",
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -131,6 +145,86 @@ export const mandataireMissionPageData = {
         ],
       },
       title: `Dans le cas d'une mesure d'accompagnement judiciaire`,
+    },
+  ],
+};
+
+export const droitsDuProtegePageData = {
+  heading: `Les droits du protégé`,
+  sections: [
+    {
+      _id: 0,
+      content: <DroitsDuProtege />,
+      subSection: {
+        articleContent: [
+          {
+            _id: 0,
+            content: <DroitsDuProtegeArticle1 />,
+            title: `Article 1er : Respect des libertés individuelles et des droits civiques`,
+          },
+          {
+            _id: 1,
+            content: <DroitsDuProtegeArticle2 />,
+            title: `Article 2 : Non-discrimination`,
+          },
+          {
+            _id: 2,
+            content: <DroitsDuProtegeArticle3 />,
+            title: `Article 3 : Respect de la dignité de la personne et de son intégrité`,
+          },
+          {
+            _id: 3,
+            content: <DroitsDuProtegeArticle4 />,
+            title: `Article 4 : Liberté des relations personnelles`,
+          },
+          {
+            _id: 4,
+            content: <DroitsDuProtegeArticle5 />,
+            title: `Article 5 : Droit au respect des liens familiaux`,
+          },
+          {
+            _id: 5,
+            content: <DroitsDuProtegeArticle6 />,
+            title: `Article 6 : Droit à l’information`,
+          },
+          {
+            _id: 6,
+            content: <DroitsDuProtegeArticle7 />,
+            title: `Article 7 : Droit à l’autonomie `,
+          },
+          {
+            _id: 7,
+            content: <DroitsDuProtegeArticle8 />,
+            title: `Article 8 : Droit à la protection du logement et des objets personnels`,
+          },
+          {
+            _id: 8,
+            content: <DroitsDuProtegeArticle9 />,
+            title: `Article 9 : Consentement éclairé et participation de la personne`,
+          },
+          {
+            _id: 9,
+            content: <DroitsDuProtegeArticle10 />,
+            title: `Article 10 : Droit à une intervention personnalisée`,
+          },
+          {
+            _id: 10,
+            content: <DroitsDuProtegeArticle11 />,
+            title: `Article 11 : Droit à l’accès aux soins`,
+          },
+          {
+            _id: 11,
+            content: <DroitsDuProtegeArticle12 />,
+            title: `Article 12 : Protection des biens dans l’intérêt exclusif de la personne`,
+          },
+          {
+            _id: 12,
+            content: <DroitsDuProtegeArticle13 />,
+            title: `Article 13 : Confidentialité des informations`,
+          },
+        ],
+      },
+      title: `Les droits du protégé`,
     },
   ],
 };

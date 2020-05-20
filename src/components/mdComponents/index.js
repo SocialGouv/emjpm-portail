@@ -7,9 +7,7 @@ const UnorderedList = ({ children }) => (
   <Box sx={{ my: "50px", lineHeight: "0.8", fontFamily: "Quicksand" }}>{children}</Box>
 );
 
-const ListItem = ({ children }) => (
-  <div style={{ color: "green", fontSize: "25px" }}>{children}</div>
-);
+const ListItem = ({ children }) => <div style={{ color: "green" }}>{children}</div>;
 
 const Paragraph = ({ children }) => (
   <Box sx={{ lineHeight: "normal", margin: "50px 0", fontFamily: "Quicksand" }}>{children}</Box>
