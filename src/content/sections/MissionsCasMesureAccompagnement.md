@@ -1,0 +1,1 @@
+Perception et gestion de tout ou partie des prestations sociales dont bénéficie le majeur, mise en œuvre d’une action éducative afin de rétablir les conditions d’une gestion autonome des prestations sociales.
