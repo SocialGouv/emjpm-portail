@@ -17,7 +17,7 @@ const ListTitle = (props) => {
 };
 
 const Footer = () => (
-  <Box maxWidth={1200} mx="auto" mt="30px" py={4} px={4} backgroundColor="white">
+  <Box maxWidth={1200} mx="auto" mt="30px" py={4} px={4} minHeight="20vh" backgroundColor="white">
     <Flex flexWrap="wrap" justifyContent="space-between">
       <Box mb={[3, 0]} flexBasis={["100%", "13%"]}>
         <Logo hasTitle={false} />
