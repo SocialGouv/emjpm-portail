@@ -11,6 +11,7 @@ const landingLinkStyle = {
   width: 300,
   height: 100,
   lineHeight: "1.3",
+  m: "20px",
 };
 
 export { landingLinkStyle };

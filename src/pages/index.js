@@ -43,6 +43,7 @@ const contentStyle = {
 
 const linksStyle = {
   display: "flex",
+  flexFlow: "row wrap",
   justifyContent: "space-evenly",
   width: "100%",
 };
