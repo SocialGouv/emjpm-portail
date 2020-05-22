@@ -38,7 +38,7 @@ function App({ Component, pageProps }) {
       </Head>
       {router.pathname !== "/" && <Header />}
       <Component {...pageProps} />
-      <Footer />
+      <Footer landing />
     </ThemeProvider>
   );
 }

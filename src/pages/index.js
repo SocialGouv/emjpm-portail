@@ -8,7 +8,7 @@ const { publicRuntimeConfig } = getConfig();
 
 const pageWrapperStyle = {
   height: "100%",
-  maxWidth: 1200,
+  maxWidth: 1400,
   mx: "auto",
   textAlign: "center",
 };
