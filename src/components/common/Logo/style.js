@@ -3,7 +3,7 @@ const logoStyle = {
 };
 
 const logoTextStyle = {
-  fontFamily: "heading",
+  fontFamily: "Comfortaa",
   fontSize: 4,
   fontWeight: 500,
   lineHeight: "46px",

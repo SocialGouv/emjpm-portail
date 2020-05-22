@@ -15,7 +15,7 @@ function App({ Component, pageProps }) {
         <title>Portail de la Protection Juridique des Majeurs</title>
         <link rel="icon" href="/favicon.ico" />
         <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Quicksand:400,700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Quicksand:wght@400;700&display=swap"
           rel="stylesheet"
         />
         <style>{`

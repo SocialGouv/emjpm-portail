@@ -12,7 +12,13 @@ const Header = () => (
     <Flex alignItems="center" flexWrap="wrap" justifyContent="space-between">
       <NextLink href={"/"} as={appUrl} passHref>
         <Link color="inherit">
-          <Logo title="emjpm.pjm.fr - Protection Juridique des Majeurs" />
+          <Logo
+            title={
+              <span>
+                emjpm.<strong>pjm</strong>.fr - <strong>Protection Juridique des Majeurs</strong>
+              </span>
+            }
+          />
         </Link>
       </NextLink>
     </Flex>

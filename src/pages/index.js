@@ -7,6 +7,7 @@ import LandingLink from "../components/LandingLink";
 const { publicRuntimeConfig } = getConfig();
 
 const pageWrapperStyle = {
+  fontFamily: "Comfortaa",
   height: "100%",
   maxWidth: 1400,
   mx: "auto",
@@ -52,7 +53,7 @@ const Index = () => (
   <Box sx={pageWrapperStyle}>
     <Flex sx={containerStyle}>
       <Box style={contentStyle}>
-        <Heading fontSize={7} mb={[6, 6, 120]} mx={4} textAlign="center">
+        <Heading fontSize={7} mb={[6, 6, 120]} mx={4} textAlign="center" fontFamily="Comfortaa">
           Bienvenue sur le portail
           <br />
           de la Protection Juridique des Majeurs

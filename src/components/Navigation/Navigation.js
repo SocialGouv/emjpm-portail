@@ -13,6 +13,7 @@ const Navigation = ({ navItems }) => {
       maxHeight={1000}
       mx="auto"
       backgroundColor="white"
+      fontFamily="Comfortaa"
     >
       {navItems &&
         navItems.map((element, index) => {
