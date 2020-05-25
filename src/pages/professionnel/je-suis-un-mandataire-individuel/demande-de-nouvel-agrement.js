@@ -1,8 +1,17 @@
 import React from "react";
 
+import Navigation from "../../../components/Navigation";
 import SectionPage from "../../../components/SectionPage";
-import { DemandeNouvelAgrementPageData } from "../../../constants/pageData";
+import {
+  DemandeNouvelAgrementPageData,
+  mandataireIndividuelIndexPageData as data,
+} from "../../../constants/pageData";
 
-const Index = () => <SectionPage data={DemandeNouvelAgrementPageData} />;
+const Index = () => (
+  <>
+    <Navigation navItems={data.sections} />
+    <SectionPage data={DemandeNouvelAgrementPageData} />
+  </>
+);
 
 export default Index;
