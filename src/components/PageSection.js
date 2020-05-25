@@ -28,6 +28,9 @@ const style = (image) => ({
     backgroundImage: `url(${image})`,
     backgroundSize: "cover",
   },
+  ":last-of-type": {
+    mb: "40px",
+  },
 });
 
 const PageSection = ({ url, title, splitTitle, image }) => (

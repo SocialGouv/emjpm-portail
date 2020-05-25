@@ -6,7 +6,15 @@ import { LinkStyle } from "./style";
 
 const Navigation = ({ navItems }) => {
   return (
-    <Flex pl={100} flexWrap="wrap" maxWidth={1200} maxHeight={1000} backgroundColor="white">
+    <Flex
+      pl={100}
+      flexWrap="wrap"
+      maxWidth={1400}
+      maxHeight={1000}
+      mx="auto"
+      backgroundColor="white"
+      fontFamily="Comfortaa"
+    >
       {navItems &&
         navItems.map((element, index) => {
           return (

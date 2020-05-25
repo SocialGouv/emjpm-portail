@@ -16,7 +16,7 @@ const SectionPage = ({ data }) => {
 
   return (
     <Flex bg="whiteGray">
-      <Box width="100%" maxWidth={1200} mx="auto">
+      <Box width="100%" maxWidth={1200} mx="auto" minHeight="68.5vh">
         <SectionContent
           data={data}
           activeArticle={activeArticle}

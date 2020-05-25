@@ -16,8 +16,16 @@ const ListTitle = (props) => {
   return <Text {...props} sx={listTitleStyle} />;
 };
 
-const Footer = () => (
-  <Box maxWidth={1200} mx="auto" py={4} px={4} backgroundColor="white">
+const Footer = ({ landing }) => (
+  <Box
+    maxWidth={1400}
+    mx="auto"
+    mt={landing ? 0 : "30px"}
+    py={4}
+    px={4}
+    minHeight="20vh"
+    backgroundColor="white"
+  >
     <Flex flexWrap="wrap" justifyContent="space-between">
       <Box mb={[3, 0]} flexBasis={["100%", "13%"]}>
         <Logo hasTitle={false} />

@@ -16,7 +16,7 @@ const SectionContent = ({
 }) => {
   return (
     <MDXProvider components={mdComponents}>
-      <Heading fontWeight="normal" mb={"50px"} mt={"28px"} fontSize={4}>
+      <Heading mb="50px" mt="28px" fontSize="18px" fontFamily="Comfortaa">
         {data.heading}
       </Heading>
       {data && data.sections && (
