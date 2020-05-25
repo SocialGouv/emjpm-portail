@@ -1,5 +1,4 @@
 import CessationActivite from "./sections/je-suis-un-professionnel/mandataire-individuel/CessationActivite.md";
-import CuratelleContent from "./sections/je-suis-un-professionnel/mandataire-individuel/CuratelleContent.md";
 import DeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteEnquete.md";
 import DeclarationActiviteSemestrielle from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteSemestrielle.md";
 import DeclarationActiviteSite from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteSite.md";
@@ -35,16 +34,9 @@ import ObligationsMiseEnPlaceMoyensMentionnes from "./sections/je-suis-un-profes
 import ObligationsPrestationDeSerment from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsPrestationDeSerment.md";
 import SanctionsCasNonRespectDesEngagements from "./sections/je-suis-un-professionnel/mandataire-individuel/SanctionsCasNonRespectDesEngagements.md";
 import TachesDuMandataireIndividuel from "./sections/je-suis-un-professionnel/mandataire-individuel/TachesDuMandataireIndividuel.md";
-import JudiciaryArticleContentOne from "./sections/JudiciaryArticleContentOne.mdx";
-import JudiciaryArticleContentThree from "./sections/JudiciaryArticleContentThree.mdx";
-import JudiciaryArticleContentTwo from "./sections/JudiciaryArticleContentTwo.mdx";
-import JudiciaryContent from "./sections/JudiciaryContent.mdx";
-import JusticeContent from "./sections/JusticeContent.mdx";
-import TutelleContent from "./sections/TutelleContent.mdx";
 
 export {
   CessationActivite,
-  CuratelleContent,
   DeclarationActiviteEnquete,
   FinancementSystemeDeFinancement,
   DeclarationActiviteSemestrielle,
@@ -63,15 +55,9 @@ export {
   MissionsCasSauvegardeJustice,
   MissionsCasMesureAccompagnement,
   MissionsCasTutelle,
-  TutelleContent,
   FinancementIndemniteComplementaire,
   FinancementApplicationArticle,
   FinancementDifferentsCouts,
-  JusticeContent,
-  JudiciaryContent,
-  JudiciaryArticleContentOne,
-  JudiciaryArticleContentTwo,
-  JudiciaryArticleContentThree,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,
