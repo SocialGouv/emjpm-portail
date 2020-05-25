@@ -5,8 +5,11 @@ La transmission de la déclaration semestrielle par les mandataires exerçant à
 Aussi, au début de chaque semestre, le mandataire individuel se doit de remplir le formulaire de déclaration semestrielle pour l’activité du semestre passé. Cela lui permet d’**informer le tribunal et les juges** :
 
 **• De sa capacité de prise en charge, actuelle mais également de projection sur l’année**
+
 **• Du type de mesure qu’il peut accueillir (curatelle simple, curatelle renforcée, tutelle, …)**
+
 **• De son statut (ville d’exercice, embauche de secrétaires ou non, …)**
+
 **• De l’organisation de son cabinet (secrétaires spécialisées ,…)**
 
 **Un exemplaire doit être envoyé au juge** qui lui a confié l’exercice de mesures de protection des majeurs et **une copie doit être transmise aux préfets des départements (DCS(PP))** dans lesquels le mandataire individuel bénéficie d’un agrément.

@@ -2,6 +2,9 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
+  DeclarationActiviteEnquete,
+  DeclarationActiviteSemestrielle,
+  DeclarationActiviteSite,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,
@@ -82,7 +85,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `La déclaration d'activité`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/la-declaration-d-activite`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -250,6 +253,27 @@ export const ObligationsAdministrativesMandatairePageData = {
       _id: 3,
       content: <ObligationsControles />,
       title: `Contrôles`,
+    },
+  ],
+};
+
+export const DeclarationActivitePageData = {
+  heading: `La déclaration d'activité`,
+  sections: [
+    {
+      _id: 0,
+      content: <DeclarationActiviteSemestrielle />,
+      title: `La déclaration semestrielle`,
+    },
+    {
+      _id: 1,
+      content: <DeclarationActiviteSite />,
+      title: `Le site e-MJPM`,
+    },
+    {
+      _id: 2,
+      content: <DeclarationActiviteEnquete />,
+      title: `L'enquête annuelle`,
     },
   ],
 };
