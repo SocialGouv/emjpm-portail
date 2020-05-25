@@ -34,6 +34,7 @@ import {
   ObligationsEnvoiDesPieces,
   ObligationsMiseEnPlaceMoyensMentionnes,
   ObligationsPrestationDeSerment,
+  SanctionsCasNonRespectDesEngagements,
   TachesDuMandataireIndividuel,
 } from "../content";
 
@@ -101,7 +102,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les sanctions en cas de non-\nrespect des engagements`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/les-sanctions-en-cas-de-non-respect-des-engagements`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -318,4 +319,12 @@ export const FinancementMandatairesIndividuelsPageData = {
       title: `Indemnité complémentaire`,
     },
   ],
+};
+
+export const SanctionsNonRespectEngagementsPageData = {
+  heading: `Les sanctions en cas de non-respect des engagements`,
+  mainSection: {
+    content: <SanctionsCasNonRespectDesEngagements />,
+    title: `Les sanctions en cas de non-respect des engagements`,
+  },
 };
