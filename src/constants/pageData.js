@@ -20,6 +20,7 @@ import {
   MissionsCasMesureAccompagnement,
   MissionsCasSauvegardeJustice,
   MissionsCasTutelle,
+  TachesDuMandataireIndividuel,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -61,7 +62,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les tâches du mandataire \n individuel`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/les-taches-du-mandataire-individuel`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -123,6 +124,17 @@ export const mandataireMissionPageData = {
       _id: 3,
       content: <MissionsCasMesureAccompagnement />,
       title: `Dans le cas d'une mesure d'accompagnement judiciaire`,
+    },
+  ],
+};
+
+export const TachesduMandataireIndividuelPageData = {
+  heading: `Les tâches du mandataire individuel`,
+  sections: [
+    {
+      _id: 0,
+      content: <TachesDuMandataireIndividuel />,
+      title: `Les tâches du mandataire individuel`,
     },
   ],
 };
