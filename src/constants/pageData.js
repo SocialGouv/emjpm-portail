@@ -20,6 +20,11 @@ import {
   MissionsCasMesureAccompagnement,
   MissionsCasSauvegardeJustice,
   MissionsCasTutelle,
+  ObligationsAdministrativesDuMandataire,
+  ObligationsControles,
+  ObligationsEnvoiDesPieces,
+  ObligationsMiseEnPlaceMoyensMentionnes,
+  ObligationsPrestationDeSerment,
   TachesDuMandataireIndividuel,
 } from "../content";
 
@@ -72,7 +77,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les obligations \n administratives du mandataire`,
-      url: `/professionnel/je-suis-un-mandataire-individuel/les-obligations-en-tant-que-mandataire-individuel`,
+      url: `/professionnel/je-suis-un-mandataire-individuel/les-obligations-administratives-du-mandataire`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -215,6 +220,36 @@ export const droitsDuProtegePageData = {
         ],
       },
       title: `Les droits du protégé`,
+    },
+  ],
+};
+
+export const ObligationsAdministrativesMandatairePageData = {
+  heading: `Les obligations administratives du mandataire`,
+  mainSection: {
+    content: <ObligationsAdministrativesDuMandataire />,
+    title: `Les obligations administratives du mandataire`,
+  },
+  sections: [
+    {
+      _id: 0,
+      content: <ObligationsEnvoiDesPieces />,
+      title: `Envoi des pièces après notification de l'agrément`,
+    },
+    {
+      _id: 1,
+      content: <ObligationsMiseEnPlaceMoyensMentionnes />,
+      title: `Mise en place des moyens mentionnés dans le dossier`,
+    },
+    {
+      _id: 2,
+      content: <ObligationsPrestationDeSerment />,
+      title: `Prestation de serment`,
+    },
+    {
+      _id: 3,
+      content: <ObligationsControles />,
+      title: `Contrôles`,
     },
   ],
 };
