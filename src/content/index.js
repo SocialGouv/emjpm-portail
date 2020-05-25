@@ -21,6 +21,7 @@ import FinancementApplicationArticle from "./sections/je-suis-un-professionnel/m
 import FinancementDifferentsCouts from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementDifferentsCouts.md";
 import FinancementIndemniteComplementaire from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementIndemniteComplementaire.md";
 import FinancementModalitesDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementModalitesDeCalcul.md";
+import FinancementOutilDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementOutilDeCalcul.md";
 import FinancementSystemeDeFinancement from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementSystemeDeFinancement.md";
 import MissionsCasCuratelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasCuratelle.md";
 import MissionsCasMesureAccompagnement from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasMesureAccompagnement.md";
@@ -58,6 +59,7 @@ export {
   FinancementIndemniteComplementaire,
   FinancementApplicationArticle,
   FinancementDifferentsCouts,
+  FinancementOutilDeCalcul,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,

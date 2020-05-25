@@ -19,6 +19,12 @@ import {
   DroitsDuProtegeArticle11,
   DroitsDuProtegeArticle12,
   DroitsDuProtegeArticle13,
+  FinancementApplicationArticle,
+  FinancementDifferentsCouts,
+  FinancementIndemniteComplementaire,
+  FinancementModalitesDeCalcul,
+  FinancementOutilDeCalcul,
+  FinancementSystemeDeFinancement,
   MissionsCasCuratelle,
   MissionsCasMesureAccompagnement,
   MissionsCasSauvegardeJustice,
@@ -90,7 +96,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Le financement des \n mandataires individuels`,
-      url: `/professionnel/je-suis-un-mandataire-individuel/le-financement-des-mandataires-individuel`,
+      url: `/professionnel/je-suis-un-mandataire-individuel/le-financement-des-mandataires-individuels`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -274,6 +280,42 @@ export const DeclarationActivitePageData = {
       _id: 2,
       content: <DeclarationActiviteEnquete />,
       title: `L'enquête annuelle`,
+    },
+  ],
+};
+
+export const FinancementMandatairesIndividuelsPageData = {
+  heading: `Le financement des mandataires individuels`,
+  sections: [
+    {
+      _id: 0,
+      content: <FinancementSystemeDeFinancement />,
+      title: `Le système de financement des mesures`,
+    },
+    {
+      _id: 1,
+      content: <FinancementOutilDeCalcul />,
+      title: `L'outil de calcul des mandataires individuels`,
+    },
+    {
+      _id: 2,
+      content: <FinancementApplicationArticle />,
+      title: `L’application de l’article R 472-8`,
+    },
+    {
+      _id: 3,
+      content: <FinancementModalitesDeCalcul />,
+      title: `Les modalités de calcul de coût des mesures`,
+    },
+    {
+      _id: 4,
+      content: <FinancementDifferentsCouts />,
+      title: `Les différents coûts au regard des indicateurs`,
+    },
+    {
+      _id: 5,
+      content: <FinancementIndemniteComplementaire />,
+      title: `Indemnité complémentaire`,
     },
   ],
 };
