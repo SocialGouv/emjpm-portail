@@ -5,6 +5,7 @@ import {
   DeclarationActiviteEnquete,
   DeclarationActiviteSemestrielle,
   DeclarationActiviteSite,
+  DemandeDeNouvelAgrement,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,
@@ -107,7 +108,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `La demande de nouvel \nagrément`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -326,5 +327,13 @@ export const SanctionsNonRespectEngagementsPageData = {
   mainSection: {
     content: <SanctionsCasNonRespectDesEngagements />,
     title: `Les sanctions en cas de non-respect des engagements`,
+  },
+};
+
+export const DemandeNouvelAgrementPageData = {
+  heading: `La demande de nouvel agrément`,
+  mainSection: {
+    content: <DemandeDeNouvelAgrement />,
+    title: `La demande de nouvel agrément`,
   },
 };
