@@ -1,4 +1,4 @@
-import ExternalLink from "../../components/ExternalLink";
+import ExternalLink from "../../../../components/ExternalLink";
 
 La plateforme de calcul des mesures pour mandataire individuel (OCMI) a été créée pour permettre de calculer la rémunération des mandataires individuels.
 

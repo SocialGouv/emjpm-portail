@@ -4,7 +4,7 @@ import { Box, Flex } from "rebass";
 import SectionContent from "./SectionContent";
 
 const findSectionById = (sectionId, sections) => {
-  return sections.find((section) => section._id === sectionId);
+  return sections && sections.find((section) => section._id === sectionId);
 };
 
 const SectionPage = ({ data }) => {
@@ -12,7 +12,8 @@ const SectionPage = ({ data }) => {
   const [activeArticle, setActiveArticle] = useState(0);
 
   const currentSection = findSectionById(sectionId, data.sections);
-  const articles = currentSection.subSection && currentSection.subSection.articleContent;
+  const articles =
+    currentSection && currentSection.subSection && currentSection.subSection.articleContent;
 
   return (
     <Flex bg="whiteGray">

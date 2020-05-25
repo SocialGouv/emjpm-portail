@@ -1,4 +1,4 @@
-import ExternalLink from "../../components/ExternalLink";
+import ExternalLink from "../../../../components/ExternalLink";
 
 Les prestations des mandataires individuels sont financées sur la base d’une **tarification forfaitaire à la mesure**.
 

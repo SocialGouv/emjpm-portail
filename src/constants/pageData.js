@@ -2,7 +2,11 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
-  CuratelleContent,
+  CessationActivite,
+  DeclarationActiviteEnquete,
+  DeclarationActiviteSemestrielle,
+  DeclarationActiviteSite,
+  DemandeDeNouvelAgrement,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,
@@ -17,12 +21,23 @@ import {
   DroitsDuProtegeArticle11,
   DroitsDuProtegeArticle12,
   DroitsDuProtegeArticle13,
-  JudiciaryArticleContentOne,
-  JudiciaryArticleContentThree,
-  JudiciaryArticleContentTwo,
-  JudiciaryContent,
-  JusticeContent,
-  TutelleContent,
+  FinancementApplicationArticle,
+  FinancementDifferentsCouts,
+  FinancementIndemniteComplementaire,
+  FinancementModalitesDeCalcul,
+  FinancementOutilDeCalcul,
+  FinancementSystemeDeFinancement,
+  MissionsCasCuratelle,
+  MissionsCasMesureAccompagnement,
+  MissionsCasSauvegardeJustice,
+  MissionsCasTutelle,
+  ObligationsAdministrativesDuMandataire,
+  ObligationsControles,
+  ObligationsEnvoiDesPieces,
+  ObligationsMiseEnPlaceMoyensMentionnes,
+  ObligationsPrestationDeSerment,
+  SanctionsCasNonRespectDesEngagements,
+  TachesDuMandataireIndividuel,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -64,7 +79,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les tâches du mandataire \n individuel`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/les-taches-du-mandataire-individuel`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
@@ -74,32 +89,32 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les obligations \n administratives du mandataire`,
-      url: `/professionnel/je-suis-un-mandataire-individuel/les-obligations-en-tant-que-mandataire-individuel`,
+      url: `/professionnel/je-suis-un-mandataire-individuel/les-obligations-administratives-du-mandataire`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `La déclaration d'activité`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/la-declaration-d-activite`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Le financement des \n mandataires individuels`,
-      url: `/professionnel/je-suis-un-mandataire-individuel/le-financement-des-mandataires-individuel`,
+      url: `/professionnel/je-suis-un-mandataire-individuel/le-financement-des-mandataires-individuels`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Les sanctions en cas de non-\nrespect des engagements`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/les-sanctions-en-cas-de-non-respect-des-engagements`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `La demande de nouvel \nagrément`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Cessation d'activité`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite`,
     },
   ],
 };
@@ -109,42 +124,34 @@ export const mandataireMissionPageData = {
   sections: [
     {
       _id: 0,
-      content: <CuratelleContent />,
+      content: <MissionsCasCuratelle />,
       title: `Dans le cas d'une curatelle`,
     },
     {
       _id: 1,
-      content: <TutelleContent />,
+      content: <MissionsCasTutelle />,
       title: `Dans le cas d'une tutelle`,
     },
     {
       _id: 2,
-      content: <JusticeContent />,
+      content: <MissionsCasSauvegardeJustice />,
       title: `Dans le cas de la sauvegarde de justice`,
     },
     {
       _id: 3,
-      content: <JudiciaryContent />,
-      subSection: {
-        articleContent: [
-          {
-            _id: 0,
-            content: <JudiciaryArticleContentOne />,
-            title: `Article 1: Sed a quam id magna interdum dignissim.`,
-          },
-          {
-            _id: 1,
-            content: <JudiciaryArticleContentTwo />,
-            title: `Article 2: Sed a quam id magna interdum dignissim.`,
-          },
-          {
-            _id: 2,
-            content: <JudiciaryArticleContentThree />,
-            title: `Article 3: Sed a quam id magna interdum dignissim.`,
-          },
-        ],
-      },
+      content: <MissionsCasMesureAccompagnement />,
       title: `Dans le cas d'une mesure d'accompagnement judiciaire`,
+    },
+  ],
+};
+
+export const TachesduMandataireIndividuelPageData = {
+  heading: `Les tâches du mandataire individuel`,
+  sections: [
+    {
+      _id: 0,
+      content: <TachesDuMandataireIndividuel />,
+      title: `Les tâches du mandataire individuel`,
     },
   ],
 };
@@ -227,4 +234,115 @@ export const droitsDuProtegePageData = {
       title: `Les droits du protégé`,
     },
   ],
+};
+
+export const ObligationsAdministrativesMandatairePageData = {
+  heading: `Les obligations administratives du mandataire`,
+  mainSection: {
+    content: <ObligationsAdministrativesDuMandataire />,
+    title: `Les obligations administratives du mandataire`,
+  },
+  sections: [
+    {
+      _id: 0,
+      content: <ObligationsEnvoiDesPieces />,
+      title: `Envoi des pièces après notification de l'agrément`,
+    },
+    {
+      _id: 1,
+      content: <ObligationsMiseEnPlaceMoyensMentionnes />,
+      title: `Mise en place des moyens mentionnés dans le dossier`,
+    },
+    {
+      _id: 2,
+      content: <ObligationsPrestationDeSerment />,
+      title: `Prestation de serment`,
+    },
+    {
+      _id: 3,
+      content: <ObligationsControles />,
+      title: `Contrôles`,
+    },
+  ],
+};
+
+export const DeclarationActivitePageData = {
+  heading: `La déclaration d'activité`,
+  sections: [
+    {
+      _id: 0,
+      content: <DeclarationActiviteSemestrielle />,
+      title: `La déclaration semestrielle`,
+    },
+    {
+      _id: 1,
+      content: <DeclarationActiviteSite />,
+      title: `Le site e-MJPM`,
+    },
+    {
+      _id: 2,
+      content: <DeclarationActiviteEnquete />,
+      title: `L'enquête annuelle`,
+    },
+  ],
+};
+
+export const FinancementMandatairesIndividuelsPageData = {
+  heading: `Le financement des mandataires individuels`,
+  sections: [
+    {
+      _id: 0,
+      content: <FinancementSystemeDeFinancement />,
+      title: `Le système de financement des mesures`,
+    },
+    {
+      _id: 1,
+      content: <FinancementOutilDeCalcul />,
+      title: `L'outil de calcul des mandataires individuels`,
+    },
+    {
+      _id: 2,
+      content: <FinancementApplicationArticle />,
+      title: `L’application de l’article R 472-8`,
+    },
+    {
+      _id: 3,
+      content: <FinancementModalitesDeCalcul />,
+      title: `Les modalités de calcul de coût des mesures`,
+    },
+    {
+      _id: 4,
+      content: <FinancementDifferentsCouts />,
+      title: `Les différents coûts au regard des indicateurs`,
+    },
+    {
+      _id: 5,
+      content: <FinancementIndemniteComplementaire />,
+      title: `Indemnité complémentaire`,
+    },
+  ],
+};
+
+export const SanctionsNonRespectEngagementsPageData = {
+  heading: `Les sanctions en cas de non-respect des engagements`,
+  mainSection: {
+    content: <SanctionsCasNonRespectDesEngagements />,
+    title: `Les sanctions en cas de non-respect des engagements`,
+  },
+};
+
+export const DemandeNouvelAgrementPageData = {
+  heading: `La demande de nouvel agrément`,
+  mainSection: {
+    content: <DemandeDeNouvelAgrement />,
+    title: `La demande de nouvel agrément`,
+  },
+};
+
+export const CessationActivitePageData = {
+  heading: `Cessation d'activité`,
+  mainSection: {
+    content: <CessationActivite />,
+    title: `Cessation d'activité`,
+  },
 };

@@ -1,0 +1,1 @@
+Représentation juridique du majeur dans tous les actes de la vie civile et pour la gestion de son budget et de son patrimoine, représentation du majeur en justice, assistance ou représentation juridique du majeur dans certains actes concernant la protection de sa personne.

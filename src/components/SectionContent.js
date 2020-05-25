@@ -4,6 +4,7 @@ import { Heading } from "rebass";
 
 import { mdComponents } from "../components/mdComponents";
 import ButtonBar from "./ButtonBar";
+import MainSectionPanel from "./MainSectionPanel";
 import SectionPanels from "./SectionPanels";
 
 const SectionContent = ({
@@ -19,6 +20,7 @@ const SectionContent = ({
       <Heading mb="50px" mt="28px" fontSize="18px" fontFamily="Comfortaa">
         {data.heading}
       </Heading>
+      {data && data.mainSection && <MainSectionPanel mainContent={data.mainSection} />}
       {data && data.sections && (
         <Fragment>
           <ButtonBar data={data} setSectionId={setSectionId} />
