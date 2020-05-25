@@ -1,4 +1,4 @@
-import ExternalLink from "../../components/ExternalLink";
+import ExternalLink from "../../../../components/ExternalLink";
 
 La transmission de la déclaration semestrielle par les mandataires exerçant à titre individuel est obligatoire en application de l’article R.472-10 du code de l’action sociale et des familles.
 
