@@ -2,6 +2,7 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
+  CessationActivite,
   DeclarationActiviteEnquete,
   DeclarationActiviteSemestrielle,
   DeclarationActiviteSite,
@@ -113,7 +114,7 @@ export const mandataireIndividuelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
       title: `Cessation d'activité`,
-      url: "/",
+      url: `/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite`,
     },
   ],
 };
@@ -335,5 +336,13 @@ export const DemandeNouvelAgrementPageData = {
   mainSection: {
     content: <DemandeDeNouvelAgrement />,
     title: `La demande de nouvel agrément`,
+  },
+};
+
+export const CessationActivitePageData = {
+  heading: `Cessation d'activité`,
+  mainSection: {
+    content: <CessationActivite />,
+    title: `Cessation d'activité`,
   },
 };
