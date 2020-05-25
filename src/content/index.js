@@ -24,6 +24,9 @@ import FinancementIndemniteComplementaire from "./sections/je-suis-un-profession
 import FinancementModalitesDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementModalitesDeCalcul.md";
 import FinancementSystemeDeFinancement from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementSystemeDeFinancement.md";
 import MissionsCasCuratelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasCuratelle.md";
+import MissionsCasMesureAccompagnement from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasMesureAccompagnement.md";
+import MissionsCasSauvegardeJustice from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasSauvegardeJustice.md";
+import MissionsCasTutelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasTutelle.md";
 import MissionsEtActivitesDuMandataire from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsEtActivitesDuMandataire.md";
 import ObligationsAdministrativesDuMandataire from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsAdministrativesDuMandataire.md";
 import ObligationsControles from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsControles.md";
@@ -55,8 +58,11 @@ export {
   ObligationsAdministrativesDuMandataire,
   ObligationsMiseEnPlaceMoyensMentionnes,
   DeclarationActiviteSite,
-  MissionsEtActivitesDuMandataire,
   DemandeDeNouvelAgrement,
+  MissionsEtActivitesDuMandataire,
+  MissionsCasSauvegardeJustice,
+  MissionsCasMesureAccompagnement,
+  MissionsCasTutelle,
   TutelleContent,
   FinancementIndemniteComplementaire,
   FinancementApplicationArticle,

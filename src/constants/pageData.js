@@ -2,7 +2,6 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
-  CuratelleContent,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,
@@ -17,12 +16,10 @@ import {
   DroitsDuProtegeArticle11,
   DroitsDuProtegeArticle12,
   DroitsDuProtegeArticle13,
-  JudiciaryArticleContentOne,
-  JudiciaryArticleContentThree,
-  JudiciaryArticleContentTwo,
-  JudiciaryContent,
-  JusticeContent,
-  TutelleContent,
+  MissionsCasCuratelle,
+  MissionsCasMesureAccompagnement,
+  MissionsCasSauvegardeJustice,
+  MissionsCasTutelle,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -109,41 +106,22 @@ export const mandataireMissionPageData = {
   sections: [
     {
       _id: 0,
-      content: <CuratelleContent />,
+      content: <MissionsCasCuratelle />,
       title: `Dans le cas d'une curatelle`,
     },
     {
       _id: 1,
-      content: <TutelleContent />,
+      content: <MissionsCasTutelle />,
       title: `Dans le cas d'une tutelle`,
     },
     {
       _id: 2,
-      content: <JusticeContent />,
+      content: <MissionsCasSauvegardeJustice />,
       title: `Dans le cas de la sauvegarde de justice`,
     },
     {
       _id: 3,
-      content: <JudiciaryContent />,
-      subSection: {
-        articleContent: [
-          {
-            _id: 0,
-            content: <JudiciaryArticleContentOne />,
-            title: `Article 1: Sed a quam id magna interdum dignissim.`,
-          },
-          {
-            _id: 1,
-            content: <JudiciaryArticleContentTwo />,
-            title: `Article 2: Sed a quam id magna interdum dignissim.`,
-          },
-          {
-            _id: 2,
-            content: <JudiciaryArticleContentThree />,
-            title: `Article 3: Sed a quam id magna interdum dignissim.`,
-          },
-        ],
-      },
+      content: <MissionsCasMesureAccompagnement />,
       title: `Dans le cas d'une mesure d'accompagnement judiciaire`,
     },
   ],
