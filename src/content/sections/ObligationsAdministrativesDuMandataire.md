@@ -1,0 +1,1 @@
+Lorsque l’agrément est notifié, le mandataire individuel est tenu au respect de 4 obligations législatives et réglementaires ci-après au titre de son activité, sans quoi il s’expose à un retrait d’agrément.
