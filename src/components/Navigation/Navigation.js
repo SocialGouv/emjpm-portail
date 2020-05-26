@@ -1,8 +1,11 @@
+import getConfig from "next/config";
 import NextLink from "next/link";
 import React from "react";
 import { Box, Flex } from "rebass";
 
 import { LinkStyle } from "./style";
+
+const { appUrl } = getConfig().publicRuntimeConfig;
 
 const Navigation = ({ navItems }) => {
   return (
@@ -19,7 +22,7 @@ const Navigation = ({ navItems }) => {
         navItems.map((element, index) => {
           return (
             <Box key={index} sx={LinkStyle}>
-              <NextLink href={`${element.url}`}>
+              <NextLink href={`${element.url}`} as={`${appUrl}${element.url}`} passHref>
                 <a>{element.title}</a>
               </NextLink>
             </Box>
