@@ -16,6 +16,7 @@ import {
   PreposeDroitsDuProtegeArticle11,
   PreposeDroitsDuProtegeArticle12,
   PreposeDroitsDuProtegeArticle13,
+  PreposeEvolutionActivitePrepose,
   PreposeObligationsControles,
   PreposeObligationsPrestationSerment,
 } from "../content";
@@ -155,4 +156,12 @@ export const preposeEtablissementDroitsDuProtegePageData = {
       title: `Les droits du protégé`,
     },
   ],
+};
+
+export const preposeEtablissementEvolutionActivitePageData = {
+  heading: `L’évolution de l’activité du préposé`,
+  mainSection: {
+    content: <PreposeEvolutionActivitePrepose />,
+    title: `L’évolution de l’activité du préposé`,
+  },
 };
