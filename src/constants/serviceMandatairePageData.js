@@ -18,6 +18,7 @@ import {
   ServiceDroitsDuProtegeArticle11,
   ServiceDroitsDuProtegeArticle12,
   ServiceDroitsDuProtegeArticle13,
+  ServiceEvolutionCapacitéServiceMandataire,
   ServiceObligationsAdminDelegueControles,
   ServiceObligationsAdminDeleguePrestationSerment,
   ServiceSystemeFinancementMesures,
@@ -205,4 +206,12 @@ export const serviceMandataireSystemeParticipationPageData = {
       title: `L'indemnité complémentaire`,
     },
   ],
+};
+
+export const serviceMandataireEvolutionCapacitePageData = {
+  heading: `L’évolution de la capacité du service mandataire`,
+  mainSection: {
+    content: <ServiceEvolutionCapacitéServiceMandataire />,
+    title: `L’évolution de la capacité du service mandataire`,
+  },
 };
