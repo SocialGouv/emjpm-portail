@@ -2,6 +2,8 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
+  ServiceDeclarationActiviteEnquete,
+  ServiceDeclarationActiviteSite,
   ServiceDroitsDuProtege,
   ServiceDroitsDuProtegeArticle1,
   ServiceDroitsDuProtegeArticle2,
@@ -152,6 +154,22 @@ export const serviceMandataireDroitsDuProtegePageData = {
         ],
       },
       title: `Les droits du protégé`,
+    },
+  ],
+};
+
+export const serviceMandataireDeclarationActivitePageData = {
+  heading: `La déclaration d'activité`,
+  sections: [
+    {
+      _id: 0,
+      content: <ServiceDeclarationActiviteSite />,
+      title: `Le site e-MJPM`,
+    },
+    {
+      _id: 1,
+      content: <ServiceDeclarationActiviteEnquete />,
+      title: `L'enquête annuelle`,
     },
   ],
 };
