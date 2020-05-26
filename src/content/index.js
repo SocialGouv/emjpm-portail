@@ -1,3 +1,4 @@
+// mandataire individuel
 import CessationActivite from "./sections/je-suis-un-professionnel/mandataire-individuel/CessationActivite.md";
 import DeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteEnquete.md";
 import DeclarationActiviteSemestrielle from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteSemestrielle.md";
@@ -35,31 +36,38 @@ import ObligationsMiseEnPlaceMoyensMentionnes from "./sections/je-suis-un-profes
 import ObligationsPrestationDeSerment from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsPrestationDeSerment.md";
 import SanctionsCasNonRespectDesEngagements from "./sections/je-suis-un-professionnel/mandataire-individuel/SanctionsCasNonRespectDesEngagements.md";
 import TachesDuMandataireIndividuel from "./sections/je-suis-un-professionnel/mandataire-individuel/TachesDuMandataireIndividuel.md";
+// service de mandataire
+import ServiceDeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDeclarationActiviteEnquete.md";
+import ServiceDeclarationActiviteSite from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDeclarationActiviteSite.md";
+import ServiceDroitsDuProtege from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtege.md";
+import ServiceDroitsDuProtegeArticle1 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle1.md";
+import ServiceDroitsDuProtegeArticle2 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle2.md";
+import ServiceDroitsDuProtegeArticle3 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle3.md";
+import ServiceDroitsDuProtegeArticle4 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle4.md";
+import ServiceDroitsDuProtegeArticle5 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle5.md";
+import ServiceDroitsDuProtegeArticle6 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle6.md";
+import ServiceDroitsDuProtegeArticle7 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle7.md";
+import ServiceDroitsDuProtegeArticle8 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle8.md";
+import ServiceDroitsDuProtegeArticle9 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle9.md";
+import ServiceDroitsDuProtegeArticle10 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle10.md";
+import ServiceDroitsDuProtegeArticle11 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle11.md";
+import ServiceDroitsDuProtegeArticle12 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle12.md";
+import ServiceDroitsDuProtegeArticle13 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle13.md";
+import ServiceEvolutionCapacitéServiceMandataire from "./sections/je-suis-un-professionnel/service-mandataire/ServiceEvolutionCapacitéServiceMandataire.md";
+import ServiceObligationsAdminDelegueControles from "./sections/je-suis-un-professionnel/service-mandataire/ServiceObligationsAdminDelegueControles.md";
+import ServiceObligationsAdminDeleguePrestationSerment from "./sections/je-suis-un-professionnel/service-mandataire/ServiceObligationsAdminDeleguePrestationSerment.md";
+import ServiceSystemeFinancementMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeFinancementMesures.md";
+import ServiceSystemeParticipationDifferentsCoutsIndicateurs from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationDifferentsCoutsIndicateurs.md";
+import ServiceSystemeParticipationIndemnite from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationIndemnite.md";
+import ServiceSystemeParticipationModalitésCalculCoutMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationModalitésCalculCoutMesures.md";
 
 export {
+  // mandataire individuel
   CessationActivite,
   DeclarationActiviteEnquete,
-  FinancementSystemeDeFinancement,
   DeclarationActiviteSemestrielle,
-  FinancementModalitesDeCalcul,
-  MissionsCasCuratelle,
-  TachesDuMandataireIndividuel,
-  ObligationsPrestationDeSerment,
-  SanctionsCasNonRespectDesEngagements,
-  ObligationsEnvoiDesPieces,
-  ObligationsControles,
-  ObligationsAdministrativesDuMandataire,
-  ObligationsMiseEnPlaceMoyensMentionnes,
   DeclarationActiviteSite,
   DemandeDeNouvelAgrement,
-  MissionsEtActivitesDuMandataire,
-  MissionsCasSauvegardeJustice,
-  MissionsCasMesureAccompagnement,
-  MissionsCasTutelle,
-  FinancementIndemniteComplementaire,
-  FinancementApplicationArticle,
-  FinancementDifferentsCouts,
-  FinancementOutilDeCalcul,
   DroitsDuProtege,
   DroitsDuProtegeArticle1,
   DroitsDuProtegeArticle2,
@@ -74,4 +82,46 @@ export {
   DroitsDuProtegeArticle11,
   DroitsDuProtegeArticle12,
   DroitsDuProtegeArticle13,
+  FinancementApplicationArticle,
+  FinancementDifferentsCouts,
+  FinancementIndemniteComplementaire,
+  FinancementModalitesDeCalcul,
+  FinancementOutilDeCalcul,
+  FinancementSystemeDeFinancement,
+  MissionsCasCuratelle,
+  MissionsCasMesureAccompagnement,
+  MissionsCasSauvegardeJustice,
+  MissionsCasTutelle,
+  MissionsEtActivitesDuMandataire,
+  ObligationsAdministrativesDuMandataire,
+  ObligationsControles,
+  ObligationsEnvoiDesPieces,
+  ObligationsMiseEnPlaceMoyensMentionnes,
+  ObligationsPrestationDeSerment,
+  SanctionsCasNonRespectDesEngagements,
+  TachesDuMandataireIndividuel,
+  // service de mandataire
+  ServiceDeclarationActiviteEnquete,
+  ServiceDeclarationActiviteSite,
+  ServiceDroitsDuProtege,
+  ServiceDroitsDuProtegeArticle1,
+  ServiceDroitsDuProtegeArticle2,
+  ServiceDroitsDuProtegeArticle3,
+  ServiceDroitsDuProtegeArticle4,
+  ServiceDroitsDuProtegeArticle5,
+  ServiceDroitsDuProtegeArticle6,
+  ServiceDroitsDuProtegeArticle7,
+  ServiceDroitsDuProtegeArticle8,
+  ServiceDroitsDuProtegeArticle9,
+  ServiceDroitsDuProtegeArticle10,
+  ServiceDroitsDuProtegeArticle11,
+  ServiceDroitsDuProtegeArticle12,
+  ServiceDroitsDuProtegeArticle13,
+  ServiceEvolutionCapacitéServiceMandataire,
+  ServiceObligationsAdminDelegueControles,
+  ServiceObligationsAdminDeleguePrestationSerment,
+  ServiceSystemeFinancementMesures,
+  ServiceSystemeParticipationDifferentsCoutsIndicateurs,
+  ServiceSystemeParticipationIndemnite,
+  ServiceSystemeParticipationModalitésCalculCoutMesures,
 };

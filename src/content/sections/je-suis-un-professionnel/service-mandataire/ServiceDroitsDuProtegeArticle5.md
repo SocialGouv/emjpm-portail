@@ -1,0 +1,1 @@
+La mesure de protection juridique s’exerce en préservant les liens familiaux, et tient compte du rôle de la famille et des proches qui entourent de leurs soins la personne tout en respectant les souhaits de la personne protégée et les décisions du conseil de famille ou du juge.
