@@ -24,6 +24,9 @@ import {
   PreposeSystemeFinancementEtablissementMedicoSociaux,
   PreposeSystemeFinancementEtablissementServicePublic,
   PreposeSystemeFinancementStructures,
+  PreposeSystemeParticipationDifferentsCouts,
+  PreposeSystemeParticipationIndemnite,
+  PreposeSystemeParticipationModalitesCalculCoutsMesures,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -204,6 +207,27 @@ export const preposeEtablissementSystemeFinancementMesuresPageData = {
       _id: 2,
       content: <PreposeSystemeFinancementEtablissementMedicoSociaux />,
       title: `Les établissements médico-sociaux accueillant des personnes handicapées`,
+    },
+  ],
+};
+
+export const preposeEtablissementSystemeParticipationPageData = {
+  heading: `Le système de participation et la grille de coût`,
+  sections: [
+    {
+      _id: 0,
+      content: <PreposeSystemeParticipationModalitesCalculCoutsMesures />,
+      title: `Les modalités de calcul de coût des mesures`,
+    },
+    {
+      _id: 1,
+      content: <PreposeSystemeParticipationDifferentsCouts />,
+      title: `Les différents coûts au regard des indicateurs`,
+    },
+    {
+      _id: 2,
+      content: <PreposeSystemeParticipationIndemnite />,
+      title: `Indemnité complémentaire`,
     },
   ],
 };

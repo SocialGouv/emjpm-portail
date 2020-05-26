@@ -5,6 +5,7 @@ Cette indemnité est à la charge de la personne et est fixée par le juge en ap
 **Ce barème est prévu à l’article D. 471-6 du CASF.**
 
 **Le montant de l'indemnité est fixé par ordonnance du juge ou délibération du conseil de famille** sur la base d’un taux horaire pour tenir compte du temps consacré par le mandataire judicaire à ces diligences.
+
 Le taux horaire correspond à 12 fois le montant brut horaire du SMIC en vigueur au 1er janvier de l'année au titre de laquelle la rémunération est attribuée.
 
 Lorsque l’indemnité est attribuée pour une durée de travail supérieure à 14 heures, son montant est relevé à 15 fois le montant brut horaire du SMIC en vigueur au 1er janvier de l'année au titre de laquelle la rémunération est attribuée.
