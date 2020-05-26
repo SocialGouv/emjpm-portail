@@ -1,0 +1,1 @@
+Conformément à l’article 459-2 du code civil, la personne entretient librement des relations personnelles avec les tiers, parent ou non, et a le droit d’être visitée et le cas échéant, hébergée par ceux-ci, sauf décision contraire du conseil de famille ou du juge en cas de difficulté.
