@@ -20,6 +20,7 @@ import {
   ServiceDroitsDuProtegeArticle13,
   ServiceObligationsAdminDelegueControles,
   ServiceObligationsAdminDeleguePrestationSerment,
+  ServiceSystemeFinancementMesures,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -172,4 +173,12 @@ export const serviceMandataireDeclarationActivitePageData = {
       title: `L'enquête annuelle`,
     },
   ],
+};
+
+export const serviceMandataireSystemeFinancementMesuresPageData = {
+  heading: `Le système de financement des mesures`,
+  mainSection: {
+    content: <ServiceSystemeFinancementMesures />,
+    title: `Le système de financement des mesures`,
+  },
 };
