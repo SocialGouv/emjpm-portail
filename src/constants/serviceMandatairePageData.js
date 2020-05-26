@@ -21,6 +21,9 @@ import {
   ServiceObligationsAdminDelegueControles,
   ServiceObligationsAdminDeleguePrestationSerment,
   ServiceSystemeFinancementMesures,
+  ServiceSystemeParticipationDifferentsCoutsIndicateurs,
+  ServiceSystemeParticipationIndemnite,
+  ServiceSystemeParticipationModalitésCalculCoutMesures,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -181,4 +184,25 @@ export const serviceMandataireSystemeFinancementMesuresPageData = {
     content: <ServiceSystemeFinancementMesures />,
     title: `Le système de financement des mesures`,
   },
+};
+
+export const serviceMandataireSystemeParticipationPageData = {
+  heading: `Le système de participation et la grille de coût`,
+  sections: [
+    {
+      _id: 0,
+      content: <ServiceSystemeParticipationModalitésCalculCoutMesures />,
+      title: `Les modalités de calcul de coût des mesures`,
+    },
+    {
+      _id: 1,
+      content: <ServiceSystemeParticipationDifferentsCoutsIndicateurs />,
+      title: `Les différents coûts au regard des indicateurs`,
+    },
+    {
+      _id: 2,
+      content: <ServiceSystemeParticipationIndemnite />,
+      title: `L'indemnité complémentaire`,
+    },
+  ],
 };
