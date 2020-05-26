@@ -36,6 +36,32 @@ import ObligationsMiseEnPlaceMoyensMentionnes from "./sections/je-suis-un-profes
 import ObligationsPrestationDeSerment from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsPrestationDeSerment.md";
 import SanctionsCasNonRespectDesEngagements from "./sections/je-suis-un-professionnel/mandataire-individuel/SanctionsCasNonRespectDesEngagements.md";
 import TachesDuMandataireIndividuel from "./sections/je-suis-un-professionnel/mandataire-individuel/TachesDuMandataireIndividuel.md";
+// préposé d'établissement
+import PreposeDeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDeclarationActiviteEnquete.md";
+import PreposeDeclarationActiviteSite from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDeclarationActiviteSite.md";
+import PreposeDroitsDuProtege from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtege.md";
+import PreposeDroitsDuProtegeArticle1 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle1.md";
+import PreposeDroitsDuProtegeArticle2 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle2.md";
+import PreposeDroitsDuProtegeArticle3 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle3.md";
+import PreposeDroitsDuProtegeArticle4 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle4.md";
+import PreposeDroitsDuProtegeArticle5 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle5.md";
+import PreposeDroitsDuProtegeArticle6 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle6.md";
+import PreposeDroitsDuProtegeArticle7 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle7.md";
+import PreposeDroitsDuProtegeArticle8 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle8.md";
+import PreposeDroitsDuProtegeArticle9 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle9.md";
+import PreposeDroitsDuProtegeArticle10 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle10.md";
+import PreposeDroitsDuProtegeArticle11 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle11.md";
+import PreposeDroitsDuProtegeArticle12 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle12.md";
+import PreposeDroitsDuProtegeArticle13 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle13.md";
+import PreposeEvolutionActivitePrepose from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeEvolutionActivitePrepose.md";
+import PreposeObligationsControles from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeObligationsControles.md";
+import PreposeObligationsPrestationSerment from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeObligationsPrestationSerment.md";
+import PreposeSystemeFinancementEtablissementMedicoSociaux from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeFinancementEtablissementMedicoSociaux.md";
+import PreposeSystemeFinancementEtablissementServicePublic from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeFinancementEtablissementServicePublic.md";
+import PreposeSystemeFinancementStructures from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeFinancementStructures.md";
+import PreposeSystemeParticipationDifferentsCouts from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeParticipationDifferentsCouts.md";
+import PreposeSystemeParticipationIndemnite from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeParticipationIndemnite.md";
+import PreposeSystemeParticipationModalitesCalculCoutsMesures from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeParticipationModalitesCalculCoutsMesures.md";
 // service de mandataire
 import ServiceDeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDeclarationActiviteEnquete.md";
 import ServiceDeclarationActiviteSite from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDeclarationActiviteSite.md";
@@ -124,4 +150,30 @@ export {
   ServiceSystemeParticipationDifferentsCoutsIndicateurs,
   ServiceSystemeParticipationIndemnite,
   ServiceSystemeParticipationModalitésCalculCoutMesures,
+  // préposé d'établissement
+  PreposeDeclarationActiviteEnquete,
+  PreposeDeclarationActiviteSite,
+  PreposeDroitsDuProtege,
+  PreposeDroitsDuProtegeArticle1,
+  PreposeDroitsDuProtegeArticle2,
+  PreposeDroitsDuProtegeArticle3,
+  PreposeDroitsDuProtegeArticle4,
+  PreposeDroitsDuProtegeArticle5,
+  PreposeDroitsDuProtegeArticle6,
+  PreposeDroitsDuProtegeArticle7,
+  PreposeDroitsDuProtegeArticle8,
+  PreposeDroitsDuProtegeArticle9,
+  PreposeDroitsDuProtegeArticle10,
+  PreposeDroitsDuProtegeArticle11,
+  PreposeDroitsDuProtegeArticle12,
+  PreposeDroitsDuProtegeArticle13,
+  PreposeEvolutionActivitePrepose,
+  PreposeObligationsControles,
+  PreposeObligationsPrestationSerment,
+  PreposeSystemeFinancementEtablissementMedicoSociaux,
+  PreposeSystemeFinancementEtablissementServicePublic,
+  PreposeSystemeFinancementStructures,
+  PreposeSystemeParticipationDifferentsCouts,
+  PreposeSystemeParticipationIndemnite,
+  PreposeSystemeParticipationModalitesCalculCoutsMesures,
 };
