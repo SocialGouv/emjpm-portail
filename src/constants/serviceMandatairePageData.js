@@ -2,6 +2,20 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
+  ServiceDroitsDuProtege,
+  ServiceDroitsDuProtegeArticle1,
+  ServiceDroitsDuProtegeArticle2,
+  ServiceDroitsDuProtegeArticle3,
+  ServiceDroitsDuProtegeArticle4,
+  ServiceDroitsDuProtegeArticle5,
+  ServiceDroitsDuProtegeArticle6,
+  ServiceDroitsDuProtegeArticle7,
+  ServiceDroitsDuProtegeArticle8,
+  ServiceDroitsDuProtegeArticle9,
+  ServiceDroitsDuProtegeArticle10,
+  ServiceDroitsDuProtegeArticle11,
+  ServiceDroitsDuProtegeArticle12,
+  ServiceDroitsDuProtegeArticle13,
   ServiceObligationsAdminDelegueControles,
   ServiceObligationsAdminDeleguePrestationSerment,
 } from "../content";
@@ -58,6 +72,86 @@ export const serviceMandataireObligationsAdminDelegueServicePageData = {
       _id: 1,
       content: <ServiceObligationsAdminDelegueControles />,
       title: `Contrôles`,
+    },
+  ],
+};
+
+export const serviceMandataireDroitsDuProtegePageData = {
+  heading: `Les droits du protégé`,
+  sections: [
+    {
+      _id: 0,
+      content: <ServiceDroitsDuProtege />,
+      subSection: {
+        articleContent: [
+          {
+            _id: 0,
+            content: <ServiceDroitsDuProtegeArticle1 />,
+            title: `Article 1er : Respect des libertés individuelles et des droits civiques`,
+          },
+          {
+            _id: 1,
+            content: <ServiceDroitsDuProtegeArticle2 />,
+            title: `Article 2 : Non-discrimination`,
+          },
+          {
+            _id: 2,
+            content: <ServiceDroitsDuProtegeArticle3 />,
+            title: `Article 3 : Respect de la dignité de la personne et de son intégrité`,
+          },
+          {
+            _id: 3,
+            content: <ServiceDroitsDuProtegeArticle4 />,
+            title: `Article 4 : Liberté des relations personnelles`,
+          },
+          {
+            _id: 4,
+            content: <ServiceDroitsDuProtegeArticle5 />,
+            title: `Article 5 : Droit au respect des liens familiaux`,
+          },
+          {
+            _id: 5,
+            content: <ServiceDroitsDuProtegeArticle6 />,
+            title: `Article 6 : Droit à l’information`,
+          },
+          {
+            _id: 6,
+            content: <ServiceDroitsDuProtegeArticle7 />,
+            title: `Article 7 : Droit à l’autonomie `,
+          },
+          {
+            _id: 7,
+            content: <ServiceDroitsDuProtegeArticle8 />,
+            title: `Article 8 : Droit à la protection du logement et des objets personnels`,
+          },
+          {
+            _id: 8,
+            content: <ServiceDroitsDuProtegeArticle9 />,
+            title: `Article 9 : Consentement éclairé et participation de la personne`,
+          },
+          {
+            _id: 9,
+            content: <ServiceDroitsDuProtegeArticle10 />,
+            title: `Article 10 : Droit à une intervention personnalisée`,
+          },
+          {
+            _id: 10,
+            content: <ServiceDroitsDuProtegeArticle11 />,
+            title: `Article 11 : Droit à l’accès aux soins`,
+          },
+          {
+            _id: 11,
+            content: <ServiceDroitsDuProtegeArticle12 />,
+            title: `Article 12 : Protection des biens dans l’intérêt exclusif de la personne`,
+          },
+          {
+            _id: 12,
+            content: <ServiceDroitsDuProtegeArticle13 />,
+            title: `Article 13 : Confidentialité des informations`,
+          },
+        ],
+      },
+      title: `Les droits du protégé`,
     },
   ],
 };
