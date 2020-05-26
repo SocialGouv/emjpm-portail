@@ -2,6 +2,8 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
+  PreposeDeclarationActiviteEnquete,
+  PreposeDeclarationActiviteSite,
   PreposeDroitsDuProtege,
   PreposeDroitsDuProtegeArticle1,
   PreposeDroitsDuProtegeArticle2,
@@ -164,4 +166,20 @@ export const preposeEtablissementEvolutionActivitePageData = {
     content: <PreposeEvolutionActivitePrepose />,
     title: `L’évolution de l’activité du préposé`,
   },
+};
+
+export const preposeEtablissementDeclarationActivitePageData = {
+  heading: `La déclaration d'activité`,
+  sections: [
+    {
+      _id: 0,
+      content: <PreposeDeclarationActiviteSite />,
+      title: `Le site e-MJPM`,
+    },
+    {
+      _id: 1,
+      content: <PreposeDeclarationActiviteEnquete />,
+      title: `L'enquête annuelle`,
+    },
+  ],
 };
