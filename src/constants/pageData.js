@@ -55,9 +55,9 @@ export const professionnelIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-c.png`,
-      splitTitle: { firstLine: `je suis`, secondLine: `un service de mandataire` },
-      title: `Je suis un service de \n mandataire`,
-      url: `/professionnel/je-suis-un-service-de-mandataire`,
+      splitTitle: { firstLine: `je suis`, secondLine: `un service mandataire` },
+      title: `Je suis un service \n mandataire`,
+      url: `/professionnel/je-suis-un-service-mandataire`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-b.png`,
