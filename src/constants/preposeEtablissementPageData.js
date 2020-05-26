@@ -21,6 +21,9 @@ import {
   PreposeEvolutionActivitePrepose,
   PreposeObligationsControles,
   PreposeObligationsPrestationSerment,
+  PreposeSystemeFinancementEtablissementMedicoSociaux,
+  PreposeSystemeFinancementEtablissementServicePublic,
+  PreposeSystemeFinancementStructures,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -180,6 +183,27 @@ export const preposeEtablissementDeclarationActivitePageData = {
       _id: 1,
       content: <PreposeDeclarationActiviteEnquete />,
       title: `L'enquête annuelle`,
+    },
+  ],
+};
+
+export const preposeEtablissementSystemeFinancementMesuresPageData = {
+  heading: `Le système de financement des mesures`,
+  sections: [
+    {
+      _id: 0,
+      content: <PreposeSystemeFinancementEtablissementServicePublic />,
+      title: `Les établissements participant au service public hospitalier (PSPH) et dispensant des soins psychiatriques`,
+    },
+    {
+      _id: 1,
+      content: <PreposeSystemeFinancementStructures />,
+      title: `Les structures prenant en charge des personnes âgées dépendantes`,
+    },
+    {
+      _id: 2,
+      content: <PreposeSystemeFinancementEtablissementMedicoSociaux />,
+      title: `Les établissements médico-sociaux accueillant des personnes handicapées`,
     },
   ],
 };
