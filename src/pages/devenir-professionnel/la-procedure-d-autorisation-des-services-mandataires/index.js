@@ -4,13 +4,13 @@ import Navigation from "../../../components/Navigation";
 import SectionPage from "../../../components/SectionPage";
 import {
   devenirProfessionnelIndexPageData as data,
-  formationCertificatNationalCompetencesPageData,
+  procedureAutorisationServicesMandatairePageData,
 } from "../../../constants/devenirProfessionnelPageData";
 
 const Index = () => (
   <>
     <Navigation navItems={data.sections} />
-    <SectionPage data={formationCertificatNationalCompetencesPageData} />
+    <SectionPage data={procedureAutorisationServicesMandatairePageData} />
   </>
 );
 

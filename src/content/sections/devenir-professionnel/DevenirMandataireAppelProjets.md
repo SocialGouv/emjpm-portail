@@ -1,0 +1,1 @@
+Les services mandataires doivent répondre à un appel à projets émis par les Directions Départementales Interministérielles. Le calendrier peut être publié annuellement ou pluri-annuellement, selon les décisions des autorités compétentes. Ce calendrier est commun à tout le secteur médico-social et n’est pas spécifique à la protection juridique des majeurs.
