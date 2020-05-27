@@ -4,6 +4,10 @@ import React from "react";
 import {
   DevenirMandataireAppelCandidatures,
   DevenirMandataireAppelProjets,
+  DevenirMandataireFormationCertificatConditions,
+  DevenirMandataireFormationCertificatDeroulement,
+  DevenirMandataireFormationCertificatDispenses,
+  DevenirMandataireFormationCertificatObjetFormation,
   DevenirMandataireProcedureAgrementConditions,
   DevenirMandataireProcedureAgrementEtapes,
   DevenirMandataireProcedureAgrementRecoursRefus,
@@ -122,4 +126,30 @@ export const procedureDeclarationPreposesEtablissementPageData = {
     content: <DevenirMandataireProcedureDeclaration />,
     title: `La procédure de déclaration des préposés d’établissement`,
   },
+};
+
+export const formationCertificatNationalCompetencesPageData = {
+  heading: `La formation au certificat \n national de compétences`,
+  sections: [
+    {
+      _id: 0,
+      content: <DevenirMandataireFormationCertificatObjetFormation />,
+      title: `L’objet de la formation`,
+    },
+    {
+      _id: 1,
+      content: <DevenirMandataireFormationCertificatConditions />,
+      title: `Les conditions d’accès à la formation`,
+    },
+    {
+      _id: 2,
+      content: <DevenirMandataireFormationCertificatDeroulement />,
+      title: `Le déroulement de la formation`,
+    },
+    {
+      _id: 3,
+      content: <DevenirMandataireFormationCertificatDispenses />,
+      title: `Les dispenses et les allègements à la formation`,
+    },
+  ],
 };
