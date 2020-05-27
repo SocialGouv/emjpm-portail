@@ -7,6 +7,8 @@ import {
   DevenirMandataireProcedureAgrementConditions,
   DevenirMandataireProcedureAgrementEtapes,
   DevenirMandataireProcedureAgrementRecoursRefus,
+  DevenirMandataireProcedureAutorisationConditions,
+  DevenirMandataireProcedureAutorisationProcedure,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -93,6 +95,22 @@ export const procedureAgrementMandataireIndividuelsPageData = {
       _id: 2,
       content: <DevenirMandataireProcedureAgrementRecoursRefus />,
       title: `La procédure de recours suite à un refus d’agrément`,
+    },
+  ],
+};
+
+export const procedureAutorisationServicesMandatairePageData = {
+  heading: `La procédure d’autorisation des services mandataires `,
+  sections: [
+    {
+      _id: 0,
+      content: <DevenirMandataireProcedureAutorisationConditions />,
+      title: `Les conditions d’autorisation`,
+    },
+    {
+      _id: 1,
+      content: <DevenirMandataireProcedureAutorisationProcedure />,
+      title: `La procédure d’autorisation d’un service mandataire`,
     },
   ],
 };
