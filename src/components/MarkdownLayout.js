@@ -5,11 +5,13 @@ const MarkdownLayout = ({ children }) => {
   return (
     <Box
       sx={{
-        fontSize: "14px",
         fontFamily: "Quicksand",
         pt: "15px",
         pb: "22px",
         px: "85px",
+        "@media screen and (max-width: 1000px)": {
+          px: "10px",
+        },
       }}
     >
       {children}
