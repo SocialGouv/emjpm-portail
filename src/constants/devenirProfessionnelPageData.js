@@ -1,7 +1,13 @@
 import getConfig from "next/config";
 import React from "react";
 
-import { DevenirMandataireAppelCandidatures, DevenirMandataireAppelProjets } from "../content";
+import {
+  DevenirMandataireAppelCandidatures,
+  DevenirMandataireAppelProjets,
+  DevenirMandataireProcedureAgrementConditions,
+  DevenirMandataireProcedureAgrementEtapes,
+  DevenirMandataireProcedureAgrementRecoursRefus,
+} from "../content";
 
 const { publicRuntimeConfig } = getConfig();
 
@@ -60,12 +66,33 @@ export const appelCandidaturesProjetsPageData = {
     {
       _id: 0,
       content: <DevenirMandataireAppelCandidatures />,
-      title: `Appel à candidatures `,
+      title: `Appel à candidatures`,
     },
     {
       _id: 1,
       content: <DevenirMandataireAppelProjets />,
       title: `Appel à projets`,
+    },
+  ],
+};
+
+export const procedureAgrementMandataireIndividuelsPageData = {
+  heading: `La procédure d’agrément des mandataires individuels`,
+  sections: [
+    {
+      _id: 0,
+      content: <DevenirMandataireProcedureAgrementConditions />,
+      title: `Les conditions à satisfaire`,
+    },
+    {
+      _id: 1,
+      content: <DevenirMandataireProcedureAgrementEtapes />,
+      title: `Les étapes de la procédure`,
+    },
+    {
+      _id: 2,
+      content: <DevenirMandataireProcedureAgrementRecoursRefus />,
+      title: `La procédure de recours suite à un refus d’agrément`,
     },
   ],
 };
