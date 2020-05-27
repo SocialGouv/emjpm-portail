@@ -1,4 +1,4 @@
-import ExternalLink from "../../components/ExternalLink.js";
+import ExternalLink from "../../../components/ExternalLink";
 
 • Étape 1 : Constitution du dossier
 

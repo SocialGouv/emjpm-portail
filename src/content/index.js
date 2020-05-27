@@ -1,3 +1,16 @@
+// devenir mandataire
+import DevenirMandataireAppelCandidatures from "./sections/devenir-professionnel/DevenirMandataireAppelCandidatures.md";
+import DevenirMandataireAppelProjets from "./sections/devenir-professionnel/DevenirMandataireAppelProjets.md";
+import DevenirMandataireFormationCertificatConditions from "./sections/devenir-professionnel/DevenirMandataireFormationCertificatConditions.md";
+import DevenirMandataireFormationCertificatDeroulement from "./sections/devenir-professionnel/DevenirMandataireFormationCertificatDeroulement.md";
+import DevenirMandataireFormationCertificatDispenses from "./sections/devenir-professionnel/DevenirMandataireFormationCertificatDispenses.md";
+import DevenirMandataireFormationCertificatObjetFormation from "./sections/devenir-professionnel/DevenirMandataireFormationCertificatObjetFormation.md";
+import DevenirMandataireProcedureAgrementConditions from "./sections/devenir-professionnel/DevenirMandataireProcedureAgrementConditions.md";
+import DevenirMandataireProcedureAgrementEtapes from "./sections/devenir-professionnel/DevenirMandataireProcedureAgrementEtapes.md";
+import DevenirMandataireProcedureAgrementRecoursRefus from "./sections/devenir-professionnel/DevenirMandataireProcedureAgrementRecoursRefus.md";
+import DevenirMandataireProcedureAutorisationConditions from "./sections/devenir-professionnel/DevenirMandataireProcedureAutorisationConditions.md";
+import DevenirMandataireProcedureAutorisationProcedure from "./sections/devenir-professionnel/DevenirMandataireProcedureAutorisationProcedure.md";
+import DevenirMandataireProcedureDeclaration from "./sections/devenir-professionnel/DevenirMandataireProcedureDeclaration.md";
 // mandataire individuel
 import CessationActivite from "./sections/je-suis-un-professionnel/mandataire-individuel/CessationActivite.md";
 import DeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteEnquete.md";
@@ -88,6 +101,19 @@ import ServiceSystemeParticipationIndemnite from "./sections/je-suis-un-professi
 import ServiceSystemeParticipationModalitésCalculCoutMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationModalitésCalculCoutMesures.md";
 
 export {
+  // devenir mandataire
+  DevenirMandataireAppelCandidatures,
+  DevenirMandataireAppelProjets,
+  DevenirMandataireFormationCertificatConditions,
+  DevenirMandataireFormationCertificatDeroulement,
+  DevenirMandataireFormationCertificatDispenses,
+  DevenirMandataireFormationCertificatObjetFormation,
+  DevenirMandataireProcedureAgrementConditions,
+  DevenirMandataireProcedureAgrementEtapes,
+  DevenirMandataireProcedureAgrementRecoursRefus,
+  DevenirMandataireProcedureAutorisationConditions,
+  DevenirMandataireProcedureAutorisationProcedure,
+  DevenirMandataireProcedureDeclaration,
   // mandataire individuel
   CessationActivite,
   DeclarationActiviteEnquete,
