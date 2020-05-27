@@ -28,6 +28,8 @@ const LinkStyle = {
     outline: 0,
     border: 0,
     color: "primary",
+    borderBottom: "2px solid",
+    borderColor: "white",
   },
 };
 
