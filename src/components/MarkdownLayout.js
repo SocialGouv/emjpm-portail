@@ -7,6 +7,9 @@ const MarkdownLayout = ({ children }) => {
       sx={{
         fontSize: "14px",
         fontFamily: "Quicksand",
+        pt: "15px",
+        pb: "22px",
+        px: "85px",
       }}
     >
       {children}
