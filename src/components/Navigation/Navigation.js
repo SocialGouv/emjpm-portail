@@ -1,33 +1,32 @@
 import getConfig from "next/config";
 import NextLink from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import { Box, Flex } from "rebass";
 
-import { LinkStyle } from "./style";
+import { LinkStyle, navigationStyle } from "./style";
 
 const { appUrl } = getConfig().publicRuntimeConfig;
 
 const Navigation = ({ navItems }) => {
+  const router = useRouter();
   return (
-    <Flex
-      pl={100}
-      flexWrap="wrap"
-      maxWidth={1400}
-      maxHeight={1000}
-      mx="auto"
-      backgroundColor="white"
-      fontFamily="Comfortaa"
-    >
+    <Flex sx={navigationStyle}>
       {navItems &&
-        navItems.map((element, index) => {
-          return (
-            <Box key={index} sx={LinkStyle}>
-              <NextLink href={`${element.url}`} as={`${appUrl}${element.url}`} passHref>
-                <a>{element.title}</a>
-              </NextLink>
+        navItems.map((element, index) => (
+          <NextLink key={index} href={`${element.url}`} as={`${appUrl}${element.url}`} passHref>
+            <Box
+              sx={{
+                ...LinkStyle,
+                borderColor: element.url === router.pathname ? "primary" : "white",
+                color: element.url === router.pathname && "primary",
+              }}
+              as="a"
+            >
+              {element.title}
             </Box>
-          );
-        })}
+          </NextLink>
+        ))}
     </Flex>
   );
 };

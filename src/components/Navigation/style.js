@@ -1,3 +1,13 @@
+const navigationStyle = {
+  pl: 100,
+  flexWrap: "wrap",
+  maxWidth: 1400,
+  maxHeight: 1000,
+  mx: "auto",
+  backgroundColor: "white",
+  fontFamily: "Comfortaa",
+};
+
 const LinkStyle = {
   cursor: "pointer",
   color: "textPrimary",
@@ -14,6 +24,11 @@ const LinkStyle = {
     borderColor: "primary",
     color: "primary",
   },
+  ":focus": {
+    outline: 0,
+    border: 0,
+    color: "primary",
+  },
 };
 
-export { LinkStyle };
+export { LinkStyle, navigationStyle };
