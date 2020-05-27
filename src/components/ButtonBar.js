@@ -6,8 +6,8 @@ import Button from "./common/Button";
 const buttonBarStyles = {
   flexFlow: "row wrap",
   mb: "50px",
-  "@media screen and (max-width: 1200px)": {
-    justifyContent: "space-around",
+  "@media screen and (max-width: 1000px)": {
+    justifyContent: "center",
   },
 };
 
