@@ -9,6 +9,7 @@ import {
   DevenirMandataireProcedureAgrementRecoursRefus,
   DevenirMandataireProcedureAutorisationConditions,
   DevenirMandataireProcedureAutorisationProcedure,
+  DevenirMandataireProcedureDeclaration,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -100,7 +101,7 @@ export const procedureAgrementMandataireIndividuelsPageData = {
 };
 
 export const procedureAutorisationServicesMandatairePageData = {
-  heading: `La procédure d’autorisation des services mandataires `,
+  heading: `La procédure d’autorisation des services mandataires`,
   sections: [
     {
       _id: 0,
@@ -113,4 +114,12 @@ export const procedureAutorisationServicesMandatairePageData = {
       title: `La procédure d’autorisation d’un service mandataire`,
     },
   ],
+};
+
+export const procedureDeclarationPreposesEtablissementPageData = {
+  heading: `La procédure de déclaration des préposés d’établissement`,
+  mainSection: {
+    content: <DevenirMandataireProcedureDeclaration />,
+    title: `La procédure de déclaration des préposés d’établissement`,
+  },
 };
