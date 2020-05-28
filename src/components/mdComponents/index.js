@@ -1,16 +1,37 @@
 import React from "react";
 import { Box } from "rebass";
 
-const Heading = ({ children }) => <div style={{ color: "blue", fontSize: "30px" }}>{children}</div>;
-
-const UnorderedList = ({ children }) => (
-  <Box sx={{ my: "50px", lineHeight: "0.8", fontFamily: "Quicksand" }}>{children}</Box>
+const Heading = ({ children }) => (
+  <Box
+    sx={{
+      fontFamily: "Comfortaa",
+      textAlign: "center",
+      fontWeight: "bold",
+      fontSize: "18px",
+      mb: "24px",
+      color: "text",
+    }}
+  >
+    {children}
+  </Box>
 );
 
-const ListItem = ({ children }) => <div style={{ color: "green" }}>{children}</div>;
+const UnorderedList = ({ children }) => <Box sx={{ mb: "50px" }}>{children}</Box>;
+
+const ListItem = ({ children }) => <Box sx={{ marginBottom: "10px" }}>• {children}</Box>;
 
 const Paragraph = ({ children }) => (
-  <Box sx={{ lineHeight: "normal", margin: "50px 0", fontFamily: "Quicksand" }}>{children}</Box>
+  <Box
+    sx={{
+      lineHeight: "normal",
+      mb: "48px",
+      ":last-of-type": {
+        mb: 0,
+      },
+    }}
+  >
+    {children}
+  </Box>
 );
 
 export const mdComponents = {

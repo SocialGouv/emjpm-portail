@@ -8,7 +8,8 @@ const buttonStyle = {
   outline: "none",
   position: "relative",
   p: "10px",
-  mx: "10px",
+  mr: "20px",
+  mb: "5px",
   transition: "150ms ease-in-out opacity",
   cursor: "pointer",
   "@media screen and (min-width: 1200px)": {
