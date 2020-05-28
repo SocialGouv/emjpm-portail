@@ -17,7 +17,7 @@
     "@next/mdx": "^9.4.2",
     "@socialgouv/emjpm-ui-core": "^1.20.2",
     "@socialgouv/emjpm-ui-theme": "^1.9.4",
-    "next": "9.4.2",
+    "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "rebass": "^4.0.7",
