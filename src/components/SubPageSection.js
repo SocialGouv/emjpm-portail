@@ -1,6 +1,7 @@
-import { Card } from "@socialgouv/emjpm-ui-core";
 import React from "react";
 import { Box } from "rebass";
+
+import Card from "./common/Card";
 
 const SubPageSection = ({ children, title }) => (
   <Card bg="white" mb={6} borderRadius={3}>
