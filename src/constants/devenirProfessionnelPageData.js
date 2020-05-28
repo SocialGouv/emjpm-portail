@@ -25,7 +25,7 @@ export const devenirProfessionnelIndexPageData = {
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-a.png`,
-      title: `Appel à candidatures \n et à projets`,
+      title: `Appel à candidatures et à projets`,
       url: `/devenir-professionnel/appel-a-candidatures-et-a-projets`,
     },
     {
@@ -34,7 +34,7 @@ export const devenirProfessionnelIndexPageData = {
         firstLine: `La procédure d'agrément`,
         secondLine: `des mandataires individuels`,
       },
-      title: `La procédure d'agrément \n des mandataires individuels`,
+      title: `La procédure d'agrément des mandataires individuels`,
       url: `/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels`,
     },
     {
@@ -43,7 +43,7 @@ export const devenirProfessionnelIndexPageData = {
         firstLine: `La procédure d’autorisation`,
         secondLine: `des services mandataires`,
       },
-      title: `La procédure d’autorisation \n des services mandataires`,
+      title: `La procédure d’autorisation des services mandataires`,
       url: `/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires`,
     },
     {
@@ -52,7 +52,7 @@ export const devenirProfessionnelIndexPageData = {
         firstLine: `La procédure de déclaration`,
         secondLine: `des préposés d’établissement`,
       },
-      title: `La procédure de déclaration \n des préposés d’établissement`,
+      title: `La procédure de déclaration des préposés d’établissement`,
       url: `/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement`,
     },
     {
@@ -61,7 +61,7 @@ export const devenirProfessionnelIndexPageData = {
         firstLine: `La formation au certificat`,
         secondLine: `national de compétences`,
       },
-      title: `La formation au certificat \n national de compétences`,
+      title: `La formation au certificat national de compétences`,
       url: `/devenir-professionnel/la-formation-au-certificat-national-de-competences`,
     },
   ],
@@ -129,7 +129,7 @@ export const procedureDeclarationPreposesEtablissementPageData = {
 };
 
 export const formationCertificatNationalCompetencesPageData = {
-  heading: `La formation au certificat \n national de compétences`,
+  heading: `La formation au certificat national de compétences`,
   sections: [
     {
       _id: 0,

@@ -38,7 +38,7 @@ export const preposeEtablissementIndexPageData = {
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
-      title: `Obligations administratives \n du preposé`,
+      title: `Obligations administratives du preposé`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/obligations-administratives-du-prepose`,
     },
     {
@@ -48,7 +48,7 @@ export const preposeEtablissementIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
-      title: `L'évolution de l'activité \n du préposé`,
+      title: `L'évolution de l'activité du préposé`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/l-evolution-de-l-activite-du-prepose`,
     },
     {
@@ -58,13 +58,13 @@ export const preposeEtablissementIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
-      title: `Le système de financement des \n mesures`,
+      title: `Le système de financement des mesures`,
       url:
         "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-financement-des-mesures",
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
-      title: `Le système de participation \n et la grille de coût`,
+      title: `Le système de participation et la grille de coût`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-participation-et-la-grille-de-cout`,
     },
   ],

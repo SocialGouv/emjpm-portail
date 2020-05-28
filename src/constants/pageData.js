@@ -50,19 +50,19 @@ export const professionnelIndexPageData = {
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-a.png`,
       splitTitle: { firstLine: `je suis`, secondLine: `un mandataire individuel` },
-      title: `Je suis un mandataire \n individuel`,
+      title: `Je suis un mandataire individuel`,
       url: `/professionnel/je-suis-un-mandataire-individuel`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-c.png`,
       splitTitle: { firstLine: `je suis`, secondLine: `un service mandataire` },
-      title: `Je suis un service \n mandataire`,
+      title: `Je suis un service mandataire`,
       url: `/professionnel/je-suis-un-service-mandataire`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-b.png`,
       splitTitle: { firstLine: `je suis`, secondLine: `un préposé d'établissement` },
-      title: `Je suis un préposé \n d'établissement`,
+      title: `Je suis un préposé d'établissement`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement`,
     },
   ],
@@ -73,12 +73,12 @@ export const mandataireIndividuelIndexPageData = {
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
-      title: `Les missions et les \n activités du mandataire`,
+      title: `Les missions et les activités du mandataire`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-missions-et-les-activites-du-mandataire`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
-      title: `Les tâches du mandataire \n individuel`,
+      title: `Les tâches du mandataire individuel`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-taches-du-mandataire-individuel`,
     },
     {
@@ -88,7 +88,7 @@ export const mandataireIndividuelIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
-      title: `Les obligations \n administratives du mandataire`,
+      title: `Les obligations administratives du mandataire`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-obligations-administratives-du-mandataire`,
     },
     {
@@ -98,17 +98,17 @@ export const mandataireIndividuelIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
-      title: `Le financement des \n mandataires individuels`,
+      title: `Le financement des mandataires individuels`,
       url: `/professionnel/je-suis-un-mandataire-individuel/le-financement-des-mandataires-individuels`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
-      title: `Les sanctions en cas de non-\nrespect des engagements`,
+      title: `Les sanctions en cas de non-respect des engagements`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-sanctions-en-cas-de-non-respect-des-engagements`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
-      title: `La demande de nouvel \nagrément`,
+      title: `La demande de nouvel agrément`,
       url: `/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement`,
     },
     {

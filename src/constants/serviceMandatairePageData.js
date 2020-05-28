@@ -36,7 +36,7 @@ export const serviceMandataireIndexPageData = {
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
-      title: `Obligations administratives \n du delegué de service`,
+      title: `Obligations administratives du delegué de service`,
       url: `/professionnel/je-suis-un-service-mandataire/obligations-administratives-du-delegue-de-service`,
     },
     {
@@ -51,17 +51,17 @@ export const serviceMandataireIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
-      title: `Le système de financement des \n mesures`,
+      title: `Le système de financement des mesures`,
       url: "/professionnel/je-suis-un-service-mandataire/le-systeme-de-financement-des-mesures",
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
-      title: `Le système de participation \n et la grille de coût`,
+      title: `Le système de participation et la grille de coût`,
       url: `/professionnel/je-suis-un-service-mandataire/le-systeme-de-participation-et-la-grille-de-cout`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
-      title: `L'évolution de la capacité du \n service mandataire`,
+      title: `L'évolution de la capacité du service mandataire`,
       url: `/professionnel/je-suis-un-service-mandataire/l-evolution-de-la-capacite-du-service-mandataire`,
     },
   ],

@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Box, Flex } from "rebass";
 
-import { LinkStyle, navigationStyle } from "./style";
+import { linkStyle, linkTextWrapper, navigationStyle } from "./style";
 
 const { appUrl } = getConfig().publicRuntimeConfig;
 
@@ -17,13 +17,13 @@ const Navigation = ({ navItems }) => {
           <NextLink key={index} href={`${element.url}`} as={`${appUrl}${element.url}`} passHref>
             <Box
               sx={{
-                ...LinkStyle,
+                ...linkStyle,
                 borderColor: element.url === router.pathname ? "primary" : "white",
                 color: element.url === router.pathname && "primary",
               }}
               as="a"
             >
-              {element.title}
+              <Box sx={linkTextWrapper}>{element.title}</Box>
             </Box>
           </NextLink>
         ))}

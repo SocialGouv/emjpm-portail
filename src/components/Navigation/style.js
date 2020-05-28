@@ -1,25 +1,24 @@
 const navigationStyle = {
-  pl: 100,
+  px: 100,
   flexWrap: "wrap",
   maxWidth: 1400,
-  maxHeight: 1000,
   mx: "auto",
   backgroundColor: "white",
   fontFamily: "Comfortaa",
 };
 
-const LinkStyle = {
+const linkStyle = {
   cursor: "pointer",
   color: "textPrimary",
   borderBottom: "2px solid",
-  whiteSpace: "pre-line",
+  width: "260px",
   mx: "15px",
-  py: 1,
+  mt: "5px",
+  py: "3px",
   textDecoration: "none",
   textAlign: "left",
   fontSize: "14px",
   fontWeight: "bold",
-  borderColor: "white",
   ":hover": {
     borderColor: "primary",
     color: "primary",
@@ -33,4 +32,8 @@ const LinkStyle = {
   },
 };
 
-export { LinkStyle, navigationStyle };
+const linkTextWrapper = {
+  minHeight: "45px",
+};
+
+export { linkStyle, navigationStyle, linkTextWrapper };
