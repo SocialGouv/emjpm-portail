@@ -1371,14 +1371,6 @@
     styled-icons "^9.1.0"
     theme-ui "^0.2.52"
 
-"@socialgouv/emjpm-ui-theme@^1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@socialgouv/emjpm-ui-theme/-/emjpm-ui-theme-1.9.4.tgz#01eb9683a2d88f0b63f263beb4ab8781c0275355"
-  integrity sha512-BUc3uMpy0ewW1pRqSP+mTvvXdjRFIfq5F0I6PxIPLsrOqDtbq7dCwpk9Kzmn6omLX5CCoRMMH2xCe/vF3hpFYA==
-  dependencies:
-    "@emotion/styled" "^10.0.23"
-    react "^16.12.0"
-
 "@socialgouv/eslint-config-react@^0.22.1":
   version "0.22.1"
   resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-0.22.1.tgz#af94acbfdd0f16298614a87481d4462bb56e5503"

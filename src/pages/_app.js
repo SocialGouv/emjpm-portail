@@ -1,4 +1,3 @@
-import theme from "@socialgouv/emjpm-ui-theme";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
@@ -6,11 +5,12 @@ import { ThemeProvider } from "theme-ui";
 
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
+import appTheme from "../theme";
 
 function App({ Component, pageProps }) {
   const router = useRouter();
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={appTheme}>
       <Head>
         <title>Portail de la Protection Juridique des Majeurs</title>
         <link rel="icon" href="/favicon.ico" />
