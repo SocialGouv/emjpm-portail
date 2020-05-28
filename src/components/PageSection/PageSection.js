@@ -9,7 +9,7 @@ const PageSection = ({ url, title, splitTitle, image, rowAlign }) => (
   <Card sx={() => (rowAlign ? rowAlignCardStyle(image) : cardStyle(image))}>
     <Box>
       <Box sx={headingStyle}>
-        <Box sx={{ mb: 4, wordBreak: "break-word" }}>
+        <Box sx={{ mb: 4, mt: 2, wordBreak: "break-word", minHeight: "50px" }}>
           {splitTitle ? (
             <div>
               {splitTitle.firstLine}
