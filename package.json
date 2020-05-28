@@ -15,7 +15,6 @@
     "@mdx-js/loader": "^1.6.4",
     "@mdx-js/react": "^1.6.4",
     "@next/mdx": "^9.4.2",
-    "@socialgouv/emjpm-ui-core": "^1.20.2",
     "next": "9.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",

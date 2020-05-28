@@ -1,10 +1,10 @@
-import { Card, Heading4 } from "@socialgouv/emjpm-ui-core";
 import React from "react";
 import { Box } from "rebass";
 
+import Card from "./common/Card";
 import Link from "./Link";
 
-const style = (image) => ({
+const cardStyle = (image) => ({
   position: "relative",
   height: [150, 300],
   display: "flex",
@@ -33,10 +33,20 @@ const style = (image) => ({
   },
 });
 
+const headingStyle = {
+  position: "relative",
+  textAlign: "center",
+  fontWeight: "normal",
+  color: "white",
+  fontFamily: "Quicksand",
+  lineHeight: "1.25",
+  fontSize: "18px",
+};
+
 const PageSection = ({ url, title, splitTitle, image }) => (
-  <Card sx={() => style(image)}>
-    <Box textAlign="center" sx={{ position: "relative" }}>
-      <Heading4 fontWeight="normal" color="white" mb={4}>
+  <Card sx={() => cardStyle(image)}>
+    <Box sx={headingStyle}>
+      <Box sx={{ mb: 4 }}>
         {splitTitle ? (
           <div>
             {splitTitle.firstLine}
@@ -46,7 +56,7 @@ const PageSection = ({ url, title, splitTitle, image }) => (
         ) : (
           <div>{title}</div>
         )}
-      </Heading4>
+      </Box>
       <Link
         href={url}
         text="En savoir plus"
