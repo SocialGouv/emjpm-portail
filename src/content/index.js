@@ -92,13 +92,13 @@ import ServiceDroitsDuProtegeArticle10 from "./sections/je-suis-un-professionnel
 import ServiceDroitsDuProtegeArticle11 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle11.md";
 import ServiceDroitsDuProtegeArticle12 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle12.md";
 import ServiceDroitsDuProtegeArticle13 from "./sections/je-suis-un-professionnel/service-mandataire/ServiceDroitsDuProtegeArticle13.md";
-import ServiceEvolutionCapacitéServiceMandataire from "./sections/je-suis-un-professionnel/service-mandataire/ServiceEvolutionCapacitéServiceMandataire.md";
+import ServiceEvolutionCapaciteServiceMandataire from "./sections/je-suis-un-professionnel/service-mandataire/ServiceEvolutionCapaciteServiceMandataire.md";
 import ServiceObligationsAdminDelegueControles from "./sections/je-suis-un-professionnel/service-mandataire/ServiceObligationsAdminDelegueControles.md";
 import ServiceObligationsAdminDeleguePrestationSerment from "./sections/je-suis-un-professionnel/service-mandataire/ServiceObligationsAdminDeleguePrestationSerment.md";
 import ServiceSystemeFinancementMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeFinancementMesures.md";
 import ServiceSystemeParticipationDifferentsCoutsIndicateurs from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationDifferentsCoutsIndicateurs.md";
 import ServiceSystemeParticipationIndemnite from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationIndemnite.md";
-import ServiceSystemeParticipationModalitésCalculCoutMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationModalitésCalculCoutMesures.md";
+import ServiceSystemeParticipationModalitesCalculCoutMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationModalitesCalculCoutMesures.md";
 
 export {
   // devenir mandataire
@@ -169,13 +169,13 @@ export {
   ServiceDroitsDuProtegeArticle11,
   ServiceDroitsDuProtegeArticle12,
   ServiceDroitsDuProtegeArticle13,
-  ServiceEvolutionCapacitéServiceMandataire,
+  ServiceEvolutionCapaciteServiceMandataire,
   ServiceObligationsAdminDelegueControles,
   ServiceObligationsAdminDeleguePrestationSerment,
   ServiceSystemeFinancementMesures,
   ServiceSystemeParticipationDifferentsCoutsIndicateurs,
   ServiceSystemeParticipationIndemnite,
-  ServiceSystemeParticipationModalitésCalculCoutMesures,
+  ServiceSystemeParticipationModalitesCalculCoutMesures,
   // préposé d'établissement
   PreposeDeclarationActiviteEnquete,
   PreposeDeclarationActiviteSite,

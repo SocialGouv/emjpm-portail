@@ -1,4 +1,5 @@
 La responsabilité du mandataire judiciaire peut être engagée en cas de mauvaise exécution, d’insuffisance ou de faute dans l’exercice de cette mission. S’il est reconnu responsable d’un préjudice à l’égard de la personne protégée, le mandataire judiciaire pourrait être condamné à l’indemniser.
+<br/>
 
 Le mandataire s’expose également à un retrait de son habilitation.
 
