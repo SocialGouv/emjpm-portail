@@ -14,6 +14,8 @@ const SectionContent = ({
   articles,
   setActiveArticle,
   setSectionId,
+  activeButton,
+  setActiveButton,
 }) => {
   return (
     <MDXProvider components={mdComponents}>
@@ -24,7 +26,12 @@ const SectionContent = ({
         {data && data.mainSection && <MainSectionPanel mainContent={data.mainSection} />}
         {data && data.sections && (
           <Fragment>
-            <ButtonBar data={data} setSectionId={setSectionId} />
+            <ButtonBar
+              data={data}
+              setSectionId={setSectionId}
+              activeButton={activeButton}
+              setActiveButton={setActiveButton}
+            />
             <SectionPanels
               currentSection={currentSection}
               articles={articles}
