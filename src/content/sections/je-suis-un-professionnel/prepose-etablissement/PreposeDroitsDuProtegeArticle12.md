@@ -1,6 +1,8 @@
 La protection des biens est exercée en fonction de la situation ou de l’état de la personne et, conformément à l’article 496 du code civil, dans son seul intérêt.
+<br/>
 
 Conformément au même article du code civil, les actes relatifs à la protection des biens de la personne font l’objet de soins prudents, diligents et avisés.
+<br/>
 
 Sauf volonté contraire exprimée par la personne protégée, les comptes ou les livrets ouverts à son nom, et sous réserve des dispositions légales et réglementaires ainsi que des décisions du conseil de famille ou du juge sont maintenus ouverts.
 
