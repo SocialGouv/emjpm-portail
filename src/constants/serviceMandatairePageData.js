@@ -18,13 +18,13 @@ import {
   ServiceDroitsDuProtegeArticle11,
   ServiceDroitsDuProtegeArticle12,
   ServiceDroitsDuProtegeArticle13,
-  ServiceEvolutionCapacitéServiceMandataire,
+  ServiceEvolutionCapaciteServiceMandataire,
   ServiceObligationsAdminDelegueControles,
   ServiceObligationsAdminDeleguePrestationSerment,
   ServiceSystemeFinancementMesures,
   ServiceSystemeParticipationDifferentsCoutsIndicateurs,
   ServiceSystemeParticipationIndemnite,
-  ServiceSystemeParticipationModalitésCalculCoutMesures,
+  ServiceSystemeParticipationModalitesCalculCoutMesures,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -192,7 +192,7 @@ export const serviceMandataireSystemeParticipationPageData = {
   sections: [
     {
       _id: 0,
-      content: <ServiceSystemeParticipationModalitésCalculCoutMesures />,
+      content: <ServiceSystemeParticipationModalitesCalculCoutMesures />,
       title: `Les modalités de calcul de coût des mesures`,
     },
     {
@@ -211,7 +211,7 @@ export const serviceMandataireSystemeParticipationPageData = {
 export const serviceMandataireEvolutionCapacitePageData = {
   heading: `L’évolution de la capacité du service mandataire`,
   mainSection: {
-    content: <ServiceEvolutionCapacitéServiceMandataire />,
+    content: <ServiceEvolutionCapaciteServiceMandataire />,
     title: `L’évolution de la capacité du service mandataire`,
   },
 };
