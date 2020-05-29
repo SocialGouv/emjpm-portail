@@ -31,6 +31,7 @@ import {
   MissionsCasMesureAccompagnement,
   MissionsCasSauvegardeJustice,
   MissionsCasTutelle,
+  MissionsEtActivitesDuMandataire,
   ObligationsAdministrativesDuMandataire,
   ObligationsControles,
   ObligationsEnvoiDesPieces,
@@ -121,6 +122,10 @@ export const mandataireIndividuelIndexPageData = {
 
 export const mandataireMissionPageData = {
   heading: `Les missions et les activités du mandataire`,
+  mainSection: {
+    content: <MissionsEtActivitesDuMandataire />,
+    title: `Les missions et les activités du mandataire`,
+  },
   sections: [
     {
       _id: 0,
