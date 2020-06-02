@@ -20,7 +20,6 @@ const UnorderedList = ({ children }) => (
   <Box
     sx={{
       my: "36px",
-      fontSize: "14px",
       ":last-of-type": {
         mb: 0,
       },
@@ -31,14 +30,17 @@ const UnorderedList = ({ children }) => (
 );
 
 const ListItem = ({ children }) => (
-  <Box sx={{ mb: "10px", fontSize: "14px" }}>
+  <Box
+    sx={{
+      mb: "10px",
+    }}
+  >
     <Flex flexDirection="row" alignItems="middle">
       <Box
         sx={{
-          mt: "2px",
+          mt: "1px",
           mr: "3px",
-          minWidth: "4px",
-          fontSize: "13px",
+          minWidth: "5px",
         }}
       >
         •
@@ -51,7 +53,6 @@ const ListItem = ({ children }) => (
 const Paragraph = ({ children }) => (
   <Box
     sx={{
-      fontSize: "14px",
       lineHeight: "1.5",
       mb: "5px",
       ":last-of-type": {
@@ -67,7 +68,6 @@ const Bold = ({ children }) => (
   <Box
     sx={{
       display: "inline",
-      fontSize: "13.3px",
       fontWeight: "bold",
     }}
   >
