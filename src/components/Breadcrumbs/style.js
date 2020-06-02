@@ -5,6 +5,9 @@ const linkStyle = {
   "&:hover": {
     color: "primary",
   },
+  "@media screen and (max-width: 900px)": {
+    mb: 1,
+  },
 };
 
 const linkActiveStyle = {
@@ -14,4 +17,20 @@ const linkActiveStyle = {
   userSelect: "none",
 };
 
-export { linkStyle, linkActiveStyle };
+const breadcrumbsLayout = {
+  maxWidth: 1200,
+  mx: "auto",
+};
+
+const breadcrumbsWrapper = {
+  alignItems: "center",
+  my: 4,
+  mx: 3,
+  fontSize: 1,
+  color: "textSecondary",
+  "@media screen and (max-width: 900px)": {
+    flexFlow: "row wrap",
+  },
+};
+
+export { linkStyle, linkActiveStyle, breadcrumbsWrapper, breadcrumbsLayout };
