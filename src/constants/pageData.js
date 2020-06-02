@@ -50,19 +50,19 @@ export const professionnelIndexPageData = {
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-a.png`,
-      splitTitle: { firstLine: `je suis`, secondLine: `un mandataire individuel` },
+      splitTitle: { firstLine: `Je suis`, secondLine: `un mandataire individuel` },
       title: `Je suis un mandataire individuel`,
       url: `/professionnel/je-suis-un-mandataire-individuel`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-c.png`,
-      splitTitle: { firstLine: `je suis`, secondLine: `un service mandataire` },
+      splitTitle: { firstLine: `Je suis`, secondLine: `un service mandataire` },
       title: `Je suis un service mandataire`,
       url: `/professionnel/je-suis-un-service-mandataire`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-pro-b.png`,
-      splitTitle: { firstLine: `je suis`, secondLine: `un préposé d'établissement` },
+      splitTitle: { firstLine: `Je suis`, secondLine: `un préposé d'établissement` },
       title: `Je suis un préposé d'établissement`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement`,
     },
@@ -70,7 +70,7 @@ export const professionnelIndexPageData = {
 };
 
 export const mandataireIndividuelIndexPageData = {
-  heading: mainHeadingText,
+  heading: `Je suis un mandataire individuel`,
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-a.png`,

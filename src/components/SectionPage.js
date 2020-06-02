@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Box, Flex } from "rebass";
+import { Flex } from "rebass";
 
+import Breadcrumbs from "./Breadcrumbs";
 import SectionContent from "./SectionContent";
 
 const findSectionById = (sectionId, sections) => {
@@ -16,8 +17,9 @@ const SectionPage = ({ data }) => {
     currentSection && currentSection.subSection && currentSection.subSection.articleContent;
 
   return (
-    <Flex bg="whiteGray">
-      <Box width="100%" maxWidth={1200} mx="auto" minHeight="68.5vh">
+    <>
+      <Breadcrumbs />
+      <Flex bg="whiteGray" maxWidth={1200} minHeight="68.5vh" justifyContent="start" mx="auto">
         <SectionContent
           data={data}
           activeArticle={activeArticle}
@@ -28,8 +30,8 @@ const SectionPage = ({ data }) => {
           activeButton={activeButton}
           setActiveButton={setActiveButton}
         />
-      </Box>
-    </Flex>
+      </Flex>
+    </>
   );
 };
 

@@ -18,10 +18,8 @@ import {
 
 const { publicRuntimeConfig } = getConfig();
 
-const mainHeadingText = `Bienvenue sur le portail de la Protection Juridique des Majeurs`;
-
 export const devenirProfessionnelIndexPageData = {
-  heading: mainHeadingText,
+  heading: `Devenir professionnel`,
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-a.png`,
