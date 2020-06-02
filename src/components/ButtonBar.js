@@ -30,6 +30,12 @@ const buttonBarStyles = {
   "@media screen and (max-width: 1199px)": {
     my: "5px",
   },
+  "@media screen and (max-width: 800px)": {
+    width: "90%",
+    mr: 0,
+    py: "12px",
+    lineHeight: 1.2,
+  },
 };
 
 const ButtonBar = ({ data, setSectionId, activeButton, setActiveButton }) => {
