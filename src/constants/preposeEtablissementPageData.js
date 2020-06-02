@@ -31,10 +31,8 @@ import {
 
 const { publicRuntimeConfig } = getConfig();
 
-const mainHeadingText = `Bienvenue sur le portail de la Protection Juridique des Majeurs`;
-
 export const preposeEtablissementIndexPageData = {
-  heading: mainHeadingText,
+  heading: `Je suis un préposé d'établissement`,
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,

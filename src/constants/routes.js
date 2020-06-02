@@ -29,4 +29,46 @@ export const routes = {
   "/professionnel/je-suis-un-mandataire-individuel/les-taches-du-mandataire-individuel": {
     label: `Les tâches du mandataire individuel`,
   },
+  "/professionnel/je-suis-un-prepose-d-etablissement": {
+    label: `Je suis un préposé d'établissement`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/l-evolution-de-l-activite-du-prepose": {
+    label: `L’évolution de l’activité du préposé`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/la-declaration-d-activite": {
+    label: `La déclaration d'activité`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-financement-des-mesures": {
+    label: `Le système de financement des mesures`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-participation-et-la-grille-de-cout": {
+    label: `Le système de participation et la grille de coût`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/les-droits-du-protege": {
+    label: `Les droits du protégé`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/obligations-administratives-du-prepose": {
+    label: `Obligations administratives du préposé`,
+  },
+  "/professionnel/je-suis-un-service-mandataire": {
+    label: `Je suis un service mandataire`,
+  },
+  "/professionnel/je-suis-un-service-mandataire/l-evolution-de-la-capacite-du-service-mandataire": {
+    label: `L’évolution de la capacité du service mandataire`,
+  },
+  "/professionnel/je-suis-un-service-mandataire/la-declaration-d-activite": {
+    label: `La déclaration d'activité`,
+  },
+  "/professionnel/je-suis-un-service-mandataire/le-systeme-de-financement-des-mesures": {
+    label: `Le système de financement des mesures`,
+  },
+  "/professionnel/je-suis-un-service-mandataire/le-systeme-de-participation-et-la-grille-de-cout": {
+    label: `Le système de participation et la grille de coût`,
+  },
+  "/professionnel/je-suis-un-service-mandataire/les-droits-du-protege": {
+    label: `Les droits du protégé`,
+  },
+  "/professionnel/je-suis-un-service-mandataire/obligations-administratives-du-delegue-de-service": {
+    label: `Obligations administratives du délégué de service`,
+  },
 };

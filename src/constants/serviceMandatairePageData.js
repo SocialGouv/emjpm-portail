@@ -29,10 +29,8 @@ import {
 
 const { publicRuntimeConfig } = getConfig();
 
-const mainHeadingText = `Bienvenue sur le portail de la Protection Juridique des Majeurs`;
-
 export const serviceMandataireIndexPageData = {
-  heading: mainHeadingText,
+  heading: `Je suis un service mandataire`,
   sections: [
     {
       image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
