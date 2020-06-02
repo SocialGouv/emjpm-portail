@@ -49,14 +49,22 @@ const linksStyle = {
   width: "100%",
 };
 
+const headingStyle = {
+  fontFamily: "Comfortaa",
+  fontSize: [6, 7],
+  maxWidth: 800,
+  mb: [6, 6, 120],
+  mx: "auto",
+  p: [3, 4, 0],
+  textAlign: "center",
+};
+
 const Index = () => (
   <Box sx={pageWrapperStyle}>
     <Flex sx={containerStyle}>
       <Box style={contentStyle}>
-        <Heading fontSize={7} mb={[6, 6, 120]} mx={4} textAlign="center" fontFamily="Comfortaa">
-          Bienvenue sur le portail
-          <br />
-          de la Protection Juridique des Majeurs
+        <Heading sx={headingStyle}>
+          Bienvenue sur le portail de la Protection Juridique des Majeurs
         </Heading>
         <Box sx={linksStyle}>
           <LandingLink href="/" text="Je suis un particulier" />
@@ -64,9 +72,9 @@ const Index = () => (
           <LandingLink
             href="/devenir-professionnel"
             text={
-              <div>
+              <>
                 Je veux devenir <br /> professionnel
-              </div>
+              </>
             }
           />
         </Box>

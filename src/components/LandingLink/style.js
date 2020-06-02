@@ -7,11 +7,11 @@ const landingLinkStyle = {
   color: "primary",
   border: "solid 1px",
   borderColor: "secondary",
-  fontSize: 3,
-  width: 300,
-  height: 100,
+  fontSize: [2, 3],
+  width: [270, 300],
+  height: [80, 100],
   lineHeight: "1.3",
-  m: "20px",
+  m: ["15px", "20px"],
 };
 
 export { landingLinkStyle };

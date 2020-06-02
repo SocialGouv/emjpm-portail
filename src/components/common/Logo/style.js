@@ -7,7 +7,16 @@ const logoTextStyle = {
   fontSize: 4,
   fontWeight: 500,
   lineHeight: "46px",
-  ml: 1,
+  ml: 3,
+  "@media screen and (max-width: 700px)": {
+    fontSize: 3,
+    ml: 5,
+    // mt: 1,
+    lineHeight: 1.3,
+  },
+  "@media screen and (max-width: 500px)": {
+    ml: 7,
+  },
 };
 
 export { logoTextStyle, logoStyle };
