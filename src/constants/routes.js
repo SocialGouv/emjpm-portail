@@ -1,5 +1,21 @@
 export const routes = {
   "/": { label: `Accueil` },
+  "/devenir-professionnel": { label: `Devenir professionnel` },
+  "/devenir-professionnel/appel-a-candidatures-et-a-projets": {
+    label: `Appel à candidatures et à projets`,
+  },
+  "/devenir-professionnel/la-formation-au-certificat-national-de-competences": {
+    label: `La formation au certificat national de compétences`,
+  },
+  "/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels": {
+    label: `La procédure d’agrément des mandataires individuels`,
+  },
+  "/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires": {
+    label: `La procédure d’autorisation des services mandataires`,
+  },
+  "/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement": {
+    label: `La procédure de déclaration des préposés d’établissement`,
+  },
   "/professionnel": { label: `Professionnel` },
   "/professionnel/je-suis-un-mandataire-individuel": { label: `Je suis un mandataire individuel` },
   "/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite": {
