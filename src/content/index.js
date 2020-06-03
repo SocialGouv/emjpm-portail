@@ -12,43 +12,43 @@ import DevenirMandataireProcedureAutorisationConditions from "./sections/devenir
 import DevenirMandataireProcedureAutorisationProcedure from "./sections/devenir-professionnel/DevenirMandataireProcedureAutorisationProcedure.md";
 import DevenirMandataireProcedureDeclaration from "./sections/devenir-professionnel/DevenirMandataireProcedureDeclaration.md";
 // mandataire individuel
-import CessationActivite from "./sections/je-suis-un-professionnel/mandataire-individuel/CessationActivite.md";
-import DeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteEnquete.md";
-import DeclarationActiviteSemestrielle from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteSemestrielle.md";
-import DeclarationActiviteSite from "./sections/je-suis-un-professionnel/mandataire-individuel/DeclarationActiviteSite.md";
-import DemandeDeNouvelAgrement from "./sections/je-suis-un-professionnel/mandataire-individuel/DemandeDeNouvelAgrement.md";
-import DroitsDuProtege from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtege.md";
-import DroitsDuProtegeArticle1 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle1.md";
-import DroitsDuProtegeArticle2 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle2.md";
-import DroitsDuProtegeArticle3 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle3.md";
-import DroitsDuProtegeArticle4 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle4.md";
-import DroitsDuProtegeArticle5 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle5.md";
-import DroitsDuProtegeArticle6 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle6.md";
-import DroitsDuProtegeArticle7 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle7.md";
-import DroitsDuProtegeArticle8 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle8.md";
-import DroitsDuProtegeArticle9 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle9.md";
-import DroitsDuProtegeArticle10 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle10.md";
-import DroitsDuProtegeArticle11 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle11.md";
-import DroitsDuProtegeArticle12 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle12.md";
-import DroitsDuProtegeArticle13 from "./sections/je-suis-un-professionnel/mandataire-individuel/DroitsDuProtegeArticle13.md";
-import FinancementApplicationArticle from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementApplicationArticle.md";
-import FinancementDifferentsCouts from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementDifferentsCouts.md";
-import FinancementIndemniteComplementaire from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementIndemniteComplementaire.md";
-import FinancementModalitesDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementModalitesDeCalcul.md";
-import FinancementOutilDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementOutilDeCalcul.md";
-import FinancementSystemeDeFinancement from "./sections/je-suis-un-professionnel/mandataire-individuel/FinancementSystemeDeFinancement.md";
-import MissionsCasCuratelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasCuratelle.md";
-import MissionsCasMesureAccompagnement from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasMesureAccompagnement.md";
-import MissionsCasSauvegardeJustice from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasSauvegardeJustice.md";
-import MissionsCasTutelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsCasTutelle.md";
-import MissionsEtActivitesDuMandataire from "./sections/je-suis-un-professionnel/mandataire-individuel/MissionsEtActivitesDuMandataire.md";
-import ObligationsAdministrativesDuMandataire from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsAdministrativesDuMandataire.md";
-import ObligationsControles from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsControles.md";
-import ObligationsEnvoiDesPieces from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsEnvoiDesPieces.md";
-import ObligationsMiseEnPlaceMoyensMentionnes from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsMiseEnPlaceMoyensMentionnes.md";
-import ObligationsPrestationDeSerment from "./sections/je-suis-un-professionnel/mandataire-individuel/ObligationsPrestationDeSerment.md";
-import SanctionsCasNonRespectDesEngagements from "./sections/je-suis-un-professionnel/mandataire-individuel/SanctionsCasNonRespectDesEngagements.md";
-import TachesDuMandataireIndividuel from "./sections/je-suis-un-professionnel/mandataire-individuel/TachesDuMandataireIndividuel.md";
+import MandataireCessationActivite from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireCessationActivite.md";
+import MandataireDeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDeclarationActiviteEnquete.md";
+import MandataireDeclarationActiviteSemestrielle from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDeclarationActiviteSemestrielle.md";
+import MandataireDeclarationActiviteSite from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDeclarationActiviteSite.md";
+import MandataireDemandeDeNouvelAgrement from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDemandeDeNouvelAgrement.md";
+import MandataireDroitsDuProtege from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtege.md";
+import MandataireDroitsDuProtegeArticle1 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle1.md";
+import MandataireDroitsDuProtegeArticle2 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle2.md";
+import MandataireDroitsDuProtegeArticle3 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle3.md";
+import MandataireDroitsDuProtegeArticle4 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle4.md";
+import MandataireDroitsDuProtegeArticle5 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle5.md";
+import MandataireDroitsDuProtegeArticle6 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle6.md";
+import MandataireDroitsDuProtegeArticle7 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle7.md";
+import MandataireDroitsDuProtegeArticle8 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle8.md";
+import MandataireDroitsDuProtegeArticle9 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle9.md";
+import MandataireDroitsDuProtegeArticle10 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle10.md";
+import MandataireDroitsDuProtegeArticle11 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle11.md";
+import MandataireDroitsDuProtegeArticle12 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle12.md";
+import MandataireDroitsDuProtegeArticle13 from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireDroitsDuProtegeArticle13.md";
+import MandataireFinancementApplicationArticle from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireFinancementApplicationArticle.md";
+import MandataireFinancementDifferentsCouts from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireFinancementDifferentsCouts.md";
+import MandataireFinancementIndemniteComplementaire from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireFinancementIndemniteComplementaire.md";
+import MandataireFinancementModalitesDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireFinancementModalitesDeCalcul.md";
+import MandataireFinancementOutilDeCalcul from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireFinancementOutilDeCalcul.md";
+import MandataireFinancementSystemeDeFinancement from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireFinancementSystemeDeFinancement.md";
+import MandataireMissionsCasCuratelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireMissionsCasCuratelle.md";
+import MandataireMissionsCasMesureAccompagnement from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireMissionsCasMesureAccompagnement.md";
+import MandataireMissionsCasSauvegardeJustice from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireMissionsCasSauvegardeJustice.md";
+import MandataireMissionsCasTutelle from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireMissionsCasTutelle.md";
+import MandataireMissionsEtActivitesDuMandataire from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireMissionsEtActivitesDuMandataire.md";
+import MandataireObligationsAdministrativesDuMandataire from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireObligationsAdministrativesDuMandataire.md";
+import MandataireObligationsControles from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireObligationsControles.md";
+import MandataireObligationsEnvoiDesPieces from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireObligationsEnvoiDesPieces.md";
+import MandataireObligationsMiseEnPlaceMoyensMentionnes from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireObligationsMiseEnPlaceMoyensMentionnes.md";
+import MandataireObligationsPrestationDeSerment from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireObligationsPrestationDeSerment.md";
+import MandataireSanctionsCasNonRespectDesEngagements from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireSanctionsCasNonRespectDesEngagements.md";
+import MandataireTachesDuMandataireIndividuel from "./sections/je-suis-un-professionnel/mandataire-individuel/MandataireTachesDuMandataireIndividuel.md";
 // préposé d'établissement
 import PreposeDeclarationActiviteEnquete from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDeclarationActiviteEnquete.md";
 import PreposeDeclarationActiviteSite from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDeclarationActiviteSite.md";
@@ -115,43 +115,43 @@ export {
   DevenirMandataireProcedureAutorisationProcedure,
   DevenirMandataireProcedureDeclaration,
   // mandataire individuel
-  CessationActivite,
-  DeclarationActiviteEnquete,
-  DeclarationActiviteSemestrielle,
-  DeclarationActiviteSite,
-  DemandeDeNouvelAgrement,
-  DroitsDuProtege,
-  DroitsDuProtegeArticle1,
-  DroitsDuProtegeArticle2,
-  DroitsDuProtegeArticle3,
-  DroitsDuProtegeArticle4,
-  DroitsDuProtegeArticle5,
-  DroitsDuProtegeArticle6,
-  DroitsDuProtegeArticle7,
-  DroitsDuProtegeArticle8,
-  DroitsDuProtegeArticle9,
-  DroitsDuProtegeArticle10,
-  DroitsDuProtegeArticle11,
-  DroitsDuProtegeArticle12,
-  DroitsDuProtegeArticle13,
-  FinancementApplicationArticle,
-  FinancementDifferentsCouts,
-  FinancementIndemniteComplementaire,
-  FinancementModalitesDeCalcul,
-  FinancementOutilDeCalcul,
-  FinancementSystemeDeFinancement,
-  MissionsCasCuratelle,
-  MissionsCasMesureAccompagnement,
-  MissionsCasSauvegardeJustice,
-  MissionsCasTutelle,
-  MissionsEtActivitesDuMandataire,
-  ObligationsAdministrativesDuMandataire,
-  ObligationsControles,
-  ObligationsEnvoiDesPieces,
-  ObligationsMiseEnPlaceMoyensMentionnes,
-  ObligationsPrestationDeSerment,
-  SanctionsCasNonRespectDesEngagements,
-  TachesDuMandataireIndividuel,
+  MandataireCessationActivite,
+  MandataireDeclarationActiviteEnquete,
+  MandataireDeclarationActiviteSemestrielle,
+  MandataireDeclarationActiviteSite,
+  MandataireDemandeDeNouvelAgrement,
+  MandataireDroitsDuProtege,
+  MandataireDroitsDuProtegeArticle1,
+  MandataireDroitsDuProtegeArticle2,
+  MandataireDroitsDuProtegeArticle3,
+  MandataireDroitsDuProtegeArticle4,
+  MandataireDroitsDuProtegeArticle5,
+  MandataireDroitsDuProtegeArticle6,
+  MandataireDroitsDuProtegeArticle7,
+  MandataireDroitsDuProtegeArticle8,
+  MandataireDroitsDuProtegeArticle9,
+  MandataireDroitsDuProtegeArticle10,
+  MandataireDroitsDuProtegeArticle11,
+  MandataireDroitsDuProtegeArticle12,
+  MandataireDroitsDuProtegeArticle13,
+  MandataireFinancementApplicationArticle,
+  MandataireFinancementDifferentsCouts,
+  MandataireFinancementIndemniteComplementaire,
+  MandataireFinancementModalitesDeCalcul,
+  MandataireFinancementOutilDeCalcul,
+  MandataireFinancementSystemeDeFinancement,
+  MandataireMissionsCasCuratelle,
+  MandataireMissionsCasMesureAccompagnement,
+  MandataireMissionsCasSauvegardeJustice,
+  MandataireMissionsCasTutelle,
+  MandataireMissionsEtActivitesDuMandataire,
+  MandataireObligationsAdministrativesDuMandataire,
+  MandataireObligationsControles,
+  MandataireObligationsEnvoiDesPieces,
+  MandataireObligationsMiseEnPlaceMoyensMentionnes,
+  MandataireObligationsPrestationDeSerment,
+  MandataireSanctionsCasNonRespectDesEngagements,
+  MandataireTachesDuMandataireIndividuel,
   // service de mandataire
   ServiceDeclarationActiviteEnquete,
   ServiceDeclarationActiviteSite,

@@ -2,43 +2,43 @@ import getConfig from "next/config";
 import React from "react";
 
 import {
-  CessationActivite,
-  DeclarationActiviteEnquete,
-  DeclarationActiviteSemestrielle,
-  DeclarationActiviteSite,
-  DemandeDeNouvelAgrement,
-  DroitsDuProtege,
-  DroitsDuProtegeArticle1,
-  DroitsDuProtegeArticle2,
-  DroitsDuProtegeArticle3,
-  DroitsDuProtegeArticle4,
-  DroitsDuProtegeArticle5,
-  DroitsDuProtegeArticle6,
-  DroitsDuProtegeArticle7,
-  DroitsDuProtegeArticle8,
-  DroitsDuProtegeArticle9,
-  DroitsDuProtegeArticle10,
-  DroitsDuProtegeArticle11,
-  DroitsDuProtegeArticle12,
-  DroitsDuProtegeArticle13,
-  FinancementApplicationArticle,
-  FinancementDifferentsCouts,
-  FinancementIndemniteComplementaire,
-  FinancementModalitesDeCalcul,
-  FinancementOutilDeCalcul,
-  FinancementSystemeDeFinancement,
-  MissionsCasCuratelle,
-  MissionsCasMesureAccompagnement,
-  MissionsCasSauvegardeJustice,
-  MissionsCasTutelle,
-  MissionsEtActivitesDuMandataire,
-  ObligationsAdministrativesDuMandataire,
-  ObligationsControles,
-  ObligationsEnvoiDesPieces,
-  ObligationsMiseEnPlaceMoyensMentionnes,
-  ObligationsPrestationDeSerment,
-  SanctionsCasNonRespectDesEngagements,
-  TachesDuMandataireIndividuel,
+  MandataireCessationActivite,
+  MandataireDeclarationActiviteEnquete,
+  MandataireDeclarationActiviteSemestrielle,
+  MandataireDeclarationActiviteSite,
+  MandataireDemandeDeNouvelAgrement,
+  MandataireDroitsDuProtege,
+  MandataireDroitsDuProtegeArticle1,
+  MandataireDroitsDuProtegeArticle2,
+  MandataireDroitsDuProtegeArticle3,
+  MandataireDroitsDuProtegeArticle4,
+  MandataireDroitsDuProtegeArticle5,
+  MandataireDroitsDuProtegeArticle6,
+  MandataireDroitsDuProtegeArticle7,
+  MandataireDroitsDuProtegeArticle8,
+  MandataireDroitsDuProtegeArticle9,
+  MandataireDroitsDuProtegeArticle10,
+  MandataireDroitsDuProtegeArticle11,
+  MandataireDroitsDuProtegeArticle12,
+  MandataireDroitsDuProtegeArticle13,
+  MandataireFinancementApplicationArticle,
+  MandataireFinancementDifferentsCouts,
+  MandataireFinancementIndemniteComplementaire,
+  MandataireFinancementModalitesDeCalcul,
+  MandataireFinancementOutilDeCalcul,
+  MandataireFinancementSystemeDeFinancement,
+  MandataireMissionsCasCuratelle,
+  MandataireMissionsCasMesureAccompagnement,
+  MandataireMissionsCasSauvegardeJustice,
+  MandataireMissionsCasTutelle,
+  MandataireMissionsEtActivitesDuMandataire,
+  MandataireObligationsAdministrativesDuMandataire,
+  MandataireObligationsControles,
+  MandataireObligationsEnvoiDesPieces,
+  MandataireObligationsMiseEnPlaceMoyensMentionnes,
+  MandataireObligationsPrestationDeSerment,
+  MandataireSanctionsCasNonRespectDesEngagements,
+  MandataireTachesDuMandataireIndividuel,
 } from "../content";
 
 const { publicRuntimeConfig } = getConfig();
@@ -97,28 +97,28 @@ export const mandataireIndividuelIndexPageData = {
 export const mandataireMissionPageData = {
   heading: `Les missions et les activités du mandataire`,
   mainSection: {
-    content: <MissionsEtActivitesDuMandataire />,
+    content: <MandataireMissionsEtActivitesDuMandataire />,
     title: `Les missions et les activités du mandataire`,
   },
   sections: [
     {
       _id: 0,
-      content: <MissionsCasCuratelle />,
+      content: <MandataireMissionsCasCuratelle />,
       title: `Dans le cas d'une curatelle`,
     },
     {
       _id: 1,
-      content: <MissionsCasTutelle />,
+      content: <MandataireMissionsCasTutelle />,
       title: `Dans le cas d'une tutelle`,
     },
     {
       _id: 2,
-      content: <MissionsCasSauvegardeJustice />,
+      content: <MandataireMissionsCasSauvegardeJustice />,
       title: `Dans le cas de la sauvegarde de justice`,
     },
     {
       _id: 3,
-      content: <MissionsCasMesureAccompagnement />,
+      content: <MandataireMissionsCasMesureAccompagnement />,
       title: `Dans le cas d'une mesure d'accompagnement judiciaire`,
     },
   ],
@@ -129,7 +129,7 @@ export const TachesduMandataireIndividuelPageData = {
   sections: [
     {
       _id: 0,
-      content: <TachesDuMandataireIndividuel />,
+      content: <MandataireTachesDuMandataireIndividuel />,
       title: `Les tâches du mandataire individuel`,
     },
   ],
@@ -140,72 +140,72 @@ export const droitsDuProtegePageData = {
   sections: [
     {
       _id: 0,
-      content: <DroitsDuProtege />,
+      content: <MandataireDroitsDuProtege />,
       subSection: {
         articleContent: [
           {
             _id: 0,
-            content: <DroitsDuProtegeArticle1 />,
+            content: <MandataireDroitsDuProtegeArticle1 />,
             title: `Article 1er : Respect des libertés individuelles et des droits civiques`,
           },
           {
             _id: 1,
-            content: <DroitsDuProtegeArticle2 />,
+            content: <MandataireDroitsDuProtegeArticle2 />,
             title: `Article 2 : Non-discrimination`,
           },
           {
             _id: 2,
-            content: <DroitsDuProtegeArticle3 />,
+            content: <MandataireDroitsDuProtegeArticle3 />,
             title: `Article 3 : Respect de la dignité de la personne et de son intégrité`,
           },
           {
             _id: 3,
-            content: <DroitsDuProtegeArticle4 />,
+            content: <MandataireDroitsDuProtegeArticle4 />,
             title: `Article 4 : Liberté des relations personnelles`,
           },
           {
             _id: 4,
-            content: <DroitsDuProtegeArticle5 />,
+            content: <MandataireDroitsDuProtegeArticle5 />,
             title: `Article 5 : Droit au respect des liens familiaux`,
           },
           {
             _id: 5,
-            content: <DroitsDuProtegeArticle6 />,
+            content: <MandataireDroitsDuProtegeArticle6 />,
             title: `Article 6 : Droit à l’information`,
           },
           {
             _id: 6,
-            content: <DroitsDuProtegeArticle7 />,
+            content: <MandataireDroitsDuProtegeArticle7 />,
             title: `Article 7 : Droit à l’autonomie `,
           },
           {
             _id: 7,
-            content: <DroitsDuProtegeArticle8 />,
+            content: <MandataireDroitsDuProtegeArticle8 />,
             title: `Article 8 : Droit à la protection du logement et des objets personnels`,
           },
           {
             _id: 8,
-            content: <DroitsDuProtegeArticle9 />,
+            content: <MandataireDroitsDuProtegeArticle9 />,
             title: `Article 9 : Consentement éclairé et participation de la personne`,
           },
           {
             _id: 9,
-            content: <DroitsDuProtegeArticle10 />,
+            content: <MandataireDroitsDuProtegeArticle10 />,
             title: `Article 10 : Droit à une intervention personnalisée`,
           },
           {
             _id: 10,
-            content: <DroitsDuProtegeArticle11 />,
+            content: <MandataireDroitsDuProtegeArticle11 />,
             title: `Article 11 : Droit à l’accès aux soins`,
           },
           {
             _id: 11,
-            content: <DroitsDuProtegeArticle12 />,
+            content: <MandataireDroitsDuProtegeArticle12 />,
             title: `Article 12 : Protection des biens dans l’intérêt exclusif de la personne`,
           },
           {
             _id: 12,
-            content: <DroitsDuProtegeArticle13 />,
+            content: <MandataireDroitsDuProtegeArticle13 />,
             title: `Article 13 : Confidentialité des informations`,
           },
         ],
@@ -218,28 +218,28 @@ export const droitsDuProtegePageData = {
 export const ObligationsAdministrativesMandatairePageData = {
   heading: `Les obligations administratives du mandataire`,
   mainSection: {
-    content: <ObligationsAdministrativesDuMandataire />,
+    content: <MandataireObligationsAdministrativesDuMandataire />,
     title: `Les obligations administratives du mandataire`,
   },
   sections: [
     {
       _id: 0,
-      content: <ObligationsEnvoiDesPieces />,
+      content: <MandataireObligationsEnvoiDesPieces />,
       title: `Envoi des pièces après notification de l'agrément`,
     },
     {
       _id: 1,
-      content: <ObligationsMiseEnPlaceMoyensMentionnes />,
+      content: <MandataireObligationsMiseEnPlaceMoyensMentionnes />,
       title: `Mise en place des moyens mentionnés dans le dossier`,
     },
     {
       _id: 2,
-      content: <ObligationsPrestationDeSerment />,
+      content: <MandataireObligationsPrestationDeSerment />,
       title: `Prestation de serment`,
     },
     {
       _id: 3,
-      content: <ObligationsControles />,
+      content: <MandataireObligationsControles />,
       title: `Contrôles`,
     },
   ],
@@ -250,17 +250,17 @@ export const DeclarationActivitePageData = {
   sections: [
     {
       _id: 0,
-      content: <DeclarationActiviteSemestrielle />,
+      content: <MandataireDeclarationActiviteSemestrielle />,
       title: `La déclaration semestrielle`,
     },
     {
       _id: 1,
-      content: <DeclarationActiviteSite />,
+      content: <MandataireDeclarationActiviteSite />,
       title: `Le site e-MJPM`,
     },
     {
       _id: 2,
-      content: <DeclarationActiviteEnquete />,
+      content: <MandataireDeclarationActiviteEnquete />,
       title: `L'enquête annuelle`,
     },
   ],
@@ -271,32 +271,32 @@ export const FinancementMandatairesIndividuelsPageData = {
   sections: [
     {
       _id: 0,
-      content: <FinancementSystemeDeFinancement />,
+      content: <MandataireFinancementSystemeDeFinancement />,
       title: `Le système de financement des mesures`,
     },
     {
       _id: 1,
-      content: <FinancementOutilDeCalcul />,
+      content: <MandataireFinancementOutilDeCalcul />,
       title: `L'outil de calcul des mandataires individuels`,
     },
     {
       _id: 2,
-      content: <FinancementApplicationArticle />,
+      content: <MandataireFinancementApplicationArticle />,
       title: `L’application de l’article R 472-8`,
     },
     {
       _id: 3,
-      content: <FinancementModalitesDeCalcul />,
+      content: <MandataireFinancementModalitesDeCalcul />,
       title: `Les modalités de calcul de coût des mesures`,
     },
     {
       _id: 4,
-      content: <FinancementDifferentsCouts />,
+      content: <MandataireFinancementDifferentsCouts />,
       title: `Les différents coûts au regard des indicateurs`,
     },
     {
       _id: 5,
-      content: <FinancementIndemniteComplementaire />,
+      content: <MandataireFinancementIndemniteComplementaire />,
       title: `Indemnité complémentaire`,
     },
   ],
@@ -305,7 +305,7 @@ export const FinancementMandatairesIndividuelsPageData = {
 export const SanctionsNonRespectEngagementsPageData = {
   heading: `Les sanctions en cas de non-respect des engagements`,
   mainSection: {
-    content: <SanctionsCasNonRespectDesEngagements />,
+    content: <MandataireSanctionsCasNonRespectDesEngagements />,
     title: `Les sanctions en cas de non-respect des engagements`,
   },
 };
@@ -313,7 +313,7 @@ export const SanctionsNonRespectEngagementsPageData = {
 export const DemandeNouvelAgrementPageData = {
   heading: `La demande de nouvel agrément`,
   mainSection: {
-    content: <DemandeDeNouvelAgrement />,
+    content: <MandataireDemandeDeNouvelAgrement />,
     title: `La demande de nouvel agrément`,
   },
 };
@@ -321,7 +321,7 @@ export const DemandeNouvelAgrementPageData = {
 export const CessationActivitePageData = {
   heading: `Cessation d'activité`,
   mainSection: {
-    content: <CessationActivite />,
+    content: <MandataireCessationActivite />,
     title: `Cessation d'activité`,
   },
 };
