@@ -1,7 +1,7 @@
 import React from "react";
 
 import SectionPage from "../../../components/SectionPage";
-import { CessationActivitePageData } from "../../../constants/pageData";
+import { CessationActivitePageData } from "../../../constants/mandataireIndividuelPageData";
 
 const Index = () => <SectionPage data={CessationActivitePageData} />;
 

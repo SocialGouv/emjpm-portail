@@ -5,7 +5,7 @@ import Breadcrumbs from "../../../components/Breadcrumbs";
 import IndexPageWrapper from "../../../components/IndexPageWrapper";
 import PageSection from "../../../components/PageSection";
 import PageSectionsWrapper from "../../../components/PageSectionsWrapper";
-import { mandataireIndividuelIndexPageData as data } from "../../../constants/pageData";
+import { mandataireIndividuelIndexPageData as data } from "../../../constants/mandataireIndividuelPageData";
 
 const Index = () => (
   <>
