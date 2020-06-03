@@ -10,7 +10,7 @@ import { serviceMandataireIndexPageData as data } from "../../../constants/servi
 const Index = () => (
   <>
     <Breadcrumbs />
-    <Flex flexWrap="wrap" maxWidth={1400} mx="auto" justifyContent="center">
+    <Flex flexWrap="wrap" maxWidth={1400} minHeight="62vh" mx="auto" justifyContent="center">
       <IndexPageWrapper heading={data.heading}>
         <PageSectionsWrapper>
           {data.sections &&

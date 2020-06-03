@@ -17,7 +17,7 @@ const SectionContent = ({
 }) => {
   return (
     <MDXProvider components={mdComponents}>
-      <Box mx="20px">
+      <Box mx="20px" width="100%">
         <Heading mb="50px" mt="28px" fontSize="18px" fontFamily="Comfortaa">
           {data.heading}
         </Heading>

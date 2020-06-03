@@ -1,7 +1,7 @@
 import React from "react";
 
 import SectionPage from "../../../components/SectionPage";
-import { ObligationsAdministrativesMandatairePageData } from "../../../constants/pageData";
+import { ObligationsAdministrativesMandatairePageData } from "../../../constants/mandataireIndividuelPageData";
 
 const Index = () => <SectionPage data={ObligationsAdministrativesMandatairePageData} />;
 

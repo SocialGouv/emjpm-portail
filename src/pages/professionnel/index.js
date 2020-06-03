@@ -3,7 +3,7 @@ import { Box, Flex, Heading } from "rebass";
 
 import Breadcrumbs from "../../components/Breadcrumbs";
 import PageSection from "../../components/PageSection";
-import { professionnelIndexPageData as data } from "../../constants/pageData";
+import { professionnelIndexPageData as data } from "../../constants/professionnelIndexPageData";
 
 const Index = () => (
   <>
