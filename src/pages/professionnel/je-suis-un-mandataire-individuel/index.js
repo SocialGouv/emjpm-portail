@@ -10,21 +10,22 @@ import { mandataireIndividuelIndexPageData as data } from "../../../constants/ma
 const Index = () => (
   <>
     <Breadcrumbs />
-    <Flex flexWrap="wrap" maxWidth={1400} mx="auto" justifyContent="center" />
-    <IndexPageWrapper heading={data.heading}>
-      <PageSectionsWrapper>
-        {data.sections &&
-          data.sections.map((item, index) => (
-            <PageSection
-              key={index}
-              url={item.url}
-              title={item.title}
-              image={item.image}
-              rowAlign
-            />
-          ))}
-      </PageSectionsWrapper>
-    </IndexPageWrapper>
+    <Flex flexWrap="wrap" maxWidth={1400} minHeight="62vh" mx="auto" justifyContent="center">
+      <IndexPageWrapper heading={data.heading}>
+        <PageSectionsWrapper>
+          {data.sections &&
+            data.sections.map((item, index) => (
+              <PageSection
+                key={index}
+                url={item.url}
+                title={item.title}
+                image={item.image}
+                rowAlign
+              />
+            ))}
+        </PageSectionsWrapper>
+      </IndexPageWrapper>
+    </Flex>
   </>
 );
 
