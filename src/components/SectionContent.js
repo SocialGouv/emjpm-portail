@@ -9,10 +9,8 @@ import SectionPanels from "./SectionPanels";
 
 const SectionContent = ({
   data,
-  activeArticle,
   currentSection,
   articles,
-  setActiveArticle,
   setSectionId,
   activeButton,
   setActiveButton,
@@ -32,12 +30,7 @@ const SectionContent = ({
               activeButton={activeButton}
               setActiveButton={setActiveButton}
             />
-            <SectionPanels
-              currentSection={currentSection}
-              articles={articles}
-              activeArticle={activeArticle}
-              setActiveArticle={setActiveArticle}
-            />
+            <SectionPanels currentSection={currentSection} articles={articles} />
           </Fragment>
         )}
       </Box>

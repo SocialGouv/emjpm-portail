@@ -10,7 +10,6 @@ const findSectionById = (sectionId, sections) => {
 
 const SectionPage = ({ data }) => {
   const [sectionId, setSectionId] = useState(0);
-  const [activeArticle, setActiveArticle] = useState(0);
   const [activeButton, setActiveButton] = useState(0);
   const currentSection = findSectionById(sectionId, data.sections);
   const articles =
@@ -22,10 +21,8 @@ const SectionPage = ({ data }) => {
       <Flex bg="whiteGray" maxWidth={1200} minHeight="68.5vh" justifyContent="start" mx="auto">
         <SectionContent
           data={data}
-          activeArticle={activeArticle}
           currentSection={currentSection}
           articles={articles}
-          setActiveArticle={setActiveArticle}
           setSectionId={setSectionId}
           activeButton={activeButton}
           setActiveButton={setActiveButton}
