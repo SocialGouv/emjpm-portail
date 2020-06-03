@@ -67,7 +67,12 @@ const Index = () => (
           Bienvenue sur le portail de la Protection Juridique des Majeurs
         </Heading>
         <Box sx={linksStyle}>
-          <LandingLink href="/" text="Je suis un particulier" />
+          <LandingLink
+            href="/"
+            text="Je suis un particulier"
+            subtext="(en construction)"
+            disabled
+          />
           <LandingLink href="/professionnel" text="Je suis un professionnel" />
           <LandingLink
             href="/devenir-professionnel"

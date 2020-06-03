@@ -14,4 +14,12 @@ const landingLinkStyle = {
   m: ["15px", "20px"],
 };
 
-export { landingLinkStyle };
+const disabledLinkStyle = {
+  ...landingLinkStyle,
+  backgroundColor: "mediumGray",
+  cursor: "default",
+  borderColor: "white",
+  color: "white",
+};
+
+export { landingLinkStyle, disabledLinkStyle };
