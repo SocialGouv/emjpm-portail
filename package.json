@@ -23,7 +23,7 @@
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
-    "@socialgouv/eslint-config-react": "^0.29.0",
+    "@socialgouv/eslint-config-react": "^0.30.0",
     "babel-jest": "^26.0.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
