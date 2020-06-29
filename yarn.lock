@@ -1466,7 +1466,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.1.4":
+"@socialgouv/eslint-config-react@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.2.0.tgz#4a1c17ddde013fc07873eb6abf079355d31f26ac"
   integrity sha512-8HAXdfJtdKsMoAfmG+uRWWvgHvhzof+QH7bGCflhXD84QghrRT0W3tyXN9pYfaymoV1nu+uGP/OzufyPZEaJlg==
