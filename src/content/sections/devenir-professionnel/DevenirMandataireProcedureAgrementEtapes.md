@@ -2,7 +2,7 @@ import ExternalLink from "../../../components/ExternalLink";
 
 • Étape 1 : Constitution du dossier
 
-Dans les délais fixés par l’avis d’appel à candidatures, le professionnel doit adresser un <ExternalLink>[**formulaire de demande d’agrément**](https://www.formulaires.service-public.fr/gf/cerfa_13913.do)</ExternalLink> et la notice explicative des pièces justificatives nécessaires, au préfet de Département dans lequel il souhaite exercer par lettre recommandée avec accusé de réception.
+Dans les délais fixés par l’avis d’appel à candidatures, le professionnel doit adresser un <ExternalLink>[**formulaire de demande d’agrément**](https://www.service-public.fr/particuliers/vosdroits/R1898)</ExternalLink> et la notice explicative des pièces justificatives nécessaires, au préfet de Département dans lequel il souhaite exercer par lettre recommandée avec accusé de réception.
 Le professionnel doit également en transmettre une copie en lettre recommandée au procureur de la République près le tribunal judiciaire du chef-lieu de département.
 <br/>
 
@@ -24,8 +24,8 @@ La commission départementale d’agrément reçoit le candidat au titre de mand
 
 • Étape 5 : Communication de la décision d’agrément
 
-La DDCS ou la DDCSPP informe le professionnel **dans un délai maximal de cinq mois** à compter de la date d'accusé de réception du dossier complet de la suite favorable ou défavorable donnée à sa demande d’agrément.
-En cas d’absence de réponse de l’administration dans le délai de cinq mois à compter de la date d'accusé de réception du dossier complet, la demande est réputé rejetée.
+La DDCS ou la DDCSPP informe le professionnel **dans un délai maximal de cinq mois**, à compter de la date d'accusé de réception du dossier complet, de la suite favorable ou défavorable donnée à sa demande d’agrément.
+En cas d’absence de réponse de l’administration dans le délai de cinq mois, à compter de la date d'accusé de réception du dossier complet, la demande est réputé rejetée.
 <br/>
 
 En cas de suite favorable, la DDCS ou la DDCSPP communique la décision d’agrément au professionnel. Une fois l’agrément accordé, la DDCS ou la DDCSPP inscrit automatiquement le futur mandataire individuel sur la liste des mandataires judiciaires à la protection des majeurs.
