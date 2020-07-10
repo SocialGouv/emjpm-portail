@@ -2,7 +2,7 @@ import ExternalLink from "../../../components/ExternalLink";
 
 • Étape 1 : Constitution du dossier
 
-Dans les délais fixés par l’avis d’appel à candidatures, le professionnel doit adresser un <ExternalLink>[**formulaire de demande d’agrément**](https://www.service-public.fr/particuliers/vosdroits/R1898)</ExternalLink> et la notice explicative des pièces justificatives nécessaires, au préfet de Département dans lequel il souhaite exercer par lettre recommandée avec accusé de réception.
+Dans les délais fixés par l’avis d’appel à candidatures, le professionnel doit adresser un <ExternalLink href="https://www.service-public.fr/particuliers/vosdroits/R1898">**formulaire de demande d’agrément**</ExternalLink> et la notice explicative des pièces justificatives nécessaires, au préfet de Département dans lequel il souhaite exercer par lettre recommandée avec accusé de réception.
 Le professionnel doit également en transmettre une copie en lettre recommandée au procureur de la République près le tribunal judiciaire du chef-lieu de département.
 <br/>
 

@@ -12,4 +12,4 @@ Cet article dispose que « les informations permettant le calcul du coût de la
 Concernant les dispositions relatives au financement, elles sont prévues aux articles R. 471-5 à R. 471-5-5 et R. 472-8 du code de l’action sociale et des familles.
 <br/>
 
-_Pour aller plus loin : <ExternalLink>[guide d’utilisation](https://docs.google.com/document/d/1QhiO9aOWmWMcMZ12p5aGCgvLIKoQc8723aU3hMa-ZvU/edit)</ExternalLink> de l’outil de calcul des mesures pour mandataire individuel_
+_Pour aller plus loin : <ExternalLink href="https://docs.google.com/document/d/1QhiO9aOWmWMcMZ12p5aGCgvLIKoQc8723aU3hMa-ZvU/edit">guide d’utilisation</ExternalLink> de l’outil de calcul des mesures pour mandataire individuel_
