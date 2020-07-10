@@ -1,5 +1,4 @@
 Deux situations peuvent amener un mandataire individuel à arrêter son activité :
-<br/>
 
 - **Une décision du fait du mandataire individuel**. En effet il peut décider d’arrêter son activité professionnelle pour plusieurs raisons qui lui appartiennent
 
@@ -7,7 +6,6 @@ Deux situations peuvent amener un mandataire individuel à arrêter son activit�
 
 Le mandataire individuel qui décide d’arrêter son activité doit suivre la procédure spécifique suivante :
 <br/>
-
 Étape 1 : le mandataire individuel doit informer, avec un préavis de deux mois, les préfets de Département ainsi que les juridictions qui lui ont confiés des mesures de protection des majeurs
 <br/>
 

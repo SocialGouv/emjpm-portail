@@ -1,5 +1,4 @@
 **Pour pouvoir effectuer cette formation, les professionnels doivent répondre aux conditions suivantes** :
-<br/>
 
 - Être titulaire d’un diplôme de niveau III (ou justifier de 3 ans d’ancienneté dans un emploi correspondant à ce niveau)
 

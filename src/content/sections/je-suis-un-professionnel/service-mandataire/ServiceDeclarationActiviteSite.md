@@ -19,7 +19,6 @@ Pour les mandataires judiciaires, le site e-MJPM permet de :
   <br/>
 
 En parallèle, **les magistrats peuvent :**
-<br/>
 
 - **Avoir accès, via e-MJPM, à une carte leur permettant de visualiser rapidement l’ensemble des mandataires** en fonction des adresses et des préférences renseignées lors de l’inscription
 

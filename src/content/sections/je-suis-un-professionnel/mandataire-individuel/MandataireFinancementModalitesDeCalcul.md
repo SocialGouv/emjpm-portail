@@ -8,7 +8,6 @@ La formule de calcul déterminant le coût de la mesure est la suivante : **C =
 <br/>
 
 **Le coût de référence (142,95 €)** au regard des indicateurs prévus à l’article R.471-5-1 du CASF correspond au coût d’une mesure pour une personne qui :
-<br/>
 
 - **Est placée sous curatelle renforcée, mesure d’accompagnement judiciaire, mandat spécial, curatelle renforcée aux biens ou à la personne** (indicateur nature des missions)
 
