@@ -1,4 +1,6 @@
-Le **besoin de simplifier le processus de suivi et de contrôle de l’activité des mandataires judiciaires** dans le cadre du programme de transformation de la politique publique de protection juridique des majeurs (MANDOLINE) et **l’identification d’un produit d’attribution des mesures développé en Hauts-de-France** ont donné lieu à l’opportunité de mettre à disposition de toutes les parties prenantes un site dédié qui se nomme e-MJPM.
+import ExternalLink from "../../../../components/ExternalLink";
+
+Le **besoin de simplifier le processus de suivi et de contrôle de l’activité des mandataires judiciaires** dans le cadre du programme de transformation de la politique publique de protection juridique des majeurs (Programme MANDOLINE) et **l’identification d’un produit d’attribution des mesures développé en Hauts-de-France** ont donné lieu à l’opportunité de mettre à disposition de toutes les parties prenantes un site dédié qui se nomme <ExternalLink>[e-MJPM](https://emjpm.num.social.gouv.fr/)</ExternalLink>.
 <br/>
 
 Pour les mandataires judiciaires, le site e-MJPM permet de :

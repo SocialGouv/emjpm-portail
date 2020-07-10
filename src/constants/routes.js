@@ -48,9 +48,6 @@ export const routes = {
   "/professionnel/je-suis-un-prepose-d-etablissement": {
     label: `Je suis un préposé d'établissement`,
   },
-  "/professionnel/je-suis-un-prepose-d-etablissement/l-evolution-de-l-activite-du-prepose": {
-    label: `L’évolution de l’activité du préposé`,
-  },
   "/professionnel/je-suis-un-prepose-d-etablissement/la-declaration-d-activite": {
     label: `La déclaration d'activité`,
   },
@@ -62,6 +59,9 @@ export const routes = {
   },
   "/professionnel/je-suis-un-prepose-d-etablissement/les-droits-du-protege": {
     label: `Les droits du protégé`,
+  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/nouvelle-declaration-du-prepose": {
+    label: `Nouvelle déclaration du préposé`,
   },
   "/professionnel/je-suis-un-prepose-d-etablissement/obligations-administratives-du-prepose": {
     label: `Obligations administratives du préposé`,

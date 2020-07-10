@@ -19,3 +19,9 @@ La formule de calcul se réfère donc à ce coût de référence auquel sont app
 <br/>
 
 Le résultat de l’application de la formule constitue donc le coût de la mesure de protection correspondant à la situation de la personne protégée.
+<br/>
+
+Pour les préposés les coûts des mesures de protection servent uniquement à plafonner la participation financière des personnes et non à déterminer le niveau de leur financement.
+<br/>
+
+Pour information, les préposés peuvent utiliser la plateforme OCMI uniquement pour calculer la participation des personnes. Ils doivent utiliser un département fictif "980" afin que leurs mesures ne soient pas comptabilisées avec celles des mandataires individuels.
