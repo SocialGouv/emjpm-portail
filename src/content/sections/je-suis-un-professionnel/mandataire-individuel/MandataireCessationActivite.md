@@ -8,7 +8,7 @@ Deux situations peuvent amener un mandataire individuel à arrêter son activit�
 Le mandataire individuel qui décide d’arrêter son activité doit suivre la procédure spécifique suivante :
 <br/>
 
-Étape 1 : le mandataire individuel doit informer, avec un préavis de deux mois, les préfets de Département ainsi que les juridictions qui ont confié des mesures de protection des majeurs
+Étape 1 : le mandataire individuel doit informer, avec un préavis de deux mois, les préfets de Département ainsi que les juridictions qui lui ont confiés des mesures de protection des majeurs
 <br/>
 
 Étape 2 : Le **préfet donne acte de la cessation de l’activité**. L’agrément du mandataire est alors retiré et il est par conséquent **radié de la liste des mandataires judiciaires**.

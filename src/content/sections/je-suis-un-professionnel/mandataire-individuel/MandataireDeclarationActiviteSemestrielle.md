@@ -18,7 +18,5 @@ Aussi, au début de chaque semestre, le mandataire individuel se doit de remplir
 **Un exemplaire doit être envoyé au juge** qui lui a confié l’exercice de mesures de protection des majeurs et **une copie doit être transmise aux préfets des départements (DCS(PP))** dans lesquels le mandataire individuel bénéficie d’un agrément.
 <br />
 
-À terme, et **grâce au programme MANDOLINE, le suivi des activités sera dématérialisé et automatisé sur le site e-MJPM**. Cela permettra de donner une visibilité aux magistrats et autorités concernées de la capacité de chaque mandataire individuel.
+À terme, et **grâce au programme MANDOLINE, le suivi des activités sera dématérialisé et automatisé sur le site <ExternalLink>[e-MJPM](https://emjpm.num.social.gouv.fr/)</ExternalLink>**. Cela permettra de donner une visibilité aux magistrats et autorités concernées de la capacité de chaque mandataire individuel.
 <br />
-
-_Pour aller plus loin : <ExternalLink>[Une notice d’informations](https://wikipedia.org)</ExternalLink> est disponible afin de guider les mandataires individuels dans le remplissage de la déclaration semestrielle._

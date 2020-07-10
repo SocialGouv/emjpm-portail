@@ -2,9 +2,9 @@ Au titre de ses fonctions de mandataire judiciaire à la protection des majeurs,
 <br/>
 
 **Le contrôle judiciaire** qui s’exerce de deux manières :
-<br/>
 
 • Un contrôle principal pendant lequel le juge des contentieux de la protection contrôle comment le mandat est mis en œuvre et si ce qui a été décidé est bien respecté
+
 • Un pouvoir de surveillance générale exercé par le juge des contentieux de la protection et le procureur de la République. Ce dernier peut intervenir s’il estime que le mandataire n’exerce pas correctement ses mesures. Il peut notamment demander une radiation du mandataire auprès du préfet
 <br/>
 
