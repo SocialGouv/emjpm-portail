@@ -1,7 +1,7 @@
 **Les modalités de calcul du coût des mesures en fonction des indicateurs sont prévues par l’arrêté du 31 août 2018** relatif à la détermination du coût des mesures de protection exercées par les mandataires judiciaires à la protection des majeurs.
 <br/>
 
-Il prévoit que le coût de la mesure est calculé en **multipliant un coût de référence fixé à 142,95 € par les taux prévus pour les 3 indicateurs mentionnés ci-dessus. L’application des coefficients de majoration ou minoration est cumulative.**
+Il prévoit que le coût de la mesure est calculé en **multipliant un coût de référence fixé à 142,95 € par les taux prévus pour les 3 indicateurs suivants : nature de la mesure, lieu de vie, niveau de ressources. L’application des coefficients de majoration ou minoration est cumulative.**
 <br/>
 
 La formule de calcul déterminant le coût de la mesure est la suivante : **C = (CR x (1+A) x (1+B) x (1+C)** où : C = le coût de la mesure ; CR = le coût de référence ; A, B, et C = les taux correspondant à chacun des 3 indicateurs précités.
@@ -20,3 +20,6 @@ La formule de calcul se réfère donc à ce coût de référence auquel sont app
 <br/>
 
 Le résultat de l’application de la formule constitue donc le coût de la mesure de protection correspondant à la situation de la personne protégée.
+<br/>
+
+Pour les services mandataires, qui sont financés sous forme de dotation globale, les coûts des mesures de protection servent uniquement à plafonner la participation financière des personnes et non à déterminer le niveau de leur financement. Le total des participations est déduit du montant global du budget des services et la différence est versée par le financeur public.
