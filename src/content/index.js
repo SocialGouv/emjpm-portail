@@ -66,7 +66,7 @@ import PreposeDroitsDuProtegeArticle10 from "./sections/je-suis-un-professionnel
 import PreposeDroitsDuProtegeArticle11 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle11.md";
 import PreposeDroitsDuProtegeArticle12 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle12.md";
 import PreposeDroitsDuProtegeArticle13 from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeDroitsDuProtegeArticle13.md";
-import PreposeEvolutionActivitePrepose from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeEvolutionActivitePrepose.md";
+import PreposeNouvelleDeclarationPrepose from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeNouvelleDeclarationPrepose.md";
 import PreposeObligationsControles from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeObligationsControles.md";
 import PreposeObligationsPrestationSerment from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeObligationsPrestationSerment.md";
 import PreposeSystemeFinancementEtablissementMedicoSociaux from "./sections/je-suis-un-professionnel/prepose-etablissement/PreposeSystemeFinancementEtablissementMedicoSociaux.md";
@@ -193,7 +193,7 @@ export {
   PreposeDroitsDuProtegeArticle11,
   PreposeDroitsDuProtegeArticle12,
   PreposeDroitsDuProtegeArticle13,
-  PreposeEvolutionActivitePrepose,
+  PreposeNouvelleDeclarationPrepose,
   PreposeObligationsControles,
   PreposeObligationsPrestationSerment,
   PreposeSystemeFinancementEtablissementMedicoSociaux,

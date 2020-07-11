@@ -19,4 +19,4 @@ Ainsi, **l’article R 471-5** reprend ce principe en précisant que **la partic
 - Lorsque la participation est supérieure à la rémunération, le mandataire doit prélever uniquement le montant issu de l’application de la formule de calcul
   <br/>
 
-La plateforme <ExternalLink>[Outil de Calcul des Mandataires Individuels](https://dgcs-alt.social.gouv.fr/dgcs/ocmi)</ExternalLink> (OCMI) calcule la part de la mesure financée par l’Etat.
+La plateforme <ExternalLink href="https://dgcs-alt.social.gouv.fr/dgcs/ocmi">Outil de Calcul des Mandataires Individuels</ExternalLink> (OCMI) calcule la part de la mesure financée par l’Etat.

@@ -1,4 +1,4 @@
-**La formation pour le certificat national de compétence se déroule de la manière suivante**
+**La formation pour le certificat national de compétence se déroule de la manière suivante** :
 
 - **Des enseignements théoriques** organisés par module
 

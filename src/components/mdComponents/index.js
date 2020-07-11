@@ -19,7 +19,7 @@ const Heading = ({ children }) => (
 const UnorderedList = ({ children }) => (
   <Box
     sx={{
-      my: "36px",
+      my: "18px",
       ":last-of-type": {
         mb: 0,
       },
@@ -78,7 +78,7 @@ const Bold = ({ children }) => (
 const Spacer = ({ children }) => (
   <Box
     sx={{
-      mb: "36px",
+      mb: "18px",
       ":last-of-type": {
         mb: 0,
       },

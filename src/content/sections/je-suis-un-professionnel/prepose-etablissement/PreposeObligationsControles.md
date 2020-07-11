@@ -1,6 +1,7 @@
 Au titre de ses fonctions de mandataire judiciaire à la protection des majeurs, le mandataire judiciaire peut-être soumis à un **double contrôle** :
+<br/>
 
-Le contrôle judiciaire qui s’exerce de deux manières :
+**Le contrôle judiciaire** qui s’exerce de deux manières :
 
 - Un contrôle principal pendant lequel le juge des contentieux de la protection contrôle comment le mandat est mis en œuvre et si ce qui a été décidé est bien respecté
 

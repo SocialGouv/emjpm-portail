@@ -18,7 +18,7 @@ import {
   PreposeDroitsDuProtegeArticle11,
   PreposeDroitsDuProtegeArticle12,
   PreposeDroitsDuProtegeArticle13,
-  PreposeEvolutionActivitePrepose,
+  PreposeNouvelleDeclarationPrepose,
   PreposeObligationsControles,
   PreposeObligationsPrestationSerment,
   PreposeSystemeFinancementEtablissementMedicoSociaux,
@@ -46,8 +46,8 @@ export const preposeEtablissementIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
-      title: `L'évolution de l'activité du préposé`,
-      url: `/professionnel/je-suis-un-prepose-d-etablissement/l-evolution-de-l-activite-du-prepose`,
+      title: `Nouvelle déclaration du préposé`,
+      url: `/professionnel/je-suis-un-prepose-d-etablissement/nouvelle-declaration-du-prepose`,
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
@@ -165,10 +165,10 @@ export const preposeEtablissementDroitsDuProtegePageData = {
 };
 
 export const preposeEtablissementEvolutionActivitePageData = {
-  heading: `L’évolution de l’activité du préposé`,
+  heading: `Nouvelle déclaration du préposé`,
   mainSection: {
-    content: <PreposeEvolutionActivitePrepose />,
-    title: `L’évolution de l’activité du préposé`,
+    content: <PreposeNouvelleDeclarationPrepose />,
+    title: `Nouvelle déclaration du préposé`,
   },
 };
 

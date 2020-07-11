@@ -2,7 +2,6 @@ Pour exercer à titre individuel des mesures de protection juridique des majeurs
 <br/>
 
 **Tout professionnel souhaitant exercer une activité de mandataire individuel doit satisfaire les conditions suivantes** :
-<br/>
 
 - Être âgé au minimum de 25 ans et satisfaire aux conditions de moralité
 - Ne pas avoir fait l’objet d’infractions listées à l’article L 133-6 du code de l’action sociale et des familles

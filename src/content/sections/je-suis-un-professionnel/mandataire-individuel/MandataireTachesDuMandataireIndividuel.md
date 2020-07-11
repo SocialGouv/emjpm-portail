@@ -1,4 +1,4 @@
-Pour réaliser ces mission et activités, Le mandataire aura, selon la nature de la mesure, à exécuter notamment les tâches suivantes :
+Pour réaliser ses missions et activités, le mandataire aura, selon la nature de la mesure, à exécuter notamment les tâches suivantes :
 
 - **Établir et transmettre au juge un inventaire du patrimoine de la personne protégée** dans les trois mois de l'ouverture de la tutelle pour les biens meubles corporels, et dans les six mois pour les autres biens, avec le budget prévisionnel
 

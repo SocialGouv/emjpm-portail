@@ -6,11 +6,17 @@ const linkStyle = {
   textDecoration: "underline",
 };
 
-const ExternalLink = ({ children }) => (
-  <Box my={4} display="inline">
-    <Box as="a" href={children} sx={linkStyle} target="_blank">
-      {children}
-    </Box>
+const ExternalLink = ({ children, href }) => (
+  <Box
+    as="a"
+    my={4}
+    display="inline"
+    href={href}
+    sx={linkStyle}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {children}
   </Box>
 );
 

@@ -11,3 +11,6 @@ Cette indemnité est à la charge de la personne et est fixée par le juge en ap
 <br/>
 
 Le taux horaire correspond à 12 fois le montant brut horaire du SMIC en vigueur au 1er janvier de l'année au titre de laquelle la rémunération est attribuée.
+<br/>
+
+Lorsque l’indemnité est attribuée pour une durée de travail supérieure à 14 heures, son montant est relevé à 15 fois le montant brut horaire du SMIC en vigueur au 1er janvier de l'année au titre de laquelle la rémunération est attribuée.

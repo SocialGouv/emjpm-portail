@@ -3,8 +3,7 @@ import ExternalLink from "../../../../components/ExternalLink";
 La transmission de la déclaration semestrielle par les mandataires exerçant à titre individuel est obligatoire en application de l’article R.472-10 du code de l’action sociale et des familles.
 <br />
 
-Aussi, au début de chaque semestre, le mandataire individuel se doit de remplir <ExternalLink>[le formulaire de déclaration semestrielle](https://wikipedia.org)</ExternalLink> pour l’activité du semestre passé. Cela lui permet d’**informer le tribunal et les juges** :
-<br />
+Aussi, au début de chaque semestre, le mandataire individuel se doit de remplir <ExternalLink href='https://www.service-public.fr/particuliers/vosdroits/R17573'>le formulaire de déclaration semestrielle</ExternalLink> pour l’activité du semestre passé. Cela lui permet d’**informer le tribunal et les juges** :
 
 - **De sa capacité de prise en charge, actuelle mais également de projection sur l’année**
 
@@ -20,5 +19,3 @@ Aussi, au début de chaque semestre, le mandataire individuel se doit de remplir
 
 À terme, et **grâce au programme MANDOLINE, le suivi des activités sera dématérialisé et automatisé sur le site e-MJPM**. Cela permettra de donner une visibilité aux magistrats et autorités concernées de la capacité de chaque mandataire individuel.
 <br />
-
-_Pour aller plus loin : <ExternalLink>[Une notice d’informations](https://wikipedia.org)</ExternalLink> est disponible afin de guider les mandataires individuels dans le remplissage de la déclaration semestrielle._
