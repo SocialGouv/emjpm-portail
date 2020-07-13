@@ -46,11 +46,6 @@ export const preposeEtablissementIndexPageData = {
     },
     {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
-      title: `Nouvelle déclaration du préposé`,
-      url: `/professionnel/je-suis-un-prepose-d-etablissement/nouvelle-declaration-du-prepose`,
-    },
-    {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
       title: `La déclaration d'activité`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/la-declaration-d-activite`,
     },
@@ -64,6 +59,11 @@ export const preposeEtablissementIndexPageData = {
       image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
       title: `Le système de participation et la grille de coût`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-participation-et-la-grille-de-cout`,
+    },
+    {
+      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      title: `Nouvelle déclaration du préposé`,
+      url: `/professionnel/je-suis-un-prepose-d-etablissement/nouvelle-declaration-du-prepose`,
     },
   ],
 };
