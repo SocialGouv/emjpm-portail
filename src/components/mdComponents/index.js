@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex } from "rebass";
+import { Box, Flex, Image } from "rebass";
 
 const Heading = ({ children }) => (
   <Box
@@ -88,6 +88,22 @@ const Spacer = ({ children }) => (
   </Box>
 );
 
+const MdImage = ({ src, alt }) => (
+  <Image
+    sx={{
+      display: "block",
+      maxWidth: "800px",
+      mx: "auto",
+      my: "20px",
+      "@media screen and (max-width: 950px)": {
+        width: "100%",
+      },
+    }}
+    src={src}
+    alt={alt}
+  />
+);
+
 export const mdComponents = {
   h1: function TestWrapper(props) {
     return <Heading>{props.children}</Heading>;
@@ -106,5 +122,8 @@ export const mdComponents = {
   },
   br: function SpacerWrapper(props) {
     return <Spacer>{props.children}</Spacer>;
+  },
+  img: function ImageWrapper(props) {
+    return <MdImage src={props.src} alt={props.alt} />;
   },
 };
