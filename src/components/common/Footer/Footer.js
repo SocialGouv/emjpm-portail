@@ -48,7 +48,7 @@ const Footer = ({ landing }) => (
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:placeholder@email.com?subject=Demande%20d%27%C3%A9volution"
+              href="mailto:support.emjpm@fabrique.social.gouv.fr?subject=Demande%20d%27%C3%A9volution"
             >
               Par email
             </Link>
