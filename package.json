@@ -24,13 +24,13 @@
   },
   "devDependencies": {
     "@socialgouv/eslint-config-react": "^1.18.0",
-    "babel-jest": "^26.1.0",
+    "babel-jest": "^26.2.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^7.5.0",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "eslint-plugin-sort-keys-fix": "^1.1.1",
-    "jest": "^26.1.0",
+    "jest": "^26.2.1",
     "prettier": "^2.0.5",
     "react-test-renderer": "^16.13.1"
   }
