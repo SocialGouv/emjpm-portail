@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.4...v1.0.5) (2020-07-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency kubernetes-models to ^0.8.1 ([1c84538](https://github.com/SocialGouv/emjpm-portail/commit/1c845386b118b47e5a91b6396104f09ddb685445))
+
 ## [1.0.4](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.3...v1.0.4) (2020-07-31)
 
 
