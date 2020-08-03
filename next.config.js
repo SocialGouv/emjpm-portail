@@ -4,9 +4,9 @@ const withMDX = require("@next/mdx")({
 });
 
 module.exports = withMDX({
-  assetPrefix: isProd ? "https://socialgouv.github.io/emjpm-portail" : "",
+  assetPrefix: isProd ? "https://emjpm-portail.fabrique.social.gouv.fr" : "",
   pageExtensions: ["js", "jsx", "md", "mdx"],
   publicRuntimeConfig: {
-    appUrl: isProd ? "https://socialgouv.github.io/emjpm-portail" : "http://localhost:3000",
+    appUrl: isProd ? "https://emjpm-portail.fabrique.social.gouv.fr" : "http://localhost:3000",
   },
 });
