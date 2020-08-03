@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.5...v1.0.6) (2020-08-03)
+
+
+### Bug Fixes
+
+* use prod URL ([#171](https://github.com/SocialGouv/emjpm-portail/issues/171)) ([de14977](https://github.com/SocialGouv/emjpm-portail/commit/de1497779b157795ca3942858bc53a1406d17dad))
+
 ## [1.0.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.4...v1.0.5) (2020-07-31)
 
 
