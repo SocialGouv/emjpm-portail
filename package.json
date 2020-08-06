@@ -9,7 +9,8 @@
     "export": "next export",
     "test": "jest",
     "lint": "eslint src",
-    "prettier": "prettier --check 'src/**/*.js'"
+    "prettier": "prettier --check 'src/**/*.js'",
+    "k8s": "yarn --silent --cwd .k8s"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.16",
