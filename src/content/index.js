@@ -1,4 +1,5 @@
 // devenir mandataire
+import MentionsLegales from "./mentions-legales.md";
 import PolitiqueDeConfidentialite from "./politique-de-confidentialite.md";
 import DevenirMandataireAppelCandidatures from "./sections/devenir-professionnel/DevenirMandataireAppelCandidatures.md";
 import DevenirMandataireAppelProjets from "./sections/devenir-professionnel/DevenirMandataireAppelProjets.md";
@@ -102,6 +103,7 @@ import ServiceSystemeParticipationIndemnite from "./sections/je-suis-un-professi
 import ServiceSystemeParticipationModalitesCalculCoutMesures from "./sections/je-suis-un-professionnel/service-mandataire/ServiceSystemeParticipationModalitesCalculCoutMesures.md";
 
 export {
+  MentionsLegales,
   PolitiqueDeConfidentialite,
   // devenir mandataire
   DevenirMandataireAppelCandidatures,

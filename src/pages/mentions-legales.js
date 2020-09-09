@@ -1,18 +1,19 @@
 import React from "react";
-import { Flex } from "rebass";
 
-const MentionsLegales = () => (
-  <Flex
-    justifyContent="center"
-    sx={{
-      fontSize: "26px",
-      minHeight: "68vh",
-      minWidth: "50vh",
-      pt: "200px",
+import SectionPage from "../components/SectionPage";
+import { MentionsLegales } from "../content";
+
+const MentionsLegalesPage = () => (
+  <SectionPage
+    data={{
+      sections: [
+        {
+          _id: 0,
+          content: <MentionsLegales />,
+        },
+      ],
     }}
-  >
-    Page en construction
-  </Flex>
+  />
 );
 
-export default MentionsLegales;
+export default MentionsLegalesPage;
