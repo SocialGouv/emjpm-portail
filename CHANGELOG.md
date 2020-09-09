@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.1.0...v1.2.0) (2020-09-09)
+
+
+### Bug Fixes
+
+* **footer:** remove sitemap link ([78bfa3d](https://github.com/SocialGouv/emjpm-portail/commit/78bfa3da7d4d38ecf7865d3290c7a7b0af73ef45))
+
+
+### Features
+
+* **mentions-legales:** create page ([#231](https://github.com/SocialGouv/emjpm-portail/issues/231)) ([c2e2010](https://github.com/SocialGouv/emjpm-portail/commit/c2e20109125a4c8bfefb29394028f3f4995fbcb8))
+
 # [1.1.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.18...v1.1.0) (2020-09-09)
 
 
