@@ -41,6 +41,15 @@ const Footer = ({ landing }) => (
               <Link>Mentions légales</Link>
             </NextLink>
           </ListItem>
+          <ListItem>
+            <NextLink
+              href={`/politique-de-confidentialite`}
+              as={`${appUrl}/politique-de-confidentialite`}
+              passHref
+            >
+              <Link>Politique de confidentialité</Link>
+            </NextLink>
+          </ListItem>
         </List>
         <List sx={footerItemStyle}>
           <ListTitle>Contactez-nous</ListTitle>

@@ -16,6 +16,9 @@ export const routes = {
   "/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement": {
     label: `La procédure de déclaration des préposés d’établissement`,
   },
+  "/politique-de-confidentialite": {
+    label: "Politique de confidentialité",
+  },
   "/professionnel": { label: `Professionnel` },
   "/professionnel/je-suis-un-mandataire-individuel": { label: `Je suis un mandataire individuel` },
   "/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite": {
