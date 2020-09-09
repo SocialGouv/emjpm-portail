@@ -32,11 +32,6 @@ const Footer = ({ landing }) => (
         <List sx={footerItemStyle}>
           <ListTitle>A propos</ListTitle>
           <ListItem>
-            <Link target="_blank" rel="noopener noreferrer">
-              Plan de site
-            </Link>
-          </ListItem>
-          <ListItem>
             <NextLink href={`/mentions-legales`} as={`${appUrl}/mentions-legales`} passHref>
               <Link>Mentions légales</Link>
             </NextLink>
