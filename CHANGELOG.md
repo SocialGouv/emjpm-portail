@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.18...v1.1.0) (2020-09-09)
+
+
+### Features
+
+* **politique-confidentialite:** create new page ([#230](https://github.com/SocialGouv/emjpm-portail/issues/230)) ([54c7441](https://github.com/SocialGouv/emjpm-portail/commit/54c7441d7e15a664e9afaf99d0e5cf5c4fa86871))
+
 ## [1.0.18](https://github.com/SocialGouv/emjpm-portail/compare/v1.0.17...v1.0.18) (2020-09-04)
 
 
