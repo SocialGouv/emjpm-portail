@@ -16,6 +16,9 @@ export const routes = {
   "/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement": {
     label: `La procédure de déclaration des préposés d’établissement`,
   },
+  "/mentions-legales": {
+    label: "Mentions légales",
+  },
   "/politique-de-confidentialite": {
     label: "Politique de confidentialité",
   },
