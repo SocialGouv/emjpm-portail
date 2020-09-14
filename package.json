@@ -13,8 +13,8 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.16",
-    "@mdx-js/react": "^1.6.16",
+    "@mdx-js/loader": "^1.6.17",
+    "@mdx-js/react": "^1.6.17",
     "@next/mdx": "^9.5.3",
     "next": "9.5.3",
     "react": "16.13.1",
