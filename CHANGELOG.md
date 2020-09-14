@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.2.0...v1.2.1) (2020-09-14)
+
+
+### Bug Fixes
+
+* **deps:** update mdx monorepo to ^1.6.17 ([b7ecb10](https://github.com/SocialGouv/emjpm-portail/commit/b7ecb1097caed71daa94c3b76bb7eb3b39c5c607))
+
 # [1.2.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.1.0...v1.2.0) (2020-09-09)
 
 
