@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.2.5...v1.3.0) (2020-09-29)
+
+
+### Features
+
+* **recette:** corrige les points de la recette ([5c85696](https://github.com/SocialGouv/emjpm-portail/commit/5c85696702b8e47b35a2494f0327f15f17194dd8))
+
 ## [1.2.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.2.4...v1.2.5) (2020-09-22)
 
 
