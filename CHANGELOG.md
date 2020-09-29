@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.3.0...v1.4.0) (2020-09-29)
+
+
+### Features
+
+* use pjm.social.gouv.fr ([#273](https://github.com/SocialGouv/emjpm-portail/issues/273)) ([6e52f02](https://github.com/SocialGouv/emjpm-portail/commit/6e52f0223ab11e847ea9ac546deb6effe2ecc322))
+
 # [1.3.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.2.5...v1.3.0) (2020-09-29)
 
 
