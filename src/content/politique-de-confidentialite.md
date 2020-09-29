@@ -36,7 +36,7 @@ Vous disposez des droits suivants concernant vos données à caractère personne
 - Droit d’information et droit d’accès des données ;
 - Droit au retrait du consentement en matière de cookies uniquement.
 
-Pour les exercer, faites-nous parvenir une demande en précisant la date et l’heure précise de la requête - ces éléments sont indispensables pour nous permettre de retrouver votre recherche - par voie électronique à l’adresse suivante :
+Pour les exercer, faites-nous parvenir une demande en précisant la date et l’heure précise de la requête - ces éléments sont indispensables pour nous permettre de retrouver votre recherche - par voie postale à l’adresse suivante :
 
 _Direction des systèmes d’information
 Ministère des Solidarité et de la santé
@@ -77,9 +77,6 @@ Il convient d'indiquer que :
 
 - Les données collectées ne sont pas recoupées avec d’autres traitements.
 - Les cookies ne permettent pas de suivre la navigation de l’internaute sur d’autres sites.
-- Les cookies sont inactifs avant que vous ayez exprimé votre consentement en cliquant sur le bouton "Ok, tout accepter" ou après que vous ayez pris le soin de personnaliser vos préférences.
-
-**[BOUTON MODIFIER LES REGLAGES]**
 
 À tout moment, vous pouvez refuser l’utilisation des cookies et désactiver le dépôt sur votre ordinateur en utilisant la fonction dédiée de votre navigateur (fonction disponible notamment sur Microsoft Internet Explorer 11, Google Chrome, Mozilla Firefox, Apple Safari et Opera).
 

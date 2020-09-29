@@ -1,6 +1,6 @@
 import ExternalLink from "../../../../components/ExternalLink";
 
-La plateforme de calcul des mesures pour mandataire individuel (OCMI) a été créée pour permettre de calculer la rémunération des mandataires individuels.
+La plateforme de calcul des mesures pour mandataire individuel (<ExternalLink href="https://dgcs-alt.social.gouv.fr/dgcs/ocmi">OCMI</ExternalLink>) a été créée pour permettre de calculer la rémunération des mandataires individuels.
 <br/>
 
 Elle est prévue à l’article R. 472-8 du code de l’action sociale et des familles.
