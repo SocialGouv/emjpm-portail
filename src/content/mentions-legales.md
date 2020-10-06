@@ -16,10 +16,9 @@ Madame Virginie LASSERRE, Directrice Générale de la Cohésion Sociale
 
 Ce site est hébergé par
 
-Fastly
-475 Brannan St #300,
-San Francisco, CA 94107
-Etats-Unis
+- Microsoft Azure
+- 37 Quai du Président Roosevelt
+- 92130 ISSY-LES-MOULINEAUX
 
 ## Accessibilité
 
