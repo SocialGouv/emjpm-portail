@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.4.1...v1.5.0) (2020-10-06)
+
+
+### Features
+
+* **mention-legales:** update hosting server location ([2bf2b9c](https://github.com/SocialGouv/emjpm-portail/commit/2bf2b9c02f5dec8ad1e98b42e23348437ff26e18))
+
 ## [1.4.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.4.0...v1.4.1) (2020-09-30)
 
 
