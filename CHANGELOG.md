@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.1...v1.5.2) (2020-10-08)
+
+
+### Bug Fixes
+
+* **docker:** test static url path (2) ([e43802e](https://github.com/SocialGouv/emjpm-portail/commit/e43802e64225ae34fcfa840a8789e0f5382aa0eb))
+
 ## [1.5.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.0...v1.5.1) (2020-10-07)
 
 
