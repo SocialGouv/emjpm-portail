@@ -1,3 +1,11 @@
+## [1.5.3](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.2...v1.5.3) (2020-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update socialgouv/docker/nginx4spa docker tag to 1.60.0 ([8b4cecf](https://github.com/SocialGouv/emjpm-portail/commit/8b4cecf40b759b49924c734c1fdc713f3e339b8d))
+* **deps:** update socialgouv/docker/nginx4spa docker tag to v1.60.0 ([6577792](https://github.com/SocialGouv/emjpm-portail/commit/6577792f2d9958af4e67c68c4c6bb3fd32c8ffbe))
+
 ## [1.5.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.1...v1.5.2) (2020-10-08)
 
 
