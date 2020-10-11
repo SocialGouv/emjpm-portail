@@ -15,8 +15,8 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.18",
     "@mdx-js/react": "^1.6.18",
-    "@next/mdx": "^9.5.3",
-    "next": "9.5.4",
+    "@next/mdx": "^9.5.5",
+    "next": "9.5.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "rebass": "^4.0.7",
