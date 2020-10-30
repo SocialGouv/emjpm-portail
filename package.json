@@ -13,14 +13,14 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.18",
-    "@mdx-js/react": "^1.6.18",
+    "@mdx-js/loader": "^1.6.19",
+    "@mdx-js/react": "^1.6.19",
     "@next/mdx": "^9.5.5",
     "next": "9.5.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "rebass": "^4.0.7",
-    "styled-components": "^5.2.0",
+    "styled-components": "^5.2.1",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
