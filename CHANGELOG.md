@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.3...v1.6.0) (2020-12-17)
+
+
+### Bug Fixes
+
+* upgrade CI deps ([868b092](https://github.com/SocialGouv/emjpm-portail/commit/868b0925e0407fac296aae19d78294110dec55a8))
+* upgrade deps ([7eb731e](https://github.com/SocialGouv/emjpm-portail/commit/7eb731e731f3eec4ddb46d262744aaff57d08a23))
+
+
+### Features
+
+* upgrade CI deps ([1147a8a](https://github.com/SocialGouv/emjpm-portail/commit/1147a8a43fc00c3aba3d74dee8431dca1e3b72ad))
+
 ## [1.5.3](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.2...v1.5.3) (2020-10-09)
 
 
