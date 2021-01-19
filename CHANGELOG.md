@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.7.0...v1.7.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* **sitemap:** ignoreIndexFiles ([8ee4634](https://github.com/SocialGouv/emjpm-portail/commit/8ee4634f5b1c2f84ff5366b01628affe7c4979b8))
+
 # [1.7.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.6.0...v1.7.0) (2021-01-19)
 
 
