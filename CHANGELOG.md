@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.6.0...v1.7.0) (2021-01-19)
+
+
+### Features
+
+* **sitemap:** generator ([c08e67a](https://github.com/SocialGouv/emjpm-portail/commit/c08e67a24b1db7a051734af016a7bbd6caa9502b))
+
 # [1.6.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.5.3...v1.6.0) (2020-12-17)
 
 
