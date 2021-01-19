@@ -4,6 +4,7 @@ sitemap({
   alternateUrls: {},
   baseUrl: "https://pjm.social.gouv.fr",
   extraPaths: [],
+  ignoreIndexFiles: true,
   ignoredExtensions: ["png", "jpg"],
   ignoredPaths: [],
   nextConfigPath: __dirname + "/next.config.js",
