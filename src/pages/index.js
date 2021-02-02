@@ -59,33 +59,35 @@ const headingStyle = {
   textAlign: "center",
 };
 
-const Index = () => (
-  <Box sx={pageWrapperStyle}>
-    <Flex sx={containerStyle}>
-      <Box style={contentStyle}>
-        <Heading sx={headingStyle}>
-          Bienvenue sur le portail de la Protection Juridique des Majeurs
-        </Heading>
-        <Box sx={linksStyle}>
-          <LandingLink
-            href="/"
-            text="Je suis un particulier"
-            subtext="(en construction)"
-            disabled
-          />
-          <LandingLink href="/professionnel" text="Je suis un professionnel" />
-          <LandingLink
-            href="/devenir-professionnel"
-            text={
-              <>
-                Je veux devenir <br /> professionnel
-              </>
-            }
-          />
+const Index = () => {
+  return (
+    <Box sx={pageWrapperStyle}>
+      <Flex sx={containerStyle}>
+        <Box style={contentStyle}>
+          <Heading sx={headingStyle}>
+            Bienvenue sur le portail de la Protection Juridique des Majeurs
+          </Heading>
+          <Box sx={linksStyle}>
+            <LandingLink
+              href="/"
+              text="Je suis un particulier"
+              subtext="(en construction)"
+              disabled
+            />
+            <LandingLink href="/professionnel" text="Je suis un professionnel" />
+            <LandingLink
+              href="/devenir-professionnel"
+              text={
+                <>
+                  Je veux devenir <br /> professionnel
+                </>
+              }
+            />
+          </Box>
         </Box>
-      </Box>
-    </Flex>
-  </Box>
-);
+      </Flex>
+    </Box>
+  );
+};
 
 export default Index;
