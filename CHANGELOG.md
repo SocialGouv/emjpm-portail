@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.7.1...v1.8.0) (2021-02-02)
+
+
+### Features
+
+* **dev-compat:** dev port 3001 ([45582bb](https://github.com/SocialGouv/emjpm-portail/commit/45582bbc6cdca94825c36a37bfd5b563622f2b50))
+* **matomo:** implementation ([63a9493](https://github.com/SocialGouv/emjpm-portail/commit/63a94938bbb7f34fcf438502fa8333d184004209))
+* **seo:** google-site-verification ([ac4a8b7](https://github.com/SocialGouv/emjpm-portail/commit/ac4a8b751760968aff5f924c75a727bad9b3ce75))
+
 ## [1.7.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.7.0...v1.7.1) (2021-01-19)
 
 
