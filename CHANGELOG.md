@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.8.0...v1.8.1) (2021-03-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-dom to v17 ([7cec4e8](https://github.com/SocialGouv/emjpm-portail/commit/7cec4e832d78ce731ed33e7674e097ce305c75d9))
+
 # [1.8.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.7.1...v1.8.0) (2021-02-02)
 
 
