@@ -568,16 +568,6 @@
     is-plain-object "^5.0.0"
     tslib "^2.0.3"
 
-"@kubernetes-models/sealed-secrets@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@kubernetes-models/sealed-secrets/-/sealed-secrets-1.0.2.tgz#10b488d483e5f3231035bc8be2b611dac49d4610"
-  integrity sha512-3J2PgTy6tGOjybRao2RS4UOWIWNv9RlPdt6vnKLU9IA0f/tFHcuROAS8pPonVd4S7+3xxi1mn8X6bTN4fqfsyQ==
-  dependencies:
-    "@kubernetes-models/base" "^1.0.1"
-    "@kubernetes-models/validate" "^1.0.1"
-    kubernetes-models "^1.0.2"
-    tslib "^2.0.3"
-
 "@kubernetes-models/validate@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@kubernetes-models/validate/-/validate-1.0.1.tgz#377b1b6738bbd5226dfba958e681aa6d4db86a2b"
@@ -627,15 +617,12 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/kosko-charts@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/kosko-charts/-/kosko-charts-4.5.0.tgz#0f404e3d396239205edf2a487a53c80e99b029b4"
-  integrity sha512-fK71sDrB3QpAlz2Njwoj4iAi1GopRgIvsu6UzCeQqrK/v7xtOYaBAIBEgpixh198kBeBrQLq5N8L0L7jM9F8nw==
+"@socialgouv/kosko-charts@^5.1.3":
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@socialgouv/kosko-charts/-/kosko-charts-5.1.3.tgz#bf7d2add5c08b21aed7f926c4d178f13ea0615a7"
+  integrity sha512-N2xYty7fZ+UMqjLs+OHBNqgxD7fE1BSuJOwPhS6+7BoWbRPbqHdpIVuDwGP4VtGgxEOQpnxeOMj9D3vVh0r0RQ==
   dependencies:
-    "@kosko/env" "^1.0.1"
-    "@kubernetes-models/sealed-secrets" "^1.0.2"
     "@sindresorhus/is" "^4.0.0"
-    kubernetes-models "^1.0.2"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
@@ -2673,7 +2660,7 @@ kosko@^1.0.1:
     "@kosko/cli" "^1.0.1"
     import-local "^3.0.2"
 
-kubernetes-models@^1.0.1, kubernetes-models@^1.0.2:
+kubernetes-models@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/kubernetes-models/-/kubernetes-models-1.0.2.tgz#2c4ea5c1fc48c39e51ffad5ced6b6743918728ec"
   integrity sha512-q69CKTNi+n9Nc1CjApgwj+4rBY85U1UguClozkeWOx2mOnFFEirO66Bq6K/2U4OkKQCEZVCUATVJBOlLH9uRYg==
