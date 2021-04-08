@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.2...v1.9.3) (2021-04-08)
+
+
+### Bug Fixes
+
+* Change certificate name reference. ([2034593](https://github.com/SocialGouv/emjpm-portail/commit/20345936e798ad9958e606ebb8d5c306c26d534d))
+
 ## [1.9.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.1...v1.9.2) (2021-04-08)
 
 
