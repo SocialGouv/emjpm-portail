@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.1...v1.9.2) (2021-04-08)
+
+
+### Bug Fixes
+
+* Change pjm redirect config. ([bb555b7](https://github.com/SocialGouv/emjpm-portail/commit/bb555b742c2d732278f2a5ec424f4ab07b845c83))
+
 ## [1.9.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.0...v1.9.1) (2021-04-08)
 
 
