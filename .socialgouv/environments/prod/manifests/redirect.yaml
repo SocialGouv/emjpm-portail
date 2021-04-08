@@ -17,7 +17,7 @@ spec:
   tls:
     - hosts:
         - pjm.social.gouv.fr
-      secretName: pjm-redirect
+      secretName: pjm-certificate
 
 # ---
 # apiVersion: extensions/v1beta1
