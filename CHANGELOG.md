@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.0...v1.9.1) (2021-04-08)
+
+
+### Bug Fixes
+
+* Add url redirect manifest. ([897627d](https://github.com/SocialGouv/emjpm-portail/commit/897627d50b870df9182f9bba3fb877aaa6aa136e))
+
 # [1.9.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.8.1...v1.9.0) (2021-04-08)
 
 
