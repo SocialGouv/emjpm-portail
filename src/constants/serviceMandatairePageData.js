@@ -1,4 +1,3 @@
-import getConfig from "next/config";
 import React from "react";
 
 import {
@@ -27,38 +26,36 @@ import {
   ServiceSystemeParticipationModalitesCalculCoutMesures,
 } from "../content";
 
-const { publicRuntimeConfig } = getConfig();
-
 export const serviceMandataireIndexPageData = {
   heading: `Je suis un service mandataire`,
   sections: [
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
+      image: `/bg-b.png`,
       title: `Obligations administratives du delegué de service`,
       url: `/professionnel/je-suis-un-service-mandataire/obligations-administratives-du-delegue-de-service`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
+      image: `/bg-b.png`,
       title: `Les droits du protégé`,
       url: "/professionnel/je-suis-un-service-mandataire/les-droits-du-protege",
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
+      image: `/bg-b.png`,
       title: `La déclaration d'activité`,
       url: `/professionnel/je-suis-un-service-mandataire/la-declaration-d-activite`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
+      image: `/bg-b.png`,
       title: `Le système de financement des mesures`,
       url: "/professionnel/je-suis-un-service-mandataire/le-systeme-de-financement-des-mesures",
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
+      image: `/bg-b.png`,
       title: `Le système de participation et la grille de coût`,
       url: `/professionnel/je-suis-un-service-mandataire/le-systeme-de-participation-et-la-grille-de-cout`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-b.png`,
+      image: `/bg-b.png`,
       title: `L'évolution de la capacité du service mandataire`,
       url: `/professionnel/je-suis-un-service-mandataire/l-evolution-de-la-capacite-du-service-mandataire`,
     },

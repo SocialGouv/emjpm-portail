@@ -1,4 +1,3 @@
-import getConfig from "next/config";
 import React from "react";
 
 import {
@@ -41,53 +40,51 @@ import {
   MandataireTachesDuMandataireIndividuel,
 } from "../content";
 
-const { publicRuntimeConfig } = getConfig();
-
 export const mandataireIndividuelIndexPageData = {
   heading: `Je suis un mandataire individuel`,
   sections: [
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Les missions et les activités du mandataire`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-missions-et-les-activites-du-mandataire`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Les tâches du mandataire individuel`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-taches-du-mandataire-individuel`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Les droits du protégé`,
       url: "/professionnel/je-suis-un-mandataire-individuel/les-droits-du-protege",
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Les obligations administratives du mandataire`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-obligations-administratives-du-mandataire`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `La déclaration d'activité`,
       url: `/professionnel/je-suis-un-mandataire-individuel/la-declaration-d-activite`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Le financement des mandataires individuels`,
       url: `/professionnel/je-suis-un-mandataire-individuel/le-financement-des-mandataires-individuels`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Les sanctions en cas de non-respect des engagements`,
       url: `/professionnel/je-suis-un-mandataire-individuel/les-sanctions-en-cas-de-non-respect-des-engagements`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `La demande de nouvel agrément`,
       url: `/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-a.png`,
+      image: `/bg-a.png`,
       title: `Cessation d'activité`,
       url: `/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite`,
     },

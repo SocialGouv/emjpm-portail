@@ -1,12 +1,9 @@
-import getConfig from "next/config";
 import NextLink from "next/link";
 import React from "react";
 import { Box, Flex, Link, Text } from "rebass";
 
 import Logo from "../Logo";
 import { footerItemStyle, listStyle, listTitleStyle } from "./style";
-
-const { appUrl } = getConfig().publicRuntimeConfig;
 
 const List = (props) => <Box {...props} sx={listStyle} />;
 
@@ -32,14 +29,14 @@ const Footer = ({ landing }) => (
         <List sx={footerItemStyle}>
           <ListTitle>A propos</ListTitle>
           <ListItem>
-            <NextLink href={`/mentions-legales`} as={`${appUrl}/mentions-legales`} passHref>
+            <NextLink href={`/mentions-legales`} as={`/mentions-legales`} passHref>
               <Link>Mentions légales</Link>
             </NextLink>
           </ListItem>
           <ListItem>
             <NextLink
               href={`/politique-de-confidentialite`}
-              as={`${appUrl}/politique-de-confidentialite`}
+              as={`/politique-de-confidentialite`}
               passHref
             >
               <Link>Politique de confidentialité</Link>

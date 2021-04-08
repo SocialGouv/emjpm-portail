@@ -1,8 +1,5 @@
-import getConfig from "next/config";
 import React from "react";
 import { Box, Flex, Image } from "rebass";
-
-const { publicRuntimeConfig } = getConfig();
 
 const Heading = ({ children }) => (
   <Box
@@ -102,7 +99,7 @@ const MdImage = ({ src, alt }) => (
         width: "100%",
       },
     }}
-    src={`${publicRuntimeConfig.appUrl}${src}`}
+    src={`${src}`}
     alt={alt}
   />
 );

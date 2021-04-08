@@ -1,4 +1,3 @@
-import getConfig from "next/config";
 import React from "react";
 
 import {
@@ -16,18 +15,16 @@ import {
   DevenirMandataireProcedureDeclaration,
 } from "../content";
 
-const { publicRuntimeConfig } = getConfig();
-
 export const devenirProfessionnelIndexPageData = {
   heading: `Devenir professionnel`,
   sections: [
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-a.png`,
+      image: `/bg-devenir-pro-a.png`,
       title: `Appel à candidatures et à projets`,
       url: `/devenir-professionnel/appel-a-candidatures-et-a-projets`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-b.png`,
+      image: `/bg-devenir-pro-b.png`,
       splitTitle: {
         firstLine: `La procédure d'agrément`,
         secondLine: `des mandataires individuels`,
@@ -36,7 +33,7 @@ export const devenirProfessionnelIndexPageData = {
       url: `/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-c.png`,
+      image: `/bg-devenir-pro-c.png`,
       splitTitle: {
         firstLine: `La procédure d’autorisation`,
         secondLine: `des services mandataires`,
@@ -45,7 +42,7 @@ export const devenirProfessionnelIndexPageData = {
       url: `/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-a.png`,
+      image: `/bg-devenir-pro-a.png`,
       splitTitle: {
         firstLine: `La procédure de déclaration`,
         secondLine: `des préposés d’établissement`,
@@ -54,7 +51,7 @@ export const devenirProfessionnelIndexPageData = {
       url: `/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-devenir-pro-b.png`,
+      image: `/bg-devenir-pro-b.png`,
       splitTitle: {
         firstLine: `La formation au certificat`,
         secondLine: `national de compétences`,
