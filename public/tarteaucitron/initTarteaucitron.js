@@ -14,10 +14,10 @@ tarteaucitron.init({
   highPrivacy: true /* Show a Warning if an adblocker is detected */,
   moreInfoLink: true /* Show the accept all button when highPrivacy on */,
   orientation: "bottom" /* Disable auto consent */,
-  privacyUrl: "/politique-confidentialite#cookie" /* If Do Not Track == 1, disallow all */,
+  privacyUrl: "/politique-de-confidentialite#cookie" /* If Do Not Track == 1, disallow all */,
 
   //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
-  readmoreLink: "/politique-confidentialite#cookie" /* Remove credit link */,
+  readmoreLink: "/politique-de-confidentialite#cookie" /* Remove credit link */,
 
   removeCredit: true /* Show more info link */,
 

@@ -1,4 +1,3 @@
-import getConfig from "next/config";
 import NextLink from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
@@ -6,8 +5,6 @@ import { Box, Flex, Link } from "rebass";
 
 import { routes } from "../../constants/routes";
 import { breadcrumbsLayout, breadcrumbsWrapper, linkActiveStyle, linkStyle } from "./style";
-
-const { appUrl } = getConfig().publicRuntimeConfig;
 
 const getBreadcrumbsArr = (pathname) => {
   const crumbsArray = ["/"];
@@ -26,7 +23,7 @@ const getBreadcrumbsArr = (pathname) => {
 const BreadcrumbItem = ({ currentPath, crumb, routeLabel }) => {
   if (crumb && routeLabel) {
     return crumb === currentPath ? (
-      <NextLink href={crumb} as={`${appUrl}${crumb}`} passHref>
+      <NextLink href={crumb} as={`${crumb}`} passHref>
         <Link
           sx={{
             ...linkStyle,
@@ -38,7 +35,7 @@ const BreadcrumbItem = ({ currentPath, crumb, routeLabel }) => {
       </NextLink>
     ) : (
       <Flex>
-        <NextLink href={crumb} as={`${appUrl}${crumb}`} passHref>
+        <NextLink href={crumb} as={`${crumb}`} passHref>
           <Link sx={linkStyle}>{routeLabel}</Link>
         </NextLink>
         <Box mx={1}>&gt;</Box>

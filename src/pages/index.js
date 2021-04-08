@@ -1,10 +1,7 @@
-import getConfig from "next/config";
 import React from "react";
 import { Box, Flex, Heading } from "rebass";
 
 import LandingLink from "../components/LandingLink";
-
-const { publicRuntimeConfig } = getConfig();
 
 const pageWrapperStyle = {
   fontFamily: "Comfortaa",
@@ -16,7 +13,7 @@ const pageWrapperStyle = {
 
 const containerStyle = {
   ":before": {
-    backgroundImage: `url("${publicRuntimeConfig.appUrl}/bg-index.jpg")`,
+    backgroundImage: "url(/bg-index.jpg)",
     backgroundSize: "cover",
     content: '""',
     height: "100%",

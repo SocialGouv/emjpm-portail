@@ -1,4 +1,3 @@
-import getConfig from "next/config";
 import React from "react";
 
 import {
@@ -29,39 +28,37 @@ import {
   PreposeSystemeParticipationModalitesCalculCoutsMesures,
 } from "../content";
 
-const { publicRuntimeConfig } = getConfig();
-
 export const preposeEtablissementIndexPageData = {
   heading: `Je suis un préposé d'établissement`,
   sections: [
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      image: `/bg-c.png`,
       title: `Obligations administratives du preposé`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/obligations-administratives-du-prepose`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      image: `/bg-c.png`,
       title: `Les droits du protégé`,
       url: "/professionnel/je-suis-un-prepose-d-etablissement/les-droits-du-protege",
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      image: `/bg-c.png`,
       title: `La déclaration d'activité`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/la-declaration-d-activite`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      image: `/bg-c.png`,
       title: `Le système de financement des mesures`,
       url:
         "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-financement-des-mesures",
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      image: `/bg-c.png`,
       title: `Le système de participation et la grille de coût`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-participation-et-la-grille-de-cout`,
     },
     {
-      image: `${publicRuntimeConfig.appUrl}/bg-c.png`,
+      image: `/bg-c.png`,
       title: `Nouvelle déclaration du préposé`,
       url: `/professionnel/je-suis-un-prepose-d-etablissement/nouvelle-declaration-du-prepose`,
     },

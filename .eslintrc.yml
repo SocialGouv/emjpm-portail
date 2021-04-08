@@ -3,13 +3,12 @@ extends:
 
 plugins:
   - sort-keys-fix
-  - simple-import-sort
 
 rules:
   react/self-closing-comp: 
-  - error
-  - component: true
-    html: true
+    - error
+    - component: true
+      html: true
   prefer-const: 2
   jsx-a11y/anchor-is-valid: off
   jsx-a11y/label-has-for: off
@@ -17,10 +16,9 @@ rules:
   jsx-a11y/click-events-have-key-events: off
   jsx-a11y/no-static-element-interactions: off
   jsx-a11y/no-noninteractive-tabindex: off
-  simple-import-sort/sort: error
   sort-keys-fix/sort-keys-fix: 
-  - error
-  - asc
+    - error
+    - asc
 
 overrides:
   - files:
