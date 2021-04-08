@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.8.1...v1.9.0) (2021-04-08)
+
+
+### Features
+
+* Switch to no-k8s mode ([ac27fe3](https://github.com/SocialGouv/emjpm-portail/commit/ac27fe33606dea4a8ebbf6c01e212d7f89aa6c2e))
+* Swith to no-k8s mode. ([313de2c](https://github.com/SocialGouv/emjpm-portail/commit/313de2c500cc35e45d46517a0a80b50dca2b6c3d))
+
 ## [1.8.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.8.0...v1.8.1) (2021-03-23)
 
 
