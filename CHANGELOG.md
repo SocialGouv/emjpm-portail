@@ -1,3 +1,10 @@
+## [1.9.7](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.6...v1.9.7) (2021-04-09)
+
+
+### Bug Fixes
+
+* Downgrade theme-ui version. ([1d7c835](https://github.com/SocialGouv/emjpm-portail/commit/1d7c835a5bd60b7871b16c02dbdef7c5f54419f0))
+
 ## [1.9.6](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.5...v1.9.6) (2021-04-08)
 
 
