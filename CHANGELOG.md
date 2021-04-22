@@ -1,3 +1,10 @@
+## [1.9.8](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.7...v1.9.8) (2021-04-22)
+
+
+### Bug Fixes
+
+* **gitlab:** update to SocialGouv/gitlab-ci-yml@v21.0.2 ([9e594fe](https://github.com/SocialGouv/emjpm-portail/commit/9e594feb771226b7dee47fdcd3eb0379804b2c2d))
+
 ## [1.9.7](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.6...v1.9.7) (2021-04-09)
 
 
