@@ -1,3 +1,12 @@
+## [1.9.9](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.8...v1.9.9) (2021-06-02)
+
+
+### Bug Fixes
+
+* **ci:** rm legacy docker image ([afd8abc](https://github.com/SocialGouv/emjpm-portail/commit/afd8abc734cf3436462cc9e9527dc9b26a9a5942))
+* add CSP ([8805824](https://github.com/SocialGouv/emjpm-portail/commit/88058249cdcfc5aacdb539813aa1e2a28e6377af))
+* ci upgrade ([cea76c0](https://github.com/SocialGouv/emjpm-portail/commit/cea76c04dd591be86c4628aa53644e83e1e279d8))
+
 ## [1.9.8](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.7...v1.9.8) (2021-04-22)
 
 
