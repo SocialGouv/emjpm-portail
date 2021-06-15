@@ -1,3 +1,10 @@
+## [1.9.11](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.10...v1.9.11) (2021-06-15)
+
+
+### Bug Fixes
+
+* **k8s:** re-add redirect for pjm.social.gouv.fr ([82fb3ca](https://github.com/SocialGouv/emjpm-portail/commit/82fb3cafc8ca3451efbaa3c3a4e91dd74e1140b1))
+
 ## [1.9.10](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.9...v1.9.10) (2021-06-15)
 
 
