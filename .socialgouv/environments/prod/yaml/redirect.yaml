@@ -18,10 +18,13 @@ spec:
     - host: pjm.social.gouv.fr
       http:
         paths:
-          - backend:
-              serviceName: emjpm-portail
-              servicePort: 80
-            path: /
+        - pathType: Prefix
+          path: /
+          backend:
+            service:
+              name: emjpm-portail
+              port:
+                number: 80
   tls:
     - hosts:
         - pjm.social.gouv.fr
