@@ -1,3 +1,11 @@
+## [1.9.13](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.12...v1.9.13) (2021-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([9253eb9](https://github.com/SocialGouv/emjpm-portail/commit/9253eb90edde1eaf85e3c1007a9589244748f9d1))
+* **deps:** update nextjs monorepo to v11 ([8d947a7](https://github.com/SocialGouv/emjpm-portail/commit/8d947a7d1fc6fad77468df27cedccb4e3dfb3c48))
+
 ## [1.9.12](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.11...v1.9.12) (2021-06-15)
 
 
