@@ -1,3 +1,10 @@
+## [1.9.16](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.15...v1.9.16) (2021-08-04)
+
+
+### Bug Fixes
+
+* pin theme-ui version ([c359ced](https://github.com/SocialGouv/emjpm-portail/commit/c359ced2e8587a46a6b513dc6fa12c6638691473))
+
 ## [1.9.15](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.14...v1.9.15) (2021-08-04)
 
 
