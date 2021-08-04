@@ -42,4 +42,4 @@ const headingStyle = {
   fontSize: "18px",
 };
 
-export { headingStyle, cardStyle, rowAlignCardStyle };
+export { cardStyle, headingStyle, rowAlignCardStyle };

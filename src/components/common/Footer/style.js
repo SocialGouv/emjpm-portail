@@ -15,4 +15,4 @@ const footerItemStyle = {
   flexBasis: ["100%", "27%"],
 };
 
-export { listStyle, listTitleStyle, footerItemStyle };
+export { footerItemStyle, listStyle, listTitleStyle };

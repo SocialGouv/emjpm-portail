@@ -45,9 +45,10 @@ export const routes = {
   "/professionnel/je-suis-un-mandataire-individuel/les-obligations-administratives-du-mandataire": {
     label: `Les obligations administratives du mandataire`,
   },
-  "/professionnel/je-suis-un-mandataire-individuel/les-sanctions-en-cas-de-non-respect-des-engagements": {
-    label: `Les sanctions en cas de non-respect des engagements`,
-  },
+  "/professionnel/je-suis-un-mandataire-individuel/les-sanctions-en-cas-de-non-respect-des-engagements":
+    {
+      label: `Les sanctions en cas de non-respect des engagements`,
+    },
   "/professionnel/je-suis-un-mandataire-individuel/les-taches-du-mandataire-individuel": {
     label: `Les tâches du mandataire individuel`,
   },
@@ -60,9 +61,10 @@ export const routes = {
   "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-financement-des-mesures": {
     label: `Le système de financement des mesures`,
   },
-  "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-participation-et-la-grille-de-cout": {
-    label: `Le système de participation et la grille de coût`,
-  },
+  "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-participation-et-la-grille-de-cout":
+    {
+      label: `Le système de participation et la grille de coût`,
+    },
   "/professionnel/je-suis-un-prepose-d-etablissement/les-droits-du-protege": {
     label: `Les droits du protégé`,
   },
@@ -90,7 +92,8 @@ export const routes = {
   "/professionnel/je-suis-un-service-mandataire/les-droits-du-protege": {
     label: `Les droits du protégé`,
   },
-  "/professionnel/je-suis-un-service-mandataire/obligations-administratives-du-delegue-de-service": {
-    label: `Obligations administratives du délégué de service`,
-  },
+  "/professionnel/je-suis-un-service-mandataire/obligations-administratives-du-delegue-de-service":
+    {
+      label: `Obligations administratives du délégué de service`,
+    },
 };

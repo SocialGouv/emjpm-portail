@@ -22,4 +22,4 @@ const disabledLinkStyle = {
   color: "white",
 };
 
-export { landingLinkStyle, disabledLinkStyle };
+export { disabledLinkStyle, landingLinkStyle };

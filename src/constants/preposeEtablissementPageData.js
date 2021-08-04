@@ -49,8 +49,7 @@ export const preposeEtablissementIndexPageData = {
     {
       image: `/bg-c.png`,
       title: `Le système de financement des mesures`,
-      url:
-        "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-financement-des-mesures",
+      url: "/professionnel/je-suis-un-prepose-d-etablissement/le-systeme-de-financement-des-mesures",
     },
     {
       image: `/bg-c.png`,

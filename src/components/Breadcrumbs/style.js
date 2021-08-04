@@ -33,4 +33,4 @@ const breadcrumbsWrapper = {
   },
 };
 
-export { linkStyle, linkActiveStyle, breadcrumbsWrapper, breadcrumbsLayout };
+export { breadcrumbsLayout, breadcrumbsWrapper, linkActiveStyle, linkStyle };

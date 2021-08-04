@@ -19,4 +19,4 @@ const logoTextStyle = {
   },
 };
 
-export { logoTextStyle, logoStyle };
+export { logoStyle, logoTextStyle };
