@@ -1,3 +1,11 @@
+## [1.9.14](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.13...v1.9.14) (2021-08-04)
+
+
+### Bug Fixes
+
+* fix renovate regression ([f4593d7](https://github.com/SocialGouv/emjpm-portail/commit/f4593d7d1fa11e13f1c373b67d178b1edcfe88df))
+* **ingress:** add CSP ([953f519](https://github.com/SocialGouv/emjpm-portail/commit/953f5195a0ad44bfe15dd2d5dd60aa12a0edd3dc))
+
 ## [1.9.13](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.12...v1.9.13) (2021-06-30)
 
 
