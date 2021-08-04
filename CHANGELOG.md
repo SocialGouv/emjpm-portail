@@ -1,3 +1,10 @@
+## [1.9.15](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.14...v1.9.15) (2021-08-04)
+
+
+### Bug Fixes
+
+* **ingress:** dont use headers on redirect ([8e2a9b7](https://github.com/SocialGouv/emjpm-portail/commit/8e2a9b72f6b6436d9b7f50973b18cf4062e2b5f7))
+
 ## [1.9.14](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.13...v1.9.14) (2021-08-04)
 
 
