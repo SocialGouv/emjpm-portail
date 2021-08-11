@@ -25,7 +25,7 @@
     "theme-ui": "0.10.0"
   },
   "devDependencies": {
-    "@socialgouv/eslint-config-react": "^1.83.1",
+    "@socialgouv/eslint-config-react": "^1.83.2",
     "babel-jest": "^27.0.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
