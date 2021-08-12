@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 import React from "react";
 import { ThemeProvider } from "theme-ui";
 
@@ -9,7 +8,6 @@ import { useMatomo } from "../stats/matomo";
 import appTheme from "../theme";
 
 function App({ Component, pageProps }) {
-  const router = useRouter();
   useMatomo();
   return (
     <ThemeProvider theme={appTheme}>
