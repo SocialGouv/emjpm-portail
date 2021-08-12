@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Box, Flex, Text } from "rebass";
 
-import { Marianne } from "./Marianne";
+import LogoEtat from "../LogoEtat";
 import { logoStyle, logoTextStyle } from "./style";
 
 const Logo = (props) => {
@@ -10,8 +10,8 @@ const Logo = (props) => {
 
   return (
     <Flex>
-      <Box sx={logoStyle}>
-        <Marianne />
+      <Box sx={logoStyle} mr="6">
+        <LogoEtat />
       </Box>
       {hasTitle && (
         <Box>
