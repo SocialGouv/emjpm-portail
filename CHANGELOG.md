@@ -1,3 +1,16 @@
+# [1.10.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.16...v1.10.0) (2021-08-12)
+
+
+### Bug Fixes
+
+* **design:** marque de l etat favicon ([1051c69](https://github.com/SocialGouv/emjpm-portail/commit/1051c69eb0e2b9dbb3f7fb8a1d80c88ce6af26e6))
+* **linter:** remove unused vars ([09f9e80](https://github.com/SocialGouv/emjpm-portail/commit/09f9e80cb3a55c5d5f9047d616c1e932e6bef0f7))
+
+
+### Features
+
+* **design:** conformite marque de l etat ([7916064](https://github.com/SocialGouv/emjpm-portail/commit/79160647781aebef72886edff7b76416c993ea17))
+
 ## [1.9.16](https://github.com/SocialGouv/emjpm-portail/compare/v1.9.15...v1.9.16) (2021-08-04)
 
 
