@@ -1,3 +1,10 @@
+## [1.10.3-alpha.4](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.3...v1.10.3-alpha.4) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use ghcr registry. ([a826eba](https://github.com/SocialGouv/emjpm-portail/commit/a826eba1d953703bb21306d870b6327fb1a2e180))
+
 ## [1.10.3-alpha.3](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.2...v1.10.3-alpha.3) (2021-08-20)
 
 
