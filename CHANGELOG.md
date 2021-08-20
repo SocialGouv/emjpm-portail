@@ -1,3 +1,10 @@
+## [1.10.3-alpha.6](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.5...v1.10.3-alpha.6) (2021-08-20)
+
+
+### Bug Fixes
+
+* Ingress for pjm.social.gouv.fr. ([2ed0701](https://github.com/SocialGouv/emjpm-portail/commit/2ed0701d3965fd97ccd1abee8f35b75699a3ee49))
+
 ## [1.10.3-alpha.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.4...v1.10.3-alpha.5) (2021-08-20)
 
 
