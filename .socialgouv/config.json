@@ -1,5 +1,6 @@
 {
-  "name": "emjpm-portail",
+  "name": "portail",
+  "project": "emjpm",
   "type": "static",
   "subdomain": "pjm",
   "ingress": {
