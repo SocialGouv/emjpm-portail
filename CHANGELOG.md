@@ -1,3 +1,10 @@
+## [1.10.3-alpha.3](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.2...v1.10.3-alpha.3) (2021-08-20)
+
+
+### Bug Fixes
+
+* Package image path. ([d10a19f](https://github.com/SocialGouv/emjpm-portail/commit/d10a19f1262d9ee37b5104a2019e1251d9fa9627))
+
 ## [1.10.3-alpha.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.1...v1.10.3-alpha.2) (2021-08-20)
 
 
