@@ -1,3 +1,45 @@
+## [1.10.3-alpha.6](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.5...v1.10.3-alpha.6) (2021-08-20)
+
+
+### Bug Fixes
+
+* Ingress for pjm.social.gouv.fr. ([2ed0701](https://github.com/SocialGouv/emjpm-portail/commit/2ed0701d3965fd97ccd1abee8f35b75699a3ee49))
+
+## [1.10.3-alpha.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.4...v1.10.3-alpha.5) (2021-08-20)
+
+
+### Bug Fixes
+
+* Generate prod env manifests. ([6bf949f](https://github.com/SocialGouv/emjpm-portail/commit/6bf949f7b06f39e7b932ae7bcebfd9afdeadb8c4))
+
+## [1.10.3-alpha.4](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.3...v1.10.3-alpha.4) (2021-08-20)
+
+
+### Bug Fixes
+
+* Use ghcr registry. ([a826eba](https://github.com/SocialGouv/emjpm-portail/commit/a826eba1d953703bb21306d870b6327fb1a2e180))
+
+## [1.10.3-alpha.3](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.2...v1.10.3-alpha.3) (2021-08-20)
+
+
+### Bug Fixes
+
+* Package image path. ([d10a19f](https://github.com/SocialGouv/emjpm-portail/commit/d10a19f1262d9ee37b5104a2019e1251d9fa9627))
+
+## [1.10.3-alpha.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3-alpha.1...v1.10.3-alpha.2) (2021-08-20)
+
+
+### Bug Fixes
+
+* Remove tests workflow. ([d225176](https://github.com/SocialGouv/emjpm-portail/commit/d22517601241c1c57607a4af9e0f009cc68e8bb3))
+
+## [1.10.3-alpha.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.2...v1.10.3-alpha.1) (2021-08-20)
+
+
+### Bug Fixes
+
+* Add github workflows. ([6f170e4](https://github.com/SocialGouv/emjpm-portail/commit/6f170e494d9ec04590d464e6641b2085f68768fb))
+
 ## [1.10.2](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.1...v1.10.2) (2021-08-12)
 
 
