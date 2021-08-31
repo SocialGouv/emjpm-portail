@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3...v1.10.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([b970695](https://github.com/SocialGouv/emjpm-portail/commit/b970695c1bad2fe0b51ed0e53df0dbf3c227b8eb))
+
 ## [1.10.4-alpha.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3...v1.10.4-alpha.1) (2021-08-31)
 
 
