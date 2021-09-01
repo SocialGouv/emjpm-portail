@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.5...v1.10.6) (2021-09-01)
+
+
+### Bug Fixes
+
+* Cert annotation. ([6373eff](https://github.com/SocialGouv/emjpm-portail/commit/6373eff5f1383d0cbce392464772e5e2c486cb6f))
+
 ## [1.10.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.4...v1.10.5) (2021-09-01)
 
 
