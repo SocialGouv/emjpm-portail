@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.4...v1.10.5) (2021-09-01)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([99716a4](https://github.com/SocialGouv/emjpm-portail/commit/99716a42b46b4c9b21a3ca3aa9d4660d9e0d64e1))
+
 ## [1.10.4](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.3...v1.10.4) (2021-08-31)
 
 
