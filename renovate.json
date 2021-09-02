@@ -1,9 +1,0 @@
-{
-  "packageRules": [
-    {
-      "excludePackagePatterns": [
-        "theme-ui"
-      ]
-    }
-  ]
-}
