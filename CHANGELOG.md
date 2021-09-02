@@ -1,3 +1,11 @@
+## [1.10.7](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.6...v1.10.7) (2021-09-02)
+
+
+### Bug Fixes
+
+* **packages:** rollback theme-ui ([5092d2a](https://github.com/SocialGouv/emjpm-portail/commit/5092d2aa0e9211aa66dde5ce18af233ab478b4b4))
+* **renovate:** lock theme-ui version ([0c0e2fd](https://github.com/SocialGouv/emjpm-portail/commit/0c0e2fd8811bcdda3b1121f8dd31ae7aa7fb8f22))
+
 ## [1.10.6](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.5...v1.10.6) (2021-09-01)
 
 
