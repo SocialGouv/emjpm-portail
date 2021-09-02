@@ -1,3 +1,11 @@
+## [1.10.8](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.7...v1.10.8) (2021-09-02)
+
+
+### Bug Fixes
+
+* **csp:** fonts and script ([dd61a28](https://github.com/SocialGouv/emjpm-portail/commit/dd61a283bda9c095af2ecba51d31660d9165b6e7))
+* **renovate:** merge to github one ([6701600](https://github.com/SocialGouv/emjpm-portail/commit/6701600f181b419bad8b2297385463471c97d134))
+
 ## [1.10.7](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.6...v1.10.7) (2021-09-02)
 
 
