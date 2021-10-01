@@ -1,3 +1,10 @@
+## [1.10.10](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.9...v1.10.10) (2021-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency theme-ui to v0.11.3 ([46cb3df](https://github.com/SocialGouv/emjpm-portail/commit/46cb3df39a9ae812d4c947f50ece0c9df233d7fb))
+
 ## [1.10.9](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.8...v1.10.9) (2021-09-28)
 
 
