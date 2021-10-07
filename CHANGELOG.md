@@ -1,3 +1,10 @@
+## [1.10.12](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.11...v1.10.12) (2021-10-07)
+
+
+### Bug Fixes
+
+* **docker:** upgrade nginx ([2a235d6](https://github.com/SocialGouv/emjpm-portail/commit/2a235d69b0bfeaa39193a079b079d21250f40661))
+
 ## [1.10.11](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.10...v1.10.11) (2021-10-07)
 
 
