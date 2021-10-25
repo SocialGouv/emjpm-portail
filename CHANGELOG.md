@@ -1,3 +1,10 @@
+## [1.10.13](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.12...v1.10.13) (2021-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency styled-components to ^5.3.3 ([2f65948](https://github.com/SocialGouv/emjpm-portail/commit/2f659489b584fa3caad2698fcef25c85c114af44))
+
 ## [1.10.12](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.11...v1.10.12) (2021-10-07)
 
 
