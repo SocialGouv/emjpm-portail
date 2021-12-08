@@ -1,7 +1,6 @@
 {
   "extends": [
-    "github>SocialGouv/renovate-config:light",
-    ":automergeAll"
+    "github>SocialGouv/renovate-config:light"
   ],
   "packageRules": [
     {

@@ -1,3 +1,53 @@
+## [1.10.14](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.13...v1.10.14) (2021-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies to ^11.1.3 ([f5910d0](https://github.com/SocialGouv/emjpm-portail/commit/f5910d0dd08e3df67b23d053070de0eaf9e1c43d))
+
+## [1.10.13](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.12...v1.10.13) (2021-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency styled-components to ^5.3.3 ([2f65948](https://github.com/SocialGouv/emjpm-portail/commit/2f659489b584fa3caad2698fcef25c85c114af44))
+
+## [1.10.12](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.11...v1.10.12) (2021-10-07)
+
+
+### Bug Fixes
+
+* **docker:** upgrade nginx ([2a235d6](https://github.com/SocialGouv/emjpm-portail/commit/2a235d69b0bfeaa39193a079b079d21250f40661))
+
+## [1.10.11](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.10...v1.10.11) (2021-10-07)
+
+
+### Bug Fixes
+
+* Revert "fix(deps): update dependency theme-ui to v0.11.3" ([#324](https://github.com/SocialGouv/emjpm-portail/issues/324)) ([bbce87e](https://github.com/SocialGouv/emjpm-portail/commit/bbce87eb1bd841351af765116907de9031504947))
+
+## [1.10.10](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.9...v1.10.10) (2021-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency theme-ui to v0.11.3 ([46cb3df](https://github.com/SocialGouv/emjpm-portail/commit/46cb3df39a9ae812d4c947f50ece0c9df233d7fb))
+
+## [1.10.9](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.8...v1.10.9) (2021-09-28)
+
+
+### Bug Fixes
+
+* use regular nginx ([39cf3d1](https://github.com/SocialGouv/emjpm-portail/commit/39cf3d12ee88fbd2ace7483c2c2ea5b3fde99ee5))
+
+## [1.10.8](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.7...v1.10.8) (2021-09-02)
+
+
+### Bug Fixes
+
+* **csp:** fonts and script ([dd61a28](https://github.com/SocialGouv/emjpm-portail/commit/dd61a283bda9c095af2ecba51d31660d9165b6e7))
+* **renovate:** merge to github one ([6701600](https://github.com/SocialGouv/emjpm-portail/commit/6701600f181b419bad8b2297385463471c97d134))
+
 ## [1.10.7](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.6...v1.10.7) (2021-09-02)
 
 
