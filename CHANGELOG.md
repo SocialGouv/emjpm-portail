@@ -1,3 +1,10 @@
+## [1.10.16](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.15...v1.10.16) (2021-12-09)
+
+
+### Bug Fixes
+
+* **mep:** trigger ([fbd4f9b](https://github.com/SocialGouv/emjpm-portail/commit/fbd4f9b0d7a821e5826aa790b77147268a28ee0b))
+
 ## [1.10.15](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.14...v1.10.15) (2021-12-08)
 
 
