@@ -1,3 +1,10 @@
+## [1.10.15](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.14...v1.10.15) (2021-12-08)
+
+
+### Bug Fixes
+
+* **link:** emjpm ([62c738e](https://github.com/SocialGouv/emjpm-portail/commit/62c738ea6f7904876603cc5cc19ac95a0ab51914))
+
 ## [1.10.14](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.13...v1.10.14) (2021-12-06)
 
 
