@@ -1,3 +1,10 @@
+## [1.10.18](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.17...v1.10.18) (2022-01-04)
+
+
+### Bug Fixes
+
+* **secu:** use non-root user ([#337](https://github.com/SocialGouv/emjpm-portail/issues/337)) ([7c8848d](https://github.com/SocialGouv/emjpm-portail/commit/7c8848d2302a0ee117d2ab2019d6e6f56010cb54))
+
 ## [1.10.17](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.16...v1.10.17) (2021-12-20)
 
 
