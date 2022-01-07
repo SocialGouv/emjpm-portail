@@ -1,3 +1,10 @@
+## [1.10.19](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.18...v1.10.19) (2022-01-07)
+
+
+### Bug Fixes
+
+* add mention acecssiblité ([#338](https://github.com/SocialGouv/emjpm-portail/issues/338)) ([9149f5b](https://github.com/SocialGouv/emjpm-portail/commit/9149f5b41a729167a2e7a7ee6000f7ec58c03e19))
+
 ## [1.10.18](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.17...v1.10.18) (2022-01-04)
 
 
