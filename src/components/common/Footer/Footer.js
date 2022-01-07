@@ -42,6 +42,9 @@ const Footer = ({ landing }) => (
               <Link>Politique de confidentialité</Link>
             </NextLink>
           </ListItem>
+          <ListItem>
+            <Link href="#">Accessibilité : non conforme</Link>
+          </ListItem>
         </List>
         <List sx={footerItemStyle}>
           <ListTitle>Contactez-nous</ListTitle>
