@@ -1,3 +1,13 @@
+## [1.10.21](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.20...v1.10.21) (2022-02-22)
+
+
+### Bug Fixes
+
+* **ci:** autodevops-helm ([dfc5926](https://github.com/SocialGouv/emjpm-portail/commit/dfc59262f62ec3f59db04a8e970d90a3c0915085))
+* **ci:** autodevops-helm ([a01fa7d](https://github.com/SocialGouv/emjpm-portail/commit/a01fa7d53eb6d338fe41ea39dddfa140f3a442f4))
+* **ci:** autodevops-helm ([a5e8041](https://github.com/SocialGouv/emjpm-portail/commit/a5e804193be11a5d6f2d9f7faadd43c911baf78c))
+* **wip:** remove redirect ([8d21286](https://github.com/SocialGouv/emjpm-portail/commit/8d212868d0c5d8e7e886e5b6d2f60f2c06077ba8))
+
 ## [1.10.20](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.19...v1.10.20) (2022-01-31)
 
 
