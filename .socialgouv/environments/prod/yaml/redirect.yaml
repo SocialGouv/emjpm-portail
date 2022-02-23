@@ -22,7 +22,7 @@ spec:
             service:
               name: app
               port:
-                number: http
+                name: http
   tls:
     - hosts:
         - pjm.social.gouv.fr
