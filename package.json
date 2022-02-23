@@ -1,6 +1,6 @@
 {
   "name": "emjpm-portail",
-  "version": "1.10.23",
+  "version": "1.10.24",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
