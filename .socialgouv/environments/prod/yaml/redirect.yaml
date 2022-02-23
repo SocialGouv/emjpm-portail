@@ -8,9 +8,7 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-prod
     kubernetes.io/tls-acme: "true"
   labels:
-    app: emjpm-portail
-    owner: emjpm-portail
-    team: emjpm-portail
+    component: app
   name: redirect
   namespace: emjpm-portail
 spec:
@@ -22,7 +20,7 @@ spec:
           path: /
           backend:
             service:
-              name: portail
+              name: app
               port:
                 number: 80
   tls:
