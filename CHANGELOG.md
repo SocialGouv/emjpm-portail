@@ -1,3 +1,10 @@
+## [1.10.23](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.22...v1.10.23) (2022-02-23)
+
+
+### Bug Fixes
+
+* **ci:** readd redirect ([c08ba61](https://github.com/SocialGouv/emjpm-portail/commit/c08ba618ec848dabcf4389ed579e02885e76c00e))
+
 ## [1.10.22](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.21...v1.10.22) (2022-02-23)
 
 
