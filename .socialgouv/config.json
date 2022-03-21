@@ -1,7 +1,0 @@
-{
-  "name": "portail",
-  "project": "emjpm",
-  "type": "static",
-  "subdomain": "pjm",
-  "registry": "ghcr"
-}
