@@ -1,3 +1,10 @@
+## [1.10.27](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.26...v1.10.27) (2022-03-21)
+
+
+### Bug Fixes
+
+* **sre:** Force release and production deploy ([0b82301](https://github.com/SocialGouv/emjpm-portail/commit/0b823019d59ac421244b8546c9cb99c1fa6e2dba))
+
 ## [1.10.26](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.25...v1.10.26) (2022-02-23)
 
 
