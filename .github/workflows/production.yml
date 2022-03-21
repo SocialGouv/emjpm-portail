@@ -18,6 +18,7 @@ jobs:
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
         environment: prod
+        imagePackage: app
         token: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
