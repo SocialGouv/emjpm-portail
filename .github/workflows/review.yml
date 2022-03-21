@@ -20,7 +20,6 @@ jobs:
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
         environment: dev
-        imageName: emjpm/portail
         token: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
@@ -37,5 +36,4 @@ jobs:
         kubeconfig: ${{ secrets.KUBECONFIG }}
         rancherProjectId: ${{ secrets.RANCHER_PROJECT_ID }}
         rancherProjectName: ${{ secrets.RANCHER_PROJECT_NAME }}
-        imageName: emjpm/portail
 
