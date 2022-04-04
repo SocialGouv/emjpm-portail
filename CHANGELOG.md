@@ -1,3 +1,11 @@
+## [1.10.28](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.27...v1.10.28) (2022-04-04)
+
+
+### Bug Fixes
+
+* up kube-workflow ([5fd40ae](https://github.com/SocialGouv/emjpm-portail/commit/5fd40aed260c860316c9f893378475e88c78a1c7))
+* up kube-workflow ([4d0da5a](https://github.com/SocialGouv/emjpm-portail/commit/4d0da5ab380dd8a62a09d6b4034cc504316a7486))
+
 ## [1.10.27](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.26...v1.10.27) (2022-03-21)
 
 
