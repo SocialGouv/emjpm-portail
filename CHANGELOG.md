@@ -1,3 +1,10 @@
+## [1.10.29](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.28...v1.10.29) (2022-06-16)
+
+
+### Bug Fixes
+
+* upgrade nginx ([#355](https://github.com/SocialGouv/emjpm-portail/issues/355)) ([80f31ab](https://github.com/SocialGouv/emjpm-portail/commit/80f31abee8f9d4c5027abe5271eca2cfa35f8f5e))
+
 ## [1.10.28](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.27...v1.10.28) (2022-04-04)
 
 
