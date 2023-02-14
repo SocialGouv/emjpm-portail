@@ -1,3 +1,10 @@
+## [1.10.30](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.29...v1.10.30) (2023-02-14)
+
+
+### Bug Fixes
+
+* add csp on the main url ([#358](https://github.com/SocialGouv/emjpm-portail/issues/358)) ([4737522](https://github.com/SocialGouv/emjpm-portail/commit/4737522f1a816b3ef3f3084d5ac54624397269f7))
+
 ## [1.10.29](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.28...v1.10.29) (2022-06-16)
 
 
