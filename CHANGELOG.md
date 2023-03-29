@@ -1,3 +1,10 @@
+## [1.10.31](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.30...v1.10.31) (2023-03-29)
+
+
+### Bug Fixes
+
+* release ([645b4e1](https://github.com/SocialGouv/emjpm-portail/commit/645b4e15e09b511598310928361a5bde6232df16))
+
 ## [1.10.30](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.29...v1.10.30) (2023-02-14)
 
 
