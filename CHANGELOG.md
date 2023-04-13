@@ -1,3 +1,10 @@
+## [1.10.32](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.31...v1.10.32) (2023-04-13)
+
+
+### Bug Fixes
+
+* **deps:** update ghcr.io/socialgouv/docker/nginx docker tag to v7.3.1 ([#359](https://github.com/SocialGouv/emjpm-portail/issues/359)) ([ab49d84](https://github.com/SocialGouv/emjpm-portail/commit/ab49d8423c67fb23c0793918db4b3c19719bd4eb))
+
 ## [1.10.31](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.30...v1.10.31) (2023-03-29)
 
 
