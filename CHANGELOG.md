@@ -1,3 +1,12 @@
+# [1.11.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.32...v1.11.0) (2023-05-22)
+
+
+### Features
+
+* ci on kontinuous ([9a5a65c](https://github.com/SocialGouv/emjpm-portail/commit/9a5a65cf061a952530dc4bc1f0ac6cfd06e17398))
+* ci on kontinuous ([a22b224](https://github.com/SocialGouv/emjpm-portail/commit/a22b2241cd481affe458a650c209c359c159c977))
+* ci on kontinuous ([b6fd026](https://github.com/SocialGouv/emjpm-portail/commit/b6fd026ecbf53be59baec9f26d2fbb6a90815eb3))
+
 ## [1.10.32](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.31...v1.10.32) (2023-04-13)
 
 
