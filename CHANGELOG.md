@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.11.0...v1.11.1) (2023-05-22)
+
+
+### Bug Fixes
+
+* redirection ([c9849f1](https://github.com/SocialGouv/emjpm-portail/commit/c9849f13b79e868f750575153a2d7f0472482229))
+
 # [1.11.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.10.32...v1.11.0) (2023-05-22)
 
 
