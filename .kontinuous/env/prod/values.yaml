@@ -1,0 +1,4 @@
+app:
+  host: pjm.social.gouv.fr
+  redirectFrom:
+  - "{{ .Values.global.host }}"
