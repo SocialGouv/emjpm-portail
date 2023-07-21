@@ -1,0 +1,9 @@
+ciNamespace: ci-emjpm
+
+dependencies:
+  fabrique:
+    extends:
+    - name: ovh
+      ifEnv: [dev,preprod]
+    - name: buildkit-service
+      ifEnv: [dev,preprod]
