@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/SocialGouv/emjpm-portail/compare/v1.11.1...v1.12.0) (2023-07-24)
+
+
+### Features
+
+* ovh for dev,preprod ([#364](https://github.com/SocialGouv/emjpm-portail/issues/364)) ([73aa9eb](https://github.com/SocialGouv/emjpm-portail/commit/73aa9ebcf6a9d58bcee1d14a7309ea5078bc75e5))
+
 ## [1.11.1](https://github.com/SocialGouv/emjpm-portail/compare/v1.11.0...v1.11.1) (2023-05-22)
 
 
