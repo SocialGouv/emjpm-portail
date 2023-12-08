@@ -16,9 +16,8 @@ Madame Virginie LASSERRE, Directrice Générale de la Cohésion Sociale
 
 Ce site est hébergé par
 
-- Microsoft Azure
-- 37 Quai du Président Roosevelt
-- 92130 ISSY-LES-MOULINEAUX
+- [https://www.ovh.com](https://www.ovh.com/) OVH SAS
+- Siège social : 2 rue Kellermann - 59100 Roubaix - France.
 
 ## Accessibilité
 
